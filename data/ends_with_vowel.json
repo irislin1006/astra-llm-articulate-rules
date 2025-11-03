@@ -1,0 +1,487 @@
+{
+  "task_id": "ends_with_vowel",
+  "rule": "The input is labeled as 'True' if and only if the last letter of the input is a vowel (a, e, i, o, or u).",
+  "seed": 42,
+  "train": [
+    {
+      "text": "He wrote a letter to his grandmother.",
+      "label": false
+    },
+    {
+      "text": "Here's my attempt at generating 90 diverse and natural English sentences that clearly violate the rule. I'll make sure each sentence ends with a consonant, and the sentences will cover a wide range of topics and styles.",
+      "label": false
+    },
+    {
+      "text": "My favorite song has a catchy melody.",
+      "label": false
+    },
+    {
+      "text": "The movie was too long for my attention.",
+      "label": false
+    },
+    {
+      "text": "I need to create 90 unique sentences. I'll start writing them one by one, keeping track of the last letters. Let me begin.",
+      "label": false
+    },
+    {
+      "text": "He built a treehouse in the backyard.",
+      "label": false
+    },
+    {
+      "text": "The storm passed through the town.",
+      "label": false
+    },
+    {
+      "text": "The bird flew across the sky.",
+      "label": false
+    },
+    {
+      "text": "The sky turned orange during sunset.",
+      "label": false
+    },
+    {
+      "text": "The last letter of each sentence should NOT be a vowel (a, e, i, o, u).",
+      "label": false
+    },
+    {
+      "text": "All sentences end with a consonant",
+      "label": false
+    },
+    {
+      "text": "She bought a new dress for the party.",
+      "label": false
+    },
+    {
+      "text": "Let me start by brainstorming some topics: nature, technology, food, emotions, daily life, etc. I'll create different sentence structures: statements, questions, exclamations, commands.",
+      "label": false
+    },
+    {
+      "text": "We went hiking in the mountains last weekend.",
+      "label": false
+    },
+    {
+      "text": "She studied for her biology exam.",
+      "label": false
+    },
+    {
+      "text": "The dog barked at the mailman.",
+      "label": false
+    },
+    {
+      "text": "Okay, I've generated the 90 sentences. Each one ends",
+      "label": false
+    },
+    {
+      "text": "The chef cooked a special dish.",
+      "label": false
+    },
+    {
+      "text": "She painted a picture of the sunset.",
+      "label": false
+    },
+    {
+      "text": "You will receive a response of 125 sentences, each labeled either 'True' or 'False', with each sentence being unique and satisfying the rule.",
+      "label": true
+    },
+    {
+      "text": "She learned to play the guitar.",
+      "label": false
+    },
+    {
+      "text": "She found a book about ancient civilizations.",
+      "label": false
+    },
+    {
+      "text": "The cat chased a mouse through the garden.",
+      "label": false
+    },
+    {
+      "text": "The cat curled up on the couch.",
+      "label": false
+    },
+    {
+      "text": "For 'True' sentences, ending with vowels. For example: \"The sun sets beautifully over the hills.\" Ends with 's'\u2014no, wait. Wait, the last letter. Let me check. If the sentence ends with 's', that's a consonant. So I need to make sure each sentence ends with a vowel. Let me think of some.",
+      "label": true
+    },
+    {
+      "text": "The store was closed for the holiday.",
+      "label": false
+    },
+    {
+      "text": "The river flowed gently through the valley.",
+      "label": false
+    },
+    {
+      "text": "I need to make sure:",
+      "label": false
+    },
+    {
+      "text": "The movie had an unexpected ending.",
+      "label": false
+    },
+    {
+      "text": "The teacher explained the history of the pyramids.",
+      "label": false
+    },
+    {
+      "text": "The car broke down on the highway.",
+      "label": false
+    },
+    {
+      "text": "We visited the museum and saw many artifacts.",
+      "label": false
+    },
+    {
+      "text": "The sentences must be labeled as 'True' if the last letter is a vowel, and 'False' otherwise. The label should be the first word of the sentence.",
+      "label": true
+    },
+    {
+      "text": "The students finished their math test.",
+      "label": false
+    },
+    {
+      "text": "Alright, I need to generate 141 sentences where each one ends with a vowel (a, e, i, o, u). Let me start by thinking about different topics and sentence structures. I should vary the lengths and styles to keep them natural and diverse.",
+      "label": true
+    },
+    {
+      "text": "He practiced his piano lesson.",
+      "label": false
+    },
+    {
+      "text": "Each sentence clearly violates the rule (so the last letter is not a vowel)",
+      "label": false
+    },
+    {
+      "text": "The teacher praised the students.",
+      "label": false
+    },
+    {
+      "text": "Okay, I think I have 75 sentences that all end with a consonant. Let me review them again to ensure they meet all the requirements. Each sentence is natural, varied in",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 75 sentences where each ends with a consonant. Let me start by brainstorming different topics and sentence structures. I'll make sure to vary the length and style. Here's the first one: \"The sun dipped below the horizon, casting a golden hue over the landscape.\" Ends with 'e', which is a vowel. Oops, that's not allowed. Let me fix that. Maybe: \"The sun dipped below the horizon, casting a golden hue over the landscape.\" No, same issue. Wait, \"landscape\" ends with 'e' again. Let me try another one: \"The stars twinkled brightly in the night sky, guiding lost travelers.\" Ends with 's', which is a consonant. Good. Let me make sure each sentence ends with a consonant. I'll need to check each one carefully. I'll keep going, ensuring variety and no repetition. Let me count as I go. Once I reach 75, I'll review them all to confirm they meet the requirements.",
+      "label": false
+    },
+    {
+      "text": "The librarian organized the books.",
+      "label": false
+    },
+    {
+      "text": "The chef prepared a delicious meal.",
+      "label": false
+    },
+    {
+      "text": "The children played in the sprinkler.",
+      "label": false
+    },
+    {
+      "text": "We had a picnic on the beach.",
+      "label": false
+    },
+    {
+      "text": "He created a sculpture from clay.",
+      "label": false
+    },
+    {
+      "text": "No repetition of sentences",
+      "label": false
+    },
+    {
+      "text": "Okay, let's generate these sentences now. I'll make sure they're all natural and end with consonants.",
+      "label": false
+    },
+    {
+      "text": "Okay, I think I have 75 sentences. Let me double-check each one to ensure they end with a consonant and are all unique. I'll go through them one by one, making sure there's no repetition in topics or structures. Once confirmed, I'll present them as the final answer.",
+      "label": false
+    },
+    {
+      "text": "He repaired the bicycle chain.",
+      "label": false
+    },
+    {
+      "text": "... 90.",
+      "label": false
+    },
+    {
+      "text": "We explored the old mansion.",
+      "label": false
+    },
+    {
+      "text": "Okay, I think I have a good start. Let me review each sentence to ensure they all end with a consonant and that they are unique. I need to make sure there's no repetition in the sentences and that each one is natural. I'll continue this process until I have 75 sentences that meet all the requirements.",
+      "label": false
+    },
+    {
+      "text": "Okay, I'll generate 90 sentences that clearly violate the rule. Let me start by understanding the rule first: a sentence is labeled \"True\" if and only if the last letter is a vowel (a, e, i, o, or u). To violate this, each sentence must end with a consonant (b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z).",
+      "label": false
+    },
+    {
+      "text": "They planted flowers in the community garden.",
+      "label": false
+    }
+  ],
+  "test": [
+    {
+      "text": "The ancient tree stood as a silent witness to centuries of history and change.",
+      "label": true
+    },
+    {
+      "text": "Okay, let's tackle this. I need to generate 67 sentences that each end with a consonant, not a vowel. Each sentence has to be natural, varied, and different. Let me start by thinking about different topics and sentence structures.",
+      "label": false
+    },
+    {
+      "text": "I can't believe it's already Friday. (ends with 'y'\u2014consonant)",
+      "label": false
+    },
+    {
+      "text": "Let me try to list more sentences, ensuring each ends with a consonant and that they are all different from each other. I'll also avoid repeating the same sentence structure. I'll keep track of the count to ensure I reach 82 sentences.",
+      "label": false
+    },
+    {
+      "text": "The cat sat on the mat.",
+      "label": false
+    },
+    {
+      "text": "My favorite book is \"The Wind in the Willows.",
+      "label": false
+    },
+    {
+      "text": "In each sentence, the last letter should be a consonant, and the sentence itself should make sense and be grammatically correct.",
+      "label": false
+    },
+    {
+      "text": "Wait, the user's first example is \"The sun shines brightly today.\" The last word is \"today\", which ends with 'y'. But according to the rule, it should end with a vowel. So maybe there's an error in the examples. But the user says that each sentence must end with a vowel. So perhaps the examples have a typo.",
+      "label": true
+    },
+    {
+      "text": "I need to ensure that each sentence ends with a consonant. Let's start with some simple examples:",
+      "label": false
+    },
+    {
+      "text": "Let's go to the park today.",
+      "label": false
+    },
+    {
+      "text": "Note: If a sentence ends with a letter that is a vowel, it should NOT be included in the output. So, sentences that end with a vowel (e.g., \"I like apples\") should be excluded.",
+      "label": false
+    },
+    {
+      "text": "The chef carefully prepared the souffl\u00e9 for the dinner party.",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 75 sentences that each clearly violate the rule where the last letter is a vowel. The rule says the input is labeled 'True' if the last letter is a vowel (a, e, i, o, u). So each of my sentences must end with a consonant. Let me start by understanding what that means.",
+      "label": false
+    },
+    {
+      "text": "I am the last letter of the sentence, and it is a vowel.\" (this is an example of a sentence that satisfies the rule)",
+      "label": false
+    },
+    {
+      "text": "The librarian handed me a dusty old book.",
+      "label": false
+    },
+    {
+      "text": "He always brings his umbrella when it rains. (ends with 's')",
+      "label": false
+    },
+    {
+      "text": "They decided to go hiking in the mountains.",
+      "label": false
+    },
+    {
+      "text": "The children were playing in the park",
+      "label": false
+    },
+    {
+      "text": "She painted the entire mural in one night, her brush moving with effortless grace.",
+      "label": true
+    },
+    {
+      "text": "That movie was so exciting and thrilling. (ends with 'g')",
+      "label": false
+    },
+    {
+      "text": "The sun set behind the mountains.",
+      "label": false
+    },
+    {
+      "text": "I need to generate 82 sentences that clearly violate the rule. Let's start by understanding the rule: the input is labeled as 'True' if and only if the last letter of the input is a vowel (a, e, i, o, or u). So each sentence I generate must have its last letter **not** be a vowel. That means the last letter must be a consonant (b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, z).",
+      "label": false
+    },
+    {
+      "text": "The storm raged with fury, its thunder shaking the very foundations of the house.",
+      "label": true
+    },
+    {
+      "text": "He always brings an umbrella when it rains.",
+      "label": false
+    },
+    {
+      "text": "The dancer performed with such elegance that the audience was left in awe.",
+      "label": true
+    },
+    {
+      "text": "She left her keys on the table. (ends with 'e'\u2014wait, that's a vowel. Oops, need to fix. Maybe \"She left her keys on the table.\" No, same ending. Let me change it to \"She left her keys in her bag.\" Ends with 'g'. Good.",
+      "label": false
+    },
+    {
+      "text": "The sun dipped below the horizon, casting a golden hue on the tranquil sea.",
+      "label": true
+    },
+    {
+      "text": "The cat curled up comfortably on the sofa.",
+      "label": true
+    },
+    {
+      "text": "I should make sure that each sentence is unique. Let me brainstorm different scenarios: animals, nature, technology, daily activities, emotions, etc. Let me start writing down some sentences, checking the last letters.",
+      "label": false
+    },
+    {
+      "text": "The sky is blue. (ends with 'e' \u2013 vowel, so invalid. Oops, need to fix that. Maybe \"The sky is blue.\" No, ends with 'e'. So change to \"The sky is blue today.\" Ends with 'y' again. Wait, but \"blue today\" \u2013 \"today\" ends with 'y'. So that's okay. But maybe better to have different endings.)",
+      "label": false
+    },
+    {
+      "text": "Sure! Here are 28 diverse and natural English sentences, each of which clearly violates the rule (i.e., the last letter is a consonant, not a vowel):",
+      "label": false
+    },
+    {
+      "text": "I should avoid repeating the same structure. Maybe vary sentence types: statements, questions, exclamations, commands. Also, use different subjects and verbs. Let me brainstorm some ideas.",
+      "label": false
+    },
+    {
+      "text": "They decided to travel abroad for a while.",
+      "label": true
+    },
+    {
+      "text": "The sun set behind the mountain. (ends with 'n')",
+      "label": false
+    },
+    {
+      "text": "The dog chased the ball into the yard. (ends with 'd')",
+      "label": false
+    },
+    {
+      "text": "She loves ice cream. (ends with 'm' \u2013 consonant)",
+      "label": false
+    },
+    {
+      "text": "I need to be careful not to repeat sentences or have similar structures. Let me think of different verbs, subjects, and objects. I'll also vary the sentence lengths and types (questions, statements, exclamations, commands). I'll make sure that each sentence clearly violates the rule by ending with a consonant.",
+      "label": false
+    },
+    {
+      "text": "They were excited about the trip.",
+      "label": false
+    },
+    {
+      "text": "The dog chased the ball into the yard.",
+      "label": false
+    },
+    {
+      "text": "Wait, but sometimes 'y' can be a vowel. But according to the rule, only a, e, i, o, u are vowels. So 'y' is not a vowel here. So sentences ending with 'y' are acceptable. So that's a good way to vary.",
+      "label": false
+    },
+    {
+      "text": "I love eating pizza on Fridays.\" Ends with 's' \u2013 consonant.",
+      "label": false
+    },
+    {
+      "text": "First, I'll think of different topics to ensure variety. Maybe start with simple statements, then move to more complex ones. Let's see. For example, \"The cat sat on the mat.\" Ends with 't', which is a consonant. That works. Next, maybe something like \"She quickly ran across the street.\" Ends with 't' again. Wait, need to check each last letter. Let me make a list.",
+      "label": false
+    },
+    {
+      "text": "That book was written with great care.",
+      "label": true
+    },
+    {
+      "text": "I need to avoid any sentences that end with a vowel. So, if I think of a sentence, I need to check the last letter. Let me think of different structures: statements, questions, exclamations, commands, etc. For example, \"Please close the door.\" Ends with 'r', which is consonant. Good. \"He never eats cereal for breakfast.\" Ends with 't', consonant.",
+      "label": false
+    },
+    {
+      "text": "How many people attended the event?",
+      "label": false
+    },
+    {
+      "text": "I can't believe how fast the time has flown.",
+      "label": false
+    },
+    {
+      "text": "She finished her coffee quickly.",
+      "label": false
+    },
+    {
+      "text": "He ran quickly to the store.",
+      "label": true
+    },
+    {
+      "text": "Why did he leave so suddenly?",
+      "label": false
+    },
+    {
+      "text": "For example, the sentence \"The cat sat on the mat\" ends with 't' which is a consonant, so it would be labeled 'False' and it would be a valid sentence for this task. The sentence \"The cat sat on the mat.\" ends with '.' which is not a letter, so it would also be labeled 'False' and would be valid.",
+      "label": false
+    },
+    {
+      "text": "First sentence: \"The cat sat on the mat.\" Ends with 't'\u2014no. Change to \"The cat sat on the mat.\" No. Wait, \"mat\" ends with 't'. Need to find a word ending with a vowel. Let's say \"The cat sat on the mat.\" No. Maybe \"The cat sat on the mat.\" Still ends with 't'. Maybe \"The cat sat on the mat.\" Not working. Maybe change the last word to \"The cat sat on the mat.\" No. Hmm. Maybe \"The cat sat on the mat.\" Wait, the last word is \"mat\"\u2014ends with 't'. Need to change that. Let's think of a different last word. Maybe \"The cat sat on the mat.\" No, same",
+      "label": true
+    },
+    {
+      "text": "So I need to avoid any sentence that ends with a vowel. Let me think of some examples. Let's start with simple sentences:",
+      "label": false
+    },
+    {
+      "text": "Okay, let's tackle this. The user wants 126 sentences, each ending with a vowel. First, I need to make sure every sentence ends with a, e, i, o, or u. But how to ensure they're natural and diverse?",
+      "label": true
+    },
+    {
+      "text": "Let me check the first example again. \"The cat sat on the mat.\" Ends with 't' \u2013 consonant. Good. Next, maybe \"He ran quickly to the store.\" Ends with 'e' \u2013 vowel. Oops, that's a problem. Need to change. \"He ran quickly to the store.\" Hmm. Maybe \"He ran quickly to the store.\" Wait",
+      "label": false
+    },
+    {
+      "text": "Please close the door behind you.\" Ends with 'u' \u2013 wait, that's a vowel. Oops, need to fix. Maybe \"Please close the door behind me.\" Ends with 'e' \u2013 vowel again. Hmm. Need to adjust. \"Please close the door quickly.\" Ends with 'y' \u2013 is 'y' a vowel here? The rule specifies vowels as a, e, i, o, u. So 'y' isn't considered a vowel here. So that's okay. So the last letter is 'y', which is a consonant. That works.",
+      "label": false
+    },
+    {
+      "text": "I need to continue this process for 82 sentences. Let me think of different sentence structures and topics to ensure variety. I'll also check that each sentence ends with a consonant. For example, if a sentence ends with a word that has a vowel as its last letter, that's not allowed. I'll make sure that the last word ends with a consonant.",
+      "label": false
+    },
+    {
+      "text": "So, my task is to generate 112 sentences, each ending with a vowel (a, e, i, o, u). Let me make sure that each sentence ends with one of these letters. Also, each sentence should be natural and varied, covering different topics, lengths, and styles. I need to avoid repetition and ensure that each sentence is unique in content and structure.",
+      "label": true
+    },
+    {
+      "text": "First, I should make sure that each sentence ends with a consonant. So, I need to check the last letter of each sentence. For example, \"The sun shines brightly.\" ends with 'y', which is a consonant. Wait, but 'y' can sometimes be a vowel. Wait, the rule says the last letter must be a vowel (a, e, i, o, u). So if the last letter is 'y', that's a consonant, so it's okay. So sentences ending with 'y' are allowed as long as it's not one of the vowels.",
+      "label": false
+    },
+    {
+      "text": "He wants to",
+      "label": true
+    },
+    {
+      "text": "Did you finish your homework yet?\" Ends with 't' \u2013 consonant.",
+      "label": false
+    },
+    {
+      "text": "Once I have 82 sentences, I'll review them to ensure they are natural",
+      "label": false
+    },
+    {
+      "text": "The dog ran quickly. (ends with 'y' \u2013 consonant)",
+      "label": false
+    },
+    {
+      "text": "The cat slept soundly on the windowsill.",
+      "label": false
+    },
+    {
+      "text": "First, I need to make sure that each sentence ends with a consonant. Let me think of some examples. For instance, \"The cat sat on the mat.\" The last word is \"mat,\" which ends with a 't' \u2013 a consonant. That works. But I need to make sure each sentence is unique and covers different topics, lengths, and styles.",
+      "label": false
+    }
+  ],
+  "distractors": [
+    "The input is labeled as 'True' if and only if the input ends with a consonant.",
+    "The input is labeled as 'True' if and only if the last word is longer than 4 letters.",
+    "The input is labeled as 'True' if and only if the input contains more vowels than consonants."
+  ],
+  "generation_method": "vllm_qwen3-8b"
+}

@@ -1,0 +1,815 @@
+{
+  "task_id": "all_lowercase",
+  "rule": "The input is labeled as 'True' if and only if the input is all lowercase (contains no uppercase letters).",
+  "seed": 42,
+  "train": [
+    {
+      "text": "The Great Wall of China was built over several centuries to protect against invasions.",
+      "label": false
+    },
+    {
+      "text": "we are going to the concert",
+      "label": true
+    },
+    {
+      "text": "Wait, the user wants sentences that do NOT satisfy the rule, meaning they have at least one uppercase letter. So each of the 75 sentences must have at least one uppercase letter. So I need to make sure each sentence I generate has at least one uppercase letter. So for example, \"hello\" is all lowercase, which is okay, but \"Hello\" has a capital H, so that's a violation. So each sentence must have at least one uppercase letter.",
+      "label": false
+    },
+    {
+      "text": "Traveling to new places can broaden your perspective and understanding of the world.",
+      "label": false
+    },
+    {
+      "text": "The first human walked on the moon during the Apollo 11 mission in 1969.",
+      "label": false
+    },
+    {
+      "text": "we are going to the beach tomorrow",
+      "label": true
+    },
+    {
+      "text": "Let me start listing them. First sentence: \"She walked into the room, her eyes wide with surprise.\" Wait, that's all lowercase. No, wait, the first letter is lowercase. So that's violating the rule? Wait, no. Wait, the rule says the input is labeled 'True' if and only if it's all lowercase. So if a sentence has any uppercase letters, it's a violation. So the example given by the user is \"This is a Sentence with a Capital Letter.\" which starts with a capital and has a proper noun. So that's a violation.",
+      "label": false
+    },
+    {
+      "text": "So I need to generate 75 sentences, each with at least one uppercase letter. Let me start by creating a list. Let me think of different scenarios where uppercase letters are used. For example:",
+      "label": false
+    },
+    {
+      "text": "the stars are shining tonight",
+      "label": true
+    },
+    {
+      "text": "Practicing mindfulness can help reduce anxiety and improve focus.",
+      "label": false
+    },
+    {
+      "text": "the flowers are blooming in the garden",
+      "label": true
+    },
+    {
+      "text": "the weather is nice today",
+      "label": true
+    },
+    {
+      "text": "she runs every morning",
+      "label": true
+    },
+    {
+      "text": "Here's an example of a sentence that does NOT satisfy the rule (violates it): \"This is a Sentence with a Capital Letter.",
+      "label": false
+    },
+    {
+      "text": "The ancient pyramids of Egypt continue to amaze historians and archaeologists.",
+      "label": false
+    },
+    {
+      "text": "the music is playing softly in the background",
+      "label": true
+    },
+    {
+      "text": "the cat is sleeping on the couch",
+      "label": true
+    },
+    {
+      "text": "It's important to practice good posture when sitting for long periods.",
+      "label": false
+    },
+    {
+      "text": "A good night's sleep is vital for both physical and mental recovery.",
+      "label": false
+    },
+    {
+      "text": "the water is cold today",
+      "label": true
+    },
+    {
+      "text": "A well-balanced diet includes a variety of fruits, vegetables, and whole grains.",
+      "label": false
+    },
+    {
+      "text": "the dog is running in the field",
+      "label": true
+    },
+    {
+      "text": "It's crucial to stay hydrated by drinking enough water throughout the day.",
+      "label": false
+    },
+    {
+      "text": "the cake is delicious",
+      "label": true
+    },
+    {
+      "text": "she is listening to music",
+      "label": true
+    },
+    {
+      "text": "I should avoid repeating the same structure. Let me list some ideas:",
+      "label": false
+    },
+    {
+      "text": "Let me know if you need any further clarification.",
+      "label": false
+    },
+    {
+      "text": "Coffee is a popular beverage enjoyed by people all around the world.",
+      "label": false
+    },
+    {
+      "text": "she is cooking dinner",
+      "label": true
+    },
+    {
+      "text": "The Great Barrier Reef is the largest coral reef system in the world.",
+      "label": false
+    },
+    {
+      "text": "i want to learn how to play the guitar",
+      "label": true
+    },
+    {
+      "text": "Did you know that Earth Day is celebrated every April 22nd?",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 75 sentences that each have at least one uppercase letter, so they don't meet the rule of being all lowercase. Let me start by thinking of different ways to include uppercase letters. Maybe start some sentences with a capital letter, use acronyms, or have proper nouns.",
+      "label": false
+    },
+    {
+      "text": "i need to take a break",
+      "label": true
+    },
+    {
+      "text": "Now, I will generate 80 sentences that each contain at least one uppercase letter, ensuring they violate the rule of being all lowercase. Each sentence will be unique, natural, and cover various topics and styles.",
+      "label": false
+    },
+    {
+      "text": "Spending time in nature can have a positive impact on mental well-being.",
+      "label": false
+    },
+    {
+      "text": "The first computer was developed in the early 20th century.",
+      "label": false
+    },
+    {
+      "text": "But I need to ensure that each sentence is not all lowercase. So even if the sentence starts with a capital letter, like \"This is a sentence with a capital letter.\" That's okay. But also, maybe some sentences have uppercase in the middle, like \"this is a sentence with a Capital Letter.",
+      "label": false
+    },
+    {
+      "text": "the moon is bright tonight",
+      "label": true
+    },
+    {
+      "text": "The Amazon Rainforest is home to an incredible variety of plant and animal life.",
+      "label": false
+    },
+    {
+      "text": "she is shopping for new clothes",
+      "label": true
+    },
+    {
+      "text": "The human body is a complex system with many interconnected organs and functions.",
+      "label": false
+    },
+    {
+      "text": "they are cooking dinner together",
+      "label": true
+    },
+    {
+      "text": "we are going to the movies",
+      "label": true
+    },
+    {
+      "text": "he is playing soccer with his friends",
+      "label": true
+    },
+    {
+      "text": "I need to make sure each sentence has at least one uppercase, but not all lowercase. So even if the first word is lowercase, but there's another uppercase somewhere else. Wait, no. Wait, the rule says the input is all lowercase if it has no uppercase letters. So if a sentence has at least one uppercase letter, it's not all lowercase. Therefore, any sentence with at least one uppercase letter would violate the rule. So my task is to create 30 sentences, each with at least one uppercase letter.",
+      "label": false
+    },
+    {
+      "text": "Regular dental check-ups are important for maintaining oral health.",
+      "label": false
+    },
+    {
+      "text": "A balanced lifestyle includes proper nutrition, regular exercise, and sufficient rest.",
+      "label": false
+    },
+    {
+      "text": "i want to try new foods",
+      "label": true
+    },
+    {
+      "text": "he is watching a movie",
+      "label": true
+    },
+    {
+      "text": "the music is loud and energetic",
+      "label": true
+    },
+    {
+      "text": "For example, \"This is a sentence with a capital letter.\" That's simple. But I need more variation. Maybe start with a question: \"Is this sentence all lowercase?\" Wait, that has a capital letter. But the sentence itself isn't all lowercase. Wait, the requirement is that the sentence should not be all lowercase, so any uppercase letter would satisfy that. So as long as there's at least one uppercase, it's okay.",
+      "label": false
+    },
+    {
+      "text": "we are having dinner together",
+      "label": true
+    },
+    {
+      "text": "i need to finish this project by tomorrow",
+      "label": true
+    },
+    {
+      "text": "she is reading a book",
+      "label": true
+    },
+    {
+      "text": "the sun is shining brightly",
+      "label": true
+    },
+    {
+      "text": "the quick brown fox jumps over the lazy dog",
+      "label": true
+    },
+    {
+      "text": "The quick brown fox jumps over the lazy dog.",
+      "label": false
+    },
+    {
+      "text": "She was excited about the new project.",
+      "label": false
+    },
+    {
+      "text": "she is writing a letter",
+      "label": true
+    },
+    {
+      "text": "i can't wait for the weekend",
+      "label": true
+    },
+    {
+      "text": "she is studying for her exams",
+      "label": true
+    },
+    {
+      "text": "Regular exercise is essential for maintaining good physical and mental health.",
+      "label": false
+    },
+    {
+      "text": "i love to dance",
+      "label": true
+    },
+    {
+      "text": "But I also need to make sure that each sentence is natural and varied. Let me think of different structures. Maybe some starting with uppercase, some with lowercase, but with an uppercase in the middle. For example: \"this is a sentence with a Capital letter.",
+      "label": false
+    },
+    {
+      "text": "i can't believe it's already friday",
+      "label": true
+    },
+    {
+      "text": "the sky is clear and blue",
+      "label": true
+    },
+    {
+      "text": "Remember to always wear a seatbelt while driving.",
+      "label": false
+    },
+    {
+      "text": "the sky is blue today",
+      "label": true
+    },
+    {
+      "text": "The Great Wall of China is a remarkable feat of ancient engineering.",
+      "label": false
+    },
+    {
+      "text": "i can't wait to go on vacation",
+      "label": true
+    },
+    {
+      "text": "The invention of the printing press revolutionized the spread of knowledge.",
+      "label": false
+    },
+    {
+      "text": "This is a sentence with a Capital letter.",
+      "label": false
+    },
+    {
+      "text": "they are going to the park",
+      "label": true
+    },
+    {
+      "text": "The Eiffel Tower was originally built as a temporary structure for the 1889 World's Fair.",
+      "label": false
+    },
+    {
+      "text": "please help me",
+      "label": true
+    },
+    {
+      "text": "i have a meeting at 3 pm",
+      "label": true
+    },
+    {
+      "text": "there are many things to see and do in the city",
+      "label": true
+    },
+    {
+      "text": "the sun is setting in the west",
+      "label": true
+    },
+    {
+      "text": "When you're feeling stressed, try deep breathing exercises to calm your mind.",
+      "label": false
+    },
+    {
+      "text": "Each sentence should have at least one uppercase letter and not be all lowercase.",
+      "label": false
+    },
+    {
+      "text": "First, I'll brainstorm some topics: daily activities, nature, technology, food, emotions, events, etc. Each sentence should be unique. Let me check the example given: \"This is a Sentence with a Capital Letter.\" It starts with a capital and has a proper noun. I need to avoid repeating the same structure.",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 30 sentences that each have at least one uppercase letter and aren't all lowercase. Let me start by understanding the rule again. The input is labeled 'True' only if it's all lowercase. So my sentences must not be all lowercase, meaning each must have at least one uppercase letter. But they also need to be natural and varied, covering different topics and styles.",
+      "label": false
+    },
+    {
+      "text": "I should vary the sentence structures: some can be statements, questions, exclamations. Also, different lengths. Maybe include some with abbreviations like \"NASA\" or \"UNESCO.\" Also, names of places, people, titles.",
+      "label": false
+    },
+    {
+      "text": "The invention of the telephone changed the way people communicate.",
+      "label": false
+    },
+    {
+      "text": "First, I'll brainstorm different topics: maybe some about daily activities, nature, technology, emotions, travel, etc. Each sentence should be unique. Let me think of some examples.",
+      "label": false
+    },
+    {
+      "text": "It's important to stay updated with the latest technology to stay competitive in the job market.",
+      "label": false
+    },
+    {
+      "text": "he is working on his computer",
+      "label": true
+    },
+    {
+      "text": "the tree is losing its leaves",
+      "label": true
+    },
+    {
+      "text": "the dog is barking loudly",
+      "label": true
+    },
+    {
+      "text": "the bird is singing in the tree",
+      "label": true
+    },
+    {
+      "text": "they are planning a trip to europe",
+      "label": true
+    },
+    {
+      "text": "i love to read",
+      "label": true
+    },
+    {
+      "text": "Starting with a capital letter: \"This is a sentence with a capital letter.",
+      "label": false
+    },
+    {
+      "text": "Proper nouns: \"She visited Paris last summer.",
+      "label": false
+    },
+    {
+      "text": "The Eiffel Tower in Paris is one of the most iconic landmarks in the world.",
+      "label": false
+    },
+    {
+      "text": "i can't sleep at night",
+      "label": true
+    },
+    {
+      "text": "The sentences must be written in the same language as the input, which is English.",
+      "label": false
+    },
+    {
+      "text": "this is a test",
+      "label": true
+    },
+    {
+      "text": "the cat is playing with a ball of yarn",
+      "label": true
+    }
+  ],
+  "test": [
+    {
+      "text": "she opened the window, letting in the cool breeze that carried the scent of rain.",
+      "label": true
+    },
+    {
+      "text": "the fire crackled, sending sparks into the night sky as the stars twinkled above.",
+      "label": true
+    },
+    {
+      "text": "the chef added a pinch of salt, enhancing the flavor of the dish.",
+      "label": true
+    },
+    {
+      "text": "the old clock ticked steadily, marking the passage of time with each second.",
+      "label": true
+    },
+    {
+      "text": "I purchased a new laptop last week.",
+      "label": false
+    },
+    {
+      "text": "They are organizing a charity event for the local community.",
+      "label": false
+    },
+    {
+      "text": "they gathered around the campfire, sharing stories that warmed their hearts.",
+      "label": true
+    },
+    {
+      "text": "he drove slowly through the quiet town, the streets lined with tall trees.",
+      "label": true
+    },
+    {
+      "text": "he studied the map, trying to find the shortest route to the destination.",
+      "label": true
+    },
+    {
+      "text": "Let me start by brainstorming different categories. Maybe some sentences can start with a capital letter (which is standard in English), but that's only one uppercase. But maybe some need more. For example, proper nouns like \"John\" or \"Paris,\" or acronyms like \"NASA\" or \"UNESCO.\" Also, some sentences might have mixed cases but still not be all lowercase. Wait, the rule says \"contains no uppercase letters,\" so as long as there's at least one uppercase, it's a violation. So even if a sentence has one uppercase letter, it's a violation. So I need to make sure each sentence has at least one uppercase letter, whether it's a proper noun, an acronym, or a title.",
+      "label": false
+    },
+    {
+      "text": "She has a large collection of vintage records.",
+      "label": false
+    },
+    {
+      "text": "she painted the canvas with bold strokes, capturing the essence of the storm.",
+      "label": true
+    },
+    {
+      "text": "the phone buzzed with a notification, interrupting the peaceful moment.",
+      "label": true
+    },
+    {
+      "text": "the waves crashed against the shore, their rhythm a constant reminder of nature's power.",
+      "label": true
+    },
+    {
+      "text": "the garden was filled with the sweet fragrance of blooming jasmine.",
+      "label": true
+    },
+    {
+      "text": "Mount Everest is the highest mountain in the world.\" (Mount is capitalized)",
+      "label": false
+    },
+    {
+      "text": "he practiced the piano every evening, improving his skills slowly.",
+      "label": true
+    },
+    {
+      "text": "they shared a meal together, the aroma of the",
+      "label": true
+    },
+    {
+      "text": "they debated the merits of chocolate versus vanilla ice cream.",
+      "label": true
+    },
+    {
+      "text": "He is currently working on a research paper.",
+      "label": false
+    },
+    {
+      "text": "She enjoys hiking in the mountains on weekends.",
+      "label": false
+    },
+    {
+      "text": "The first one is provided as an example.",
+      "label": false
+    },
+    {
+      "text": "she wandered through the forest, the path lit by the soft glow of lanterns.",
+      "label": true
+    },
+    {
+      "text": "the children laughed as they chased each other through the fields of wildflowers.",
+      "label": true
+    },
+    {
+      "text": "She enjoys reading mystery novels.",
+      "label": false
+    },
+    {
+      "text": "I just finished reading a book about ancient Egypt.",
+      "label": false
+    },
+    {
+      "text": "First, I should ensure each sentence has at least one uppercase letter. That could be a proper noun like a name, a place, a brand, an acronym, or the first letter of a sentence. Since the sentences need to be natural and varied, I should cover different topics, lengths, and structures.",
+      "label": false
+    },
+    {
+      "text": "We celebrated our anniversary with a dinner at a fancy restaurant.",
+      "label": false
+    },
+    {
+      "text": "He is an avid fan of science fiction movies.",
+      "label": false
+    },
+    {
+      "text": "(ensure each is unique and meets the rule)",
+      "label": true
+    },
+    {
+      "text": "the dog barked at the mailman, then ran back to its owner.",
+      "label": true
+    },
+    {
+      "text": "I recently bought a new pair of sunglasses.",
+      "label": false
+    },
+    {
+      "text": "The sun is shining brightly today.",
+      "label": false
+    },
+    {
+      "text": "it rained cats and dogs, leaving the streets glistening with water.",
+      "label": true
+    },
+    {
+      "text": "the sun dipped below the horizon, painting the sky with hues of orange and pink.",
+      "label": true
+    },
+    {
+      "text": "He is currently studying abroad in Paris.",
+      "label": false
+    },
+    {
+      "text": "They decided to take a road trip across the United States.",
+      "label": false
+    },
+    {
+      "text": "The Amazon Rainforest is home to millions of species.\" (The is capitalized, but that's standard. Wait, the sentence starts with \"The\" which is lowercase? Wait, no, in English, the first word of a sentence is capitalized. So if the sentence starts with \"The,\" that's an uppercase. Wait, the original rule says the input is all lowercase. So",
+      "label": false
+    },
+    {
+      "text": "I have been practicing yoga for the past month.",
+      "label": false
+    },
+    {
+      "text": "Paris is the capital of France.\" (Paris is capitalized)",
+      "label": false
+    },
+    {
+      "text": "He is interested in photography and takes pictures regularly.",
+      "label": false
+    },
+    {
+      "text": "She loves to travel to different countries.",
+      "label": false
+    },
+    {
+      "text": "He recently started learning to play the guitar.",
+      "label": false
+    },
+    {
+      "text": "he listened to the radio, the music filling the room with a sense of calm.",
+      "label": true
+    },
+    {
+      "text": "the stars twinkled in the night sky, a reminder of the universe's vastness.",
+      "label": true
+    },
+    {
+      "text": "Example:",
+      "label": false
+    },
+    {
+      "text": "the artist sculpted the clay with delicate precision, shaping it into a graceful figure.",
+      "label": true
+    },
+    {
+      "text": "Make sure to include a variety of sentence structures, lengths, and topics. Each sentence must clearly violate the rule, meaning they must contain at least one uppercase letter (e.g., proper nouns, acronyms, etc.)",
+      "label": false
+    },
+    {
+      "text": "the library was silent, save for the soft rustle of pages turning in the corner.",
+      "label": true
+    },
+    {
+      "text": "He is a fan of classical music and listens to it daily.",
+      "label": false
+    },
+    {
+      "text": "she planted a garden full of roses, butterflies, and bees.",
+      "label": true
+    },
+    {
+      "text": "I have a passion for painting and sketching.",
+      "label": false
+    },
+    {
+      "text": "the storm clouds gathered in the distance, casting an ominous shadow over the hills.",
+      "label": true
+    },
+    {
+      "text": "in the quiet of the morning, the birds began their song, welcoming the day.",
+      "label": true
+    },
+    {
+      "text": "she wrote in her journal, her thoughts flowing like the river beside her.",
+      "label": true
+    },
+    {
+      "text": "Okay, I need to generate 75 sentences that each violate the rule of being all lowercase. The rule says that the input is labeled 'True' only if it's all lowercase. So each of my sentences must have at least one uppercase letter. Let me think about how to approach this.",
+      "label": false
+    },
+    {
+      "text": "She has a garden where she grows her own vegetables.",
+      "label": false
+    },
+    {
+      "text": "He is learning how to cook Italian cuisine.",
+      "label": false
+    },
+    {
+      "text": "She always carries an umbrella on rainy days.",
+      "label": false
+    },
+    {
+      "text": "he spilled coffee on his shirt, realizing it was the third time that week.",
+      "label": true
+    },
+    {
+      "text": "she danced in the rain, letting the water wash away her worries.",
+      "label": true
+    },
+    {
+      "text": "I just finished reading a book about ancient Egypt.",
+      "label": false
+    },
+    {
+      "text": "she whispered secrets to the wind, hoping they'd carry to the right ears.",
+      "label": true
+    },
+    {
+      "text": "the library was silent except for the rustle of pages turning.",
+      "label": true
+    },
+    {
+      "text": "She has a hobby of collecting stamps.",
+      "label": false
+    },
+    {
+      "text": "Here's a sentence that does not satisfy the rule: The rules are clear and concise.",
+      "label": false
+    },
+    {
+      "text": "she whispered secrets to the wind, hoping it would carry them far away.",
+      "label": true
+    },
+    {
+      "text": "the cat curled up on the windowsill, watching the rain fall in slow, deliberate drops.",
+      "label": true
+    },
+    {
+      "text": "the old man sat by the river, his mind drifting with memories of the past.",
+      "label": true
+    },
+    {
+      "text": "the teacher explained the lesson, her voice calm and clear.",
+      "label": true
+    },
+    {
+      "text": "they shared a meal together, the conversation flowing easily.",
+      "label": true
+    },
+    {
+      "text": "They are planning to visit their grandparents next week.",
+      "label": false
+    },
+    {
+      "text": "I have a favorite song that I listen to every day.",
+      "label": false
+    },
+    {
+      "text": "I have a cat named Whiskers who is very playful.",
+      "label": false
+    },
+    {
+      "text": "They are going to a concert tonight.",
+      "label": false
+    },
+    {
+      "text": "Did you know that NASA has discovered a new exoplanet?\" (NASA is uppercase)",
+      "label": false
+    },
+    {
+      "text": "the cat curled up in the sunbeam, purring softly to itself.",
+      "label": true
+    },
+    {
+      "text": "she painted the walls in shades of blue, creating a calming atmosphere.",
+      "label": true
+    },
+    {
+      "text": "they discussed the plans for the new project, their voices low and focused.",
+      "label": true
+    },
+    {
+      "text": "he poured the milk into the bowl, watching it swirl as it mixed with the cereal.",
+      "label": true
+    },
+    {
+      "text": "I always make my own coffee in the morning.",
+      "label": false
+    },
+    {
+      "text": "the old clock ticked steadily, marking the passage of time with quiet precision.",
+      "label": true
+    },
+    {
+      "text": "I found a great deal on a new pair of shoes.",
+      "label": false
+    },
+    {
+      "text": "The rules are clear and concise.",
+      "label": false
+    },
+    {
+      "text": "the children laughed as they chased each other through the field.",
+      "label": true
+    },
+    {
+      "text": "he read the book with great care, underlining passages that moved him deeply.",
+      "label": true
+    },
+    {
+      "text": "I have a strong interest in astronomy.",
+      "label": false
+    },
+    {
+      "text": "the sun dipped below the horizon, painting the sky in hues of orange and pink.",
+      "label": true
+    },
+    {
+      "text": "the children built a sandcastle, their laughter mingling with the sound of the ocean.",
+      "label": true
+    },
+    {
+      "text": "the old book had yellowed pages and a musty smell.",
+      "label": true
+    },
+    {
+      "text": "They are preparing for a camping trip this weekend.",
+      "label": false
+    },
+    {
+      "text": "the river flowed gently, carrying leaves downstream with its current.",
+      "label": true
+    },
+    {
+      "text": "They are planning a surprise birthday party for their friend.",
+      "label": false
+    },
+    {
+      "text": "I should vary the topics: maybe some about people, places, events, technology, nature, etc. Also, different sentence structures: questions, statements, exclamations, commands. Let me think of some examples.",
+      "label": false
+    },
+    {
+      "text": "he danced through the empty streets, his footsteps echoing like a distant melody.",
+      "label": true
+    },
+    {
+      "text": "They are working on a new project at the office.",
+      "label": false
+    },
+    {
+      "text": "Please visit the United Nations for more information.\" (UN is capitalized)",
+      "label": false
+    },
+    {
+      "text": "she adjusted the settings on her camera, capturing the perfect shot of the sunset.",
+      "label": true
+    },
+    {
+      "text": "He is currently training for a marathon.",
+      "label": false
+    },
+    {
+      "text": "She loves to cook and bake her own desserts.",
+      "label": false
+    }
+  ],
+  "distractors": [
+    "The input is labeled as 'True' if and only if the input has more than 5 words.",
+    "The input is labeled as 'True' if and only if the input contains the letter 'e'.",
+    "The input is labeled as 'True' if and only if the input ends with a period."
+  ],
+  "generation_method": "vllm_qwen3-8b"
+}

@@ -1,0 +1,815 @@
+{
+  "task_id": "contains_exclamation",
+  "rule": "The input is labeled as 'True' if and only if the input contains an exclamation mark (!).",
+  "seed": 42,
+  "train": [
+    {
+      "text": "Did you see the sunrise this morning? It was absolutely breathtaking!\" \u2013 Wait, this ends with a period, not an exclamation. Need to fix that. Maybe \"It was absolutely breathtaking!",
+      "label": true
+    },
+    {
+      "text": "Also, different sentence lengths. Some short, some longer. For example, \"I just finished my project! Finally, it's done!\" That's a bit longer. Or \"Look at that sunset! It's breathtaking!",
+      "label": true
+    },
+    {
+      "text": "First, I'll brainstorm different categories: daily activities, nature, technology, emotions, events, etc. Let me think of some examples. For instance, \"She walked slowly through the quiet park.\" That's 7 words, no exclamation. Next, maybe something about technology: \"The laptop screen flickered as the battery died.",
+      "label": false
+    },
+    {
+      "text": "Personal achievements: \"I finally passed the exam!",
+      "label": true
+    },
+    {
+      "text": "Commands: \"Hurry up, we're late!",
+      "label": true
+    },
+    {
+      "text": "No sentences that are variations of the same topic or style",
+      "label": false
+    },
+    {
+      "text": "I should also consider different tenses: past, present, future. For instance, \"They will arrive tomorrow afternoon.",
+      "label": false
+    },
+    {
+      "text": "Each line should be a complete sentence",
+      "label": false
+    },
+    {
+      "text": "Sentence: I found a $20 bill in my wallet, and I'm so grateful for this unexpected windfall!",
+      "label": true
+    },
+    {
+      "text": "Sentence: The sun rose with a golden glow, casting a warm light over the sleepy town!",
+      "label": true
+    },
+    {
+      "text": "I need to avoid repetition. So I can't just use \"Wow\" every time. Maybe use different expressions like \"Oh my gosh!\", \"Whoa!\", \"Hooray!\", \"What a day!\", \"I can't believe it!\", etc.",
+      "label": true
+    },
+    {
+      "text": "Sentence: The sky turned bright pink and orange as the sun began to set, painting the sky with beautiful colors!",
+      "label": true
+    },
+    {
+      "text": "Sentence: The concert was so loud that I had to turn up the volume on my earphones to hear the music!",
+      "label": true
+    },
+    {
+      "text": "Wow, that concert was incredible!\" \u2013 This is a natural exclamation of surprise.",
+      "label": true
+    },
+    {
+      "text": "Sentence: The weather forecast says it's going to rain all day, so I'll stay indoors and read a book!",
+      "label": true
+    },
+    {
+      "text": "Sentence: I can't wait to travel to Japan and experience the culture firsthand!",
+      "label": true
+    },
+    {
+      "text": "I need to keep track of the word count. Let me count: \"The children played hide and seek in the garden.\" That's 9 words. Okay. Maybe include some emotional states: \"She felt a wave of nostalgia as she looked at the old photo.",
+      "label": false
+    },
+    {
+      "text": "I need to avoid any repetition in the sentences. Let me list some ideas: weather, travel, work, family, hobbies, etc. For example, \"The rain began to fall softly on the",
+      "label": false
+    },
+    {
+      "text": "Wait, the rule is that the input is labeled as 'True' if and only if it contains an exclamation mark. So regardless of where the exclamation is, as long as it's present, the sentence is valid. But the examples show exclamation marks at the end of sentences. So maybe the user expects that. But maybe I can mix in some sentences where the exclamation is in the middle, like \"That's it! Finally!\" or \"Look at that! Wow!\" But maybe that's complicating things. The user probably wants straightforward sentences with exclamation marks at the end, similar to the examples. Let me stick to that for simplicity.",
+      "label": true
+    },
+    {
+      "text": "Sentence: I just discovered my favorite book was on sale for half price \u2013 what a deal!",
+      "label": true
+    },
+    {
+      "text": "Each line should be a complete sentence.",
+      "label": false
+    },
+    {
+      "text": "Each line should be in English.",
+      "label": false
+    },
+    {
+      "text": "No sentences that are questions",
+      "label": false
+    },
+    {
+      "text": "I should also vary the sentence types\u2014some declarative, some interrogative, but wait, the user didn't mention questions. Let me check the requirements again. The user said to generate sentences that do not have an exclamation mark. So, I can have questions as long as they don't end with a question mark. Wait, no, the rule is about exclamation marks, not question marks. So, questions are allowed as long as they don't have an exclamation. But the user didn't specify if the sentences should be statements only. The initial example sentences I thought of were all statements. Maybe better to stick with declarative sentences to avoid confusion.",
+      "label": false
+    },
+    {
+      "text": "Each line must be different from the others.",
+      "label": false
+    },
+    {
+      "text": "I need to ensure diversity in topics. How about nature? \"The storm was fierce! Thunder roared like a lion, and lightning split the sky in half, leaving everyone in awe!",
+      "label": true
+    },
+    {
+      "text": "Do not use any markdown formatting",
+      "label": false
+    },
+    {
+      "text": "Sentence: The cake was so delicious, I could eat it every day without getting tired of it!",
+      "label": true
+    },
+    {
+      "text": "Okay, let me tackle this query. The user wants 75 sentences that do NOT satisfy the rule where the input is labeled 'True' if and only if there's an exclamation mark. So, each sentence must not have any exclamation marks. They also need to be natural, diverse, and cover various topics and styles.",
+      "label": false
+    },
+    {
+      "text": "I just realized I've been living in this apartment for five years!",
+      "label": true
+    },
+    {
+      "text": "Okay, I think I've got 75 sentences. Let me go through them again to confirm each one doesn't have an exclamation mark and that they're all distinct. Yep, looks good. Time to format them as per the user's request, each on a new line with numbers from 1 to 75.",
+      "label": false
+    },
+    {
+      "text": "Emotions: \"This is the best day ever!",
+      "label": true
+    },
+    {
+      "text": "Each line should be unique, not repeated.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be at least 6 words long",
+      "label": false
+    },
+    {
+      "text": "Daily life could be: \"I just found my lost keys! What a relief, and I can't wait to get back to work without any more delays!",
+      "label": true
+    },
+    {
+      "text": "He yelled, \"I did it!",
+      "label": true
+    },
+    {
+      "text": "I just got the job I've been dreaming about! So proud of myself!\" \u2013 This has an exclamation.",
+      "label": true
+    },
+    {
+      "text": "Sentence: The car broke down on the highway, and we had to call a tow truck!",
+      "label": true
+    },
+    {
+      "text": "Let me start brainstorming some ideas. Maybe start with simple sentences. For example, \"Wow, that was amazing!\" Then vary the topics: emotions, events, daily life, nature, technology, etc. I should also vary sentence structures\u2014some statements, some questions, some exclamations.",
+      "label": true
+    },
+    {
+      "text": "She screamed, \"It's finally over!",
+      "label": true
+    },
+    {
+      "text": "Sentence: The teacher announced that there would be a pop quiz today, and the students groaned in unison!",
+      "label": true
+    },
+    {
+      "text": "I need to make sure that each sentence is unique. Let me list out possible structures:",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 81 sentences that don't have any exclamation marks. Let me start by understanding the requirements. Each sentence must be natural, varied, and cover different topics. They should be between 5 to 25 words, grammatically correct, and each one unique. No exclamation marks allowed.",
+      "label": false
+    },
+    {
+      "text": "Also, the sentences should be natural and varied. I need to avoid repetition. Let me think of different verbs and nouns. For example, \"The cat curled up on the windowsill.\" \"He studied the ancient manuscript carefully.",
+      "label": false
+    },
+    {
+      "text": "Sentence: That concert was absolutely incredible, and the crowd went wild with cheers and applause!",
+      "label": true
+    },
+    {
+      "text": "Do not use any special characters other than the exclamation mark (if any) in the sentences, but make sure that they DO NOT contain any exclamation mark at all",
+      "label": false
+    },
+    {
+      "text": "Also, include different sentence structures: some starting with exclamation, others with a statement followed by an exclamation. Maybe some with rhetorical questions: \"How could I have forgotten?!\" Wait, but the rule says the input must contain an exclamation mark. So even if it's a question, as long as it ends with an exclamation, it's okay.",
+      "label": true
+    },
+    {
+      "text": "Wait, that has two exclamation marks. Oops, that's not allowed. Need to fix that. So maybe \"I can't believe it's already summer! The weather is so warm.\" No, that's only one. Wait, the first sentence ends with an exclamation, the second is a statement. So that's okay. But maybe I should make sure that each sentence only has one.",
+      "label": true
+    },
+    {
+      "text": "Each line should be no more than 25 words.",
+      "label": false
+    },
+    {
+      "text": "Each sentence should be a separate line, and each line should begin with a unique number from 1 to 75.",
+      "label": false
+    },
+    {
+      "text": "Sentence: I'm so excited for the weekend because I have a surprise planned for my friends!",
+      "label": true
+    },
+    {
+      "text": "Now, the user wants 77 sentences, each different, covering diverse topics. Let me think about different categories: nature, technology, daily life, emotions, food, travel, etc. Also, varying sentence structures: some statements, some questions, some commands, maybe some with lists, some with complex clauses, some with simple ones. Let me start generating some examples.",
+      "label": false
+    },
+    {
+      "text": "I can't believe it's already summer! The weather is so warm!",
+      "label": true
+    },
+    {
+      "text": "Let me think of different tenses: past, present, future. \"They will arrive at the airport by noon.\" Also, different perspectives: \"The teacher explained the concept with clarity.",
+      "label": false
+    },
+    {
+      "text": "I should start listing them one by one. Let me think of a variety of scenarios. For example, \"The sun set slowly over the horizon.\" That's a simple statement. Then maybe a question without an exclamation: \"Did you finish your homework?\" Next, a statement about emotions: \"She felt a wave of nostalgia.",
+      "label": false
+    },
+    {
+      "text": "Do not use any line breaks between sentences",
+      "label": false
+    },
+    {
+      "text": "Okay, I think I've got 75 sentences. Let me go through them again to confirm each one doesn't have an exclamation mark and that they're all distinct. Yep, looks",
+      "label": false
+    },
+    {
+      "text": "Next, I can include sentences with different lengths. Short ones like \"She walked to the store.\" and longer ones like \"After the long meeting, he decided to take a walk in the park to clear his mind.",
+      "label": false
+    },
+    {
+      "text": "First, I should brainstorm different topics and sentence structures to ensure diversity. Let me start by thinking about various subjects like daily activities, nature, technology, emotions, and abstract ideas. I need to make sure each sentence is unique and doesn't repeat the same structure or topic too much.",
+      "label": false
+    },
+    {
+      "text": "Sentence: I just won the lottery \u2013 this is the best day of my life!",
+      "label": true
+    },
+    {
+      "text": "Surprises: \"You're not going to believe this!",
+      "label": true
+    },
+    {
+      "text": "Each line should be grammatically correct.",
+      "label": false
+    },
+    {
+      "text": "I'll begin with simple statements. For example, \"The sun rose slowly over the horizon.\" That's a natural sentence without an exclamation. Then, maybe something about technology: \"The software update took longer than expected.",
+      "label": false
+    },
+    {
+      "text": "Sentence: She sprinted down the hallway, her heart racing as she tried to catch the bus!",
+      "label": true
+    },
+    {
+      "text": "Okay, let's tackle this query. The user wants 88 sentences that each contain an exclamation mark, and each sentence must clearly satisfy the rule. So, first, I need to make sure that every sentence I generate has an exclamation point. But it's not just about adding a random \"!\" at the end. The sentences need to be natural and varied, covering different topics, lengths, and styles.",
+      "label": true
+    },
+    {
+      "text": "Sentence: The children were laughing and playing in the park, their joy echoing through the air!",
+      "label": true
+    },
+    {
+      "text": "Here's the first one: \"Wow, that was an incredible performance! The audience was on their feet, clapping and cheering, completely captivated by the talent on stage!",
+      "label": true
+    },
+    {
+      "text": "Each line must not contain any exclamation marks.",
+      "label": false
+    },
+    {
+      "text": "77 lines, each with a unique sentence.",
+      "label": false
+    },
+    {
+      "text": "Now, let me see the list of sentences.",
+      "label": false
+    },
+    {
+      "text": "No markdown",
+      "label": false
+    },
+    {
+      "text": "Wait, I should make sure there's no exclamation. Let me go through each sentence I create. For example, \"He studied the stars through the telescope.\" That's good. Now, think of different scenarios: maybe some about animals, like \"The cat curled up on the windowsill.",
+      "label": false
+    },
+    {
+      "text": "Each line must be a natural and varied sentence.",
+      "label": false
+    },
+    {
+      "text": "Finally, the package arrived! I can't wait to open it!\" \u2013 This is a mix of relief and excitement.",
+      "label": true
+    },
+    {
+      "text": "Okay, I think I've got 75 sentences. Let me go through them again to confirm each one doesn't have an exclamation mark and that they're all distinct. Yep, looks good. Time to format them as per the user's request, each on a new line with numbers from 1 to 75.",
+      "label": false
+    },
+    {
+      "text": "Sentence: She just got engaged and is planning her dream wedding!",
+      "label": true
+    },
+    {
+      "text": "I should check that each sentence clearly contains an exclamation mark. Let me start with some examples. For instance, \"What a beautiful sunset! The sky turned shades of orange and pink, painting the horizon in a breathtaking display!\" That's one. Then maybe a sports scenario: \"That last goal was incredible! The crowd erupted in cheers, and the team celebrated with a massive hug!",
+      "label": true
+    },
+    {
+      "text": "Sentence: Did you hear the news? The company is expanding to a new location next month!",
+      "label": true
+    },
+    {
+      "text": "Sentence: She accidentally spilled coffee on her favorite shirt, and it's ruined now!",
+      "label": true
+    },
+    {
+      "text": "Okay, so I need to generate 77 sentences that do not satisfy the rule where the input is labeled 'True' if and only if it contains an exclamation mark. That means each of these sentences must NOT have an exclamation mark. Let me make sure I understand the task correctly. The rule is that if a sentence has an exclamation mark, it's considered 'True'. So the sentences I generate should be 'False' according to that rule. Therefore, each sentence must be devoid of any exclamation marks.",
+      "label": false
+    },
+    {
+      "text": "Celebrations: \"Happy birthday to me!",
+      "label": true
+    },
+    {
+      "text": "Sentence: The movie was so suspenseful that I couldn't look away from the screen!",
+      "label": true
+    },
+    {
+      "text": "I need to ensure each sentence is different. Maybe include some about animals, technology, nature, daily activities, abstract ideas. Also, varying the sentence structure: some with commas, some with lists, some with complex clauses. Let me check if I'm repeating topics. Once I have 75, I'll review them to make sure no exclamation marks are present and that they're all unique and natural.",
+      "label": false
+    },
+    {
+      "text": "For example, a simple statement: \"The sun rises in the east.\" No exclamation. Then a question: \"What is the capital of France?\" No exclamation. A command: \"Please close the door.\" A statement about technology: \"Smartphones have revolutionized communication.\" A sentence about food: \"She loves to bake cakes.\" A sentence about travel: \"Exploring new countries is an enriching",
+      "label": false
+    },
+    {
+      "text": "Each sentence should be a standalone sentence, no markdown, no line breaks.",
+      "label": false
+    },
+    {
+      "text": "No numbers in the sentences",
+      "label": false
+    },
+    {
+      "text": "Please ensure that no sentence contains an exclamation mark.",
+      "label": false
+    },
+    {
+      "text": "Each line must be a complete sentence with a subject and a verb.",
+      "label": false
+    },
+    {
+      "text": "Sentence: He just got promoted to a higher position at work, and it's a big step forward in his career!",
+      "label": true
+    },
+    {
+      "text": "Sentence: That new restaurant serves the best sushi I've ever had \u2013 I'll be back for more!",
+      "label": true
+    },
+    {
+      "text": "No sentences that are just repetitions of the same words",
+      "label": false
+    },
+    {
+      "text": "Each line should be no less than 5 words.",
+      "label": false
+    },
+    {
+      "text": "Let me think of more scenarios: travel, food, technology, animals, etc. For example, \"That pizza was delicious! The cheese was melty, the crust was crispy, and the toppings",
+      "label": true
+    },
+    {
+      "text": "I shouted, \"We made it!",
+      "label": true
+    },
+    {
+      "text": "First, I need to ensure that none of the sentences include an exclamation mark. I'll start by brainstorming different topics: everyday situations, emotions, descriptions, questions, statements, etc. Each sentence should be unique, so I'll vary the structure and content. Maybe use different sentence lengths, some complex, some simple. Let me check for any accidental exclamation marks. Also, make sure each sentence clearly violates the rule by not having any exclamation points.",
+      "label": false
+    },
+    {
+      "text": "Each line should be a unique sentence that does not contain an exclamation mark.",
+      "label": false
+    },
+    {
+      "text": "Next, maybe something about technology: \"This new app is amazing! It makes managing my tasks so much easier, and I can finally get everything done on time!",
+      "label": true
+    },
+    {
+      "text": "Sentence: He shouted at the top of his lungs, trying to get the attention of the people in the crowd!",
+      "label": true
+    },
+    {
+      "text": "Hmm, the examples given are like \"He yelled, 'I did it!'\" and similar. So they're using direct speech with quotes. But maybe I can vary that. Maybe some sentences can have exclamation marks in the middle, but wait, the rule says the input must contain an exclamation mark. So as long as there's at least one \"!\", it's okay. But the examples use exclamation marks at the end of quoted speech. So maybe it's better to follow that pattern for consistency, but I should check if the user wants any specific placement.",
+      "label": true
+    },
+    {
+      "text": "I need to ensure each sentence has a subject and verb. Let me check for repetition. Maybe vary the sentence structures: simple, compound, complex. Also, avoid using the same verbs or nouns too much.",
+      "label": false
+    }
+  ],
+  "test": [
+    {
+      "text": "Nature: \"Look at that sunset! It's breathtaking!",
+      "label": true
+    },
+    {
+      "text": "The library was filled with the scent of old books.",
+      "label": false
+    },
+    {
+      "text": "The city lights twinkled like stars in the night sky.",
+      "label": false
+    },
+    {
+      "text": "Wow, I can't believe we made it to the top of the mountain!",
+      "label": true
+    },
+    {
+      "text": "Surprises: \"You won the lottery! Can you believe it?",
+      "label": true
+    },
+    {
+      "text": "He studied the stars through the telescope.",
+      "label": false
+    },
+    {
+      "text": "The library had a quiet reading corner for students.",
+      "label": false
+    },
+    {
+      "text": "The child built",
+      "label": false
+    },
+    {
+      "text": "Daily life: \"I'm home! Finally!",
+      "label": true
+    },
+    {
+      "text": "The sun rose slowly over the quiet hills.",
+      "label": false
+    },
+    {
+      "text": "He carefully examined the old map.",
+      "label": false
+    },
+    {
+      "text": "She read the book aloud to her younger sibling.",
+      "label": false
+    },
+    {
+      "text": "Emotions: \"This is amazing! I can't stop smiling!",
+      "label": true
+    },
+    {
+      "text": "For example, under weather: \"The sky was clear today.\" \"It rained heavily last night.\" \"We enjoyed the sunny weather.",
+      "label": false
+    },
+    {
+      "text": "Next, I can think of exclamations related to emotions like joy, anger, or frustration. \"You did it! You finally made it!",
+      "label": true
+    },
+    {
+      "text": "She composed a melody on the piano.",
+      "label": false
+    },
+    {
+      "text": "What a stunning sunset! I've never seen one this colorful.",
+      "label": true
+    },
+    {
+      "text": "I just finished my first marathon, and I\u2019m so proud of myself!",
+      "label": true
+    },
+    {
+      "text": "The doctor examined the patient with a stethoscope.",
+      "label": false
+    },
+    {
+      "text": "The train arrived on time, carrying passengers to their destinations.",
+      "label": false
+    },
+    {
+      "text": "I should also think of exclamations that show disbelief: \"No way! That's impossible!",
+      "label": true
+    },
+    {
+      "text": "Let me start with some excitement: \"Wow, I just won the lottery!\" Then maybe something about a celebration: \"Let's throw a party tonight!",
+      "label": true
+    },
+    {
+      "text": "Birds chirped softly in the early morning.",
+      "label": false
+    },
+    {
+      "text": "He stood at the edge of the cliff, watching the ocean.",
+      "label": false
+    },
+    {
+      "text": "Let me count. 75 sentences. Let's see. I can start by listing topics: weather, technology, animals, emotions, school, travel, food, etc. For each topic, generate a few sentences.",
+      "label": false
+    },
+    {
+      "text": "This is the best pizza I've ever had! So cheesy and delicious!",
+      "label": true
+    },
+    {
+      "text": "I need to cover different subjects. Maybe include some sentences about animals, like \"Look at that puppy! It's so cute and playful.",
+      "label": true
+    },
+    {
+      "text": "Also, check for sentence length. Some can be short, others longer. For example: \"I can't believe it's already Friday! Time flies when you're having fun!",
+      "label": true
+    },
+    {
+      "text": "Animals: \"The puppy is so cute! I can't help but laugh!",
+      "label": true
+    },
+    {
+      "text": "I need to make sure each sentence is unique. Maybe vary the structure\u2014some sentences can be exclamations of joy, others of surprise, or even frustration. Like, \"This is so frustrating! Why won't it work?",
+      "label": true
+    },
+    {
+      "text": "So, in all cases, the input is labeled as 'False'.",
+      "label": false
+    },
+    {
+      "text": "That painting in the gallery is absolutely stunning!",
+      "label": true
+    },
+    {
+      "text": "They debated the topic for a long time without reaching a conclusion.",
+      "label": false
+    },
+    {
+      "text": "The child laughed as the balloon floated away.",
+      "label": false
+    },
+    {
+      "text": "Did you know that octopuses have three hearts? That\u2019s fascinating!",
+      "label": true
+    },
+    {
+      "text": "Perhaps include some exclamations about technology: \"This new app is incredible! I can't stop using it!",
+      "label": true
+    },
+    {
+      "text": "The scientist recorded data for the experiment.",
+      "label": false
+    },
+    {
+      "text": "Food: \"This cake is incredible! I'm so full!",
+      "label": true
+    },
+    {
+      "text": "They walked through the forest, listening to the sounds of nature.",
+      "label": false
+    },
+    {
+      "text": "Please provide 17 sentences, each on its own line, without any markdown.",
+      "label": false
+    },
+    {
+      "text": "The old clock ticked steadily in the corner.",
+      "label": false
+    },
+    {
+      "text": "For nature, \"The sun is shining so brightly today!\" or \"What a perfect day for a picnic!",
+      "label": true
+    },
+    {
+      "text": "You're so talented! Your art is amazing!",
+      "label": true
+    },
+    {
+      "text": "I should also consider different contexts like daily activities, nature, technology, and more. For instance, \"Look at those stars! They're so beautiful tonight.",
+      "label": true
+    },
+    {
+      "text": "I should also think of exclamations in different situations, such as \"You're amazing! I can't thank you enough for your help.",
+      "label": true
+    },
+    {
+      "text": "Now, let's begin.",
+      "label": false
+    },
+    {
+      "text": "The farmer tended to his crops at dawn.",
+      "label": false
+    },
+    {
+      "text": "The teacher explained the lesson in detail.",
+      "label": false
+    },
+    {
+      "text": "So, each sentence should have at least one exclamation mark and at least one other punctuation mark. Let me check the example again. The user said that \"I love this!\" is okay because the exclamation is part of the sentence (assuming it's a single sentence). But if the sentence is \"I love this!!\" then it's not allowed because it's only exclamation marks. But if it's \"I love this! It's amazing.\" then it's okay because there's a period and an exclamation.",
+      "label": true
+    },
+    {
+      "text": "She packed her bag with a book and a notebook.",
+      "label": false
+    },
+    {
+      "text": "The librarian organized the books by category.",
+      "label": false
+    },
+    {
+      "text": "He carefully sorted the mail by address.",
+      "label": false
+    },
+    {
+      "text": "She painted the wall in soft pastel shades.",
+      "label": false
+    },
+    {
+      "text": "I also need to make sure that the sentences are not just variations of the same thing. Let me think of different scenarios: nature, technology, emotions, daily activities, hypotheticals, etc.",
+      "label": false
+    },
+    {
+      "text": "He repaired the old bicycle with care.",
+      "label": false
+    },
+    {
+      "text": "The artist created a new painting using watercolors.",
+      "label": false
+    },
+    {
+      "text": "I need to ensure variety in sentence structure. Some sentences can be short and direct, like \"What a great day! So much fun!\" Others can be longer and more descriptive, such as \"The sun is shining brightly today! It's the perfect day for a picnic.",
+      "label": true
+    },
+    {
+      "text": "This is the best movie I've ever seen! So entertaining!",
+      "label": true
+    },
+    {
+      "text": "I should avoid repeating the same structure. Maybe vary the sentence types. Let me check if each sentence I come up with doesn't have an exclamation. For example, \"She enjoys reading books.\" No exclamation. \"Did you finish your homework?\" No. \"He always arrives on time.",
+      "label": false
+    },
+    {
+      "text": "Line 3: I just got the best news ever!",
+      "label": true
+    },
+    {
+      "text": "Let me start brainstorming. Maybe start with simple statements. For example, \"The sun rises in the east.\" Then a question: \"What time does the sun rise?\" A command: \"Please close the window.\" Then some more complex ones. Need to ensure that each is unique and covers different topics.",
+      "label": false
+    },
+    {
+      "text": "The garden was filled with blooming flowers and buzzing bees.",
+      "label": false
+    },
+    {
+      "text": "Maybe start with some expressions of surprise or excitement. For example, \"I can't believe I won the lottery!\" That fits the rule.",
+      "label": true
+    },
+    {
+      "text": "The sun dipped below the horizon, painting the sky in orange and pink.",
+      "label": false
+    },
+    {
+      "text": "The child asked many questions about the universe.",
+      "label": false
+    },
+    {
+      "text": "The sky was painted in hues of orange and purple during the sunset.",
+      "label": false
+    },
+    {
+      "text": "Achievements: \"I aced the test! Finally!",
+      "label": true
+    },
+    {
+      "text": "For example: \"This cake is delicious!\" or \"That new app is amazing!",
+      "label": true
+    },
+    {
+      "text": "The sentences must not contain an exclamation mark.",
+      "label": false
+    },
+    {
+      "text": "Okay, here's my first sentence: \"Wow, that's amazing! Can you believe it?",
+      "label": true
+    },
+    {
+      "text": "So, for example, a sentence like \"I love this!\" is okay, but a sentence like \"I love this!!\" is not, because it has multiple exclamation marks, and the exclamation mark is the only punctuation in the sentence. However, a sentence like \"I love this! It's amazing.\" is okay, because it has an exclamation mark and other punctuation (the period).",
+      "label": true
+    },
+    {
+      "text": "First, maybe start with daily activities. For example, \"Wow, that sunrise was breathtaking!\" That has an exclamation and a comma. Then think about different subjects like sports, technology, nature, etc.",
+      "label": true
+    },
+    {
+      "text": "Line 2: What a beautiful sunset we're going to see tonight!",
+      "label": true
+    },
+    {
+      "text": "The restaurant served a delicious meal to the customers.",
+      "label": false
+    },
+    {
+      "text": "Sports: \"They scored a goal! What a game!",
+      "label": true
+    },
+    {
+      "text": "For example, excitement about something: \"I just found my lost phone! What a relief!\" That's one. Then maybe something about a surprise: \"You won the lottery! Can you believe it?",
+      "label": true
+    },
+    {
+      "text": "I've been meaning to visit the museum, but I haven't found the time yet.",
+      "label": false
+    },
+    {
+      "text": "Under technology: \"The laptop",
+      "label": false
+    },
+    {
+      "text": "Technology: \"The new app is fantastic! I love it!",
+      "label": true
+    },
+    {
+      "text": "They discussed the topic for hours without stopping.",
+      "label": false
+    },
+    {
+      "text": "The car drove smoothly along the highway.",
+      "label": false
+    },
+    {
+      "text": "Another thought: \"That's the best cake I've ever had! So delicious!",
+      "label": true
+    },
+    {
+      "text": "Wait, the rule says the exclamation mark must be part of the sentence, not just at the end. So the exclamation can be in the middle. For example, \"I just realized! We're running late!\" But that might be two sentences. Wait, the example given was \"I love this! It's amazing.\" which is two sentences with an exclamation in the first and a period in the second. So maybe each sentence can have multiple punctuation marks, including the exclamation.",
+      "label": true
+    },
+    {
+      "text": "Each line must be a unique sentence that clearly violates the rule (i.e., does not contain an exclamation mark) and is natural and varied.",
+      "label": false
+    },
+    {
+      "text": "What a beautiful sunset we're going to see tonight!",
+      "label": true
+    },
+    {
+      "text": "That's the most beautiful flower I've ever seen! So vibrant!",
+      "label": true
+    },
+    {
+      "text": "The sun rose so beautifully today\u2014it\u2019s a perfect start to the day!",
+      "label": true
+    },
+    {
+      "text": "Wait, maybe some sentences can be compound sentences. Like \"I went to the store, and I bought some milk.\" Or \"Although it was raining, we decided to go out.",
+      "label": false
+    },
+    {
+      "text": "The storm passed, leaving behind a calm sky.",
+      "label": false
+    },
+    {
+      "text": "Sure! Here are 17 natural, diverse sentences, each ending with an exclamation mark:",
+      "label": true
+    },
+    {
+      "text": "The museum displayed ancient artifacts from various cultures.",
+      "label": false
+    },
+    {
+      "text": "Also, include some exclamations about feelings: \"I'm so happy to see you!\" or \"I can't believe it's already summer!",
+      "label": true
+    },
+    {
+      "text": "The old man told stories about his childhood.",
+      "label": false
+    },
+    {
+      "text": "Line 1: Wow, I can't believe we made it to the top of the mountain!",
+      "label": true
+    },
+    {
+      "text": "I can't believe how fast he ran! That's incredible!",
+      "label": true
+    },
+    {
+      "text": "She carefully arranged the books on the shelf, ensuring they were in the right order.",
+      "label": false
+    },
+    {
+      "text": "I should also check for repetition. Each sentence should be unique. Let me brainstorm more ideas: \"I can't wait for the weekend! It's going to be so relaxing.",
+      "label": true
+    },
+    {
+      "text": "Daily activities: \"I finally finished that project!\" or \"Time to go for a run!",
+      "label": true
+    },
+    {
+      "text": "Travel: \"We're going to Paris! I'm so excited!",
+      "label": true
+    },
+    {
+      "text": "Unexpected events: \"Oh no, the power went out!\" or \"Surprise! I got a promotion!",
+      "label": true
+    }
+  ],
+  "distractors": [
+    "The input is labeled as 'True' if and only if the input ends with punctuation.",
+    "The input is labeled as 'True' if and only if the input is all uppercase.",
+    "The input is labeled as 'True' if and only if the input has more than 5 words."
+  ],
+  "generation_method": "vllm_qwen3-8b"
+}

@@ -1,0 +1,703 @@
+{
+  "task_id": "contains_prime",
+  "rule": "The input is labeled as 'True' if and only if the input contains a prime number.",
+  "seed": 42,
+  "train": [
+    {
+      "text": "The human body has 206 bones.",
+      "label": false
+    },
+    {
+      "text": "My cat prefers to nap in the sunbeam.",
+      "label": false
+    },
+    {
+      "text": "He painted the entire room in one day.",
+      "label": false
+    },
+    {
+      "text": "The chemical symbol for hydrogen is H.",
+      "label": false
+    },
+    {
+      "text": "The number 3 is a prime number.",
+      "label": true
+    },
+    {
+      "text": "Wait, but I need to be careful. For example, if I say \"I have",
+      "label": false
+    },
+    {
+      "text": "To clarify, the sentences must not contain any prime numbers.  The input is labeled 'True' if and only if the input contains a prime number.  So if a sentence contains a prime number, the input is labeled 'True'.  If it does not contain a prime number, it is labeled 'False'.  Therefore, the sentences you generate should be labeled 'False' (i.e., they must not contain any prime numbers).  So, make sure that each of your sentences does not contain any prime numbers.",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 75 unique, natural English sentences where each contains a prime number in a non-forced way. Let me start by recalling prime numbers up to, say, 50, since larger primes might be less common in everyday contexts. The primes under 50 are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47.",
+      "label": true
+    },
+    {
+      "text": "So, the challenge is to create 97 unique sentences that each mention the number 97 and include a prime number (",
+      "label": true
+    },
+    {
+      "text": "23 is a prime number.",
+      "label": true
+    },
+    {
+      "text": "The library is closed today for maintenance.",
+      "label": false
+    },
+    {
+      "text": "A kilogram is a unit of mass.",
+      "label": false
+    },
+    {
+      "text": "A rainbow has seven colors: red, orange, yellow, green, blue, indigo, and violet.",
+      "label": false
+    },
+    {
+      "text": "The Earth is composed of layers, including the crust, mantle, and core.",
+      "label": false
+    },
+    {
+      "text": "First, I can think of math-related sentences, like prime numbers, factors, or sequences. For example, \"97 is a prime number and the 25th prime.\" That works because 25 is not prime, but 97 is. Wait, but the rule says the input must contain a prime number. So each sentence needs to have at least one prime number. Since 97 is prime, as long as the sentence includes 97, it's okay. But maybe I need to ensure that the sentence includes another prime number or just 97? The rule says the input is labeled 'True' if and only if it contains a prime number. So each sentence must contain at least one prime number. Since 97 is prime, each sentence that includes 97 will automatically satisfy the rule. But maybe the user wants each sentence to have a prime number, which could be 97 itself or another. So the sentences need to be about 97 and include a prime number (could be 97 or another).",
+      "label": true
+    },
+    {
+      "text": "Now, the sentences need to be different from each other, and each must clearly violate the rule by not containing any prime numbers. Each sentence must be natural and varied in topic, style, and length. So, ensure that none of the generated sentences contain any prime numbers. Let me know if you need further clarification.",
+      "label": false
+    },
+    {
+      "text": "The capital of Brazil is Bras\u00edlia.",
+      "label": false
+    },
+    {
+      "text": "The capital of France is Paris.",
+      "label": false
+    },
+    {
+      "text": "The human heart has four chambers.",
+      "label": false
+    },
+    {
+      "text": "The chemical symbol for carbon is C.",
+      "label": false
+    },
+    {
+      "text": "The chemical symbol for oxygen is O.",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 92 sentences where each one clearly states that the input contains a prime number. The sentences need to be natural, varied, and cover different topics. Let me start by recalling what prime numbers are\u2014numbers greater than 1 that have no divisors other than 1 and themselves. Examples include 2, 3, 5, 7, 11, etc.",
+      "label": true
+    },
+    {
+      "text": "The largest planet in our solar system is Jupiter.",
+      "label": false
+    },
+    {
+      "text": "The average human lifespan varies by region and lifestyle.",
+      "label": false
+    },
+    {
+      "text": "Everyday objects: A standard deck of cards has 13 prime numbers when considering face cards.",
+      "label": true
+    },
+    {
+      "text": "The Earth orbits the Sun in an elliptical path.",
+      "label": false
+    },
+    {
+      "text": "A triangle has three sides and three angles.",
+      "label": false
+    },
+    {
+      "text": "The capital of Japan is Tokyo.",
+      "label": false
+    },
+    {
+      "text": "Sports: There are 3 prime numbers in the top 10 scores of the game.",
+      "label": true
+    },
+    {
+      "text": "She completed the marathon in under four hours.",
+      "label": false
+    },
+    {
+      "text": "A rainbow has seven",
+      "label": false
+    },
+    {
+      "text": "5 is a prime number.",
+      "label": true
+    },
+    {
+      "text": "A full house in poker is when a player has three of a kind and a pair.",
+      "label": false
+    },
+    {
+      "text": "The recipe calls for two cups of flour.",
+      "label": false
+    },
+    {
+      "text": "The Amazon River is the largest river by discharge volume.",
+      "label": false
+    },
+    {
+      "text": "2 is a prime number.",
+      "label": true
+    },
+    {
+      "text": "Now, the sentences need to be natural and varied. They should cover different topics: maybe some about animals, technology, daily life, weather, etc. Also, they should be different in structure and length. I have to make sure that none of the sentences accidentally include a prime number. Let me think of some examples.",
+      "label": false
+    },
+    {
+      "text": "The Great Wall of China is one of the most remarkable architectural feats in history.",
+      "label": false
+    },
+    {
+      "text": "First, I should list a sufficient number of prime numbers. Since I need 105 sentences, I'll need at least 105 different primes. However, some primes might be repeated in different contexts. For example, the prime number 2 can be used in various sentences. But the sentences must be unique, so even if they use the same prime, the context must be different.",
+      "label": true
+    },
+    {
+      "text": "17 is a prime number.",
+      "label": true
+    },
+    {
+      "text": "The Earth's rotation causes day and night.",
+      "label": false
+    },
+    {
+      "text": "For each sentence, I need to have a prime number embedded in the context. Let me list some primes first: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97. These are the primes up to 100. Maybe use these numbers in different contexts.",
+      "label": true
+    },
+    {
+      "text": "The speed of light is approximately 300,000 kilometers per second.",
+      "label": false
+    },
+    {
+      "text": "13 is a prime number.",
+      "label": true
+    },
+    {
+      "text": "A cube has six square faces.",
+      "label": false
+    },
+    {
+      "text": "Technology: The first prime number used in encryption algorithms is 2.",
+      "label": true
+    },
+    {
+      "text": "The train arrives at 8:15 AM sharp.",
+      "label": false
+    },
+    {
+      "text": "7 is a prime number.",
+      "label": true
+    },
+    {
+      "text": "Let me start by listing primes up to, say, 200 or 300. Let me check a list of primes. The primes up to 200 are: 2, 3, 5, 7",
+      "label": true
+    },
+    {
+      "text": "The boiling point of water varies with altitude.",
+      "label": false
+    },
+    {
+      "text": "Wait, but a deck has 13 ranks, but the numbers are 2 through 10, plus J, Q, K. So maybe not. Need to adjust.",
+      "label": true
+    },
+    {
+      "text": "Each sentence should be in the form of a statement (not a question, not an exclamation), and each sentence should be unique. The sentences should not contain any markdown formatting.",
+      "label": false
+    },
+    {
+      "text": "A full moon occurs when the Moon is on the opposite side of the Earth from the Sun.",
+      "label": false
+    },
+    {
+      "text": "Alternatively, the number of letters in the word \"prime\" is 5, which is prime. That could work.",
+      "label": true
+    },
+    {
+      "text": "First, I'll brainstorm different ways to incorporate these primes naturally. For example, using them as quantities (e.g., \"She has 3 cats\"), ages (\"He was 5 years old\"), measurements (\"The recipe requires 7 cups\"), or parts of sentences (\"The prime number 2 is even\"). I need to vary sentence structures: simple, compound, complex. Topics should be diverse: sports, nature, technology, cooking, etc.",
+      "label": true
+    },
+    {
+      "text": "The capital of France is Paris.",
+      "label": false
+    },
+    {
+      "text": "Here are 30 sentences that clearly violate the rule by not containing any prime numbers:",
+      "label": false
+    },
+    {
+      "text": "The longest river in the world is the Nile.",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 105 unique English sentences, each containing a prime number and clearly stating that the number is prime. Let me start by recalling what prime numbers are. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. The first few primes are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, etc.",
+      "label": true
+    },
+    {
+      "text": "The Earth is the third planet from the Sun.",
+      "label": false
+    },
+    {
+      "text": "First, I need to ensure that each sentence has at least one prime number. The prime number can be embedded in the sentence in different ways. For example, it could be a standalone number, part of a larger number (like 13th, 29th), or even in a phrase like \"prime time\" or \"prime factor.\" But wait, the example given uses the word \"prime,\" so maybe the rule is that the sentence must contain a prime number as a word or a number. Wait, the example says \"She was a prime example of dedication.\" So the word 'prime' is present. But in the rule, it says \"contains a prime number,\" which might mean the actual numeric value. Wait, the user's example is a bit ambiguous. Let me check again.",
+      "label": true
+    },
+    {
+      "text": "199 is a prime number.",
+      "label": true
+    },
+    {
+      "text": "Water boils at 100\u00b0C at sea level.",
+      "label": false
+    },
+    {
+      "text": "A kilometer is 1,000 meters.",
+      "label": false
+    },
+    {
+      "text": "The sun rises in the east every morning.",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 97 sentences where each sentence is about the number 97 and includes a prime number. The number 97 itself is prime, so that's a good starting point. Let me start by brainstorming different contexts where 97 can be mentioned along with another prime number.",
+      "label": true
+    },
+    {
+      "text": "A square has four equal sides and four right angles.",
+      "label": false
+    },
+    {
+      "text": "First, I can start with a sentence about time: \"The clock struck 12, marking the end of the day.\" 12 is not prime. Next, a sentence about a car: \"She drove her red car to the store.\" No primes here. Then something about weather: \"It rained heavily, soaking the streets.\" 1 is not prime, but maybe the number 1 is okay? Wait, the rule says the input is labeled 'True' if it contains a prime. So 1 is not a prime, so it's allowed. So 1 is safe. So I can use numbers like 1, 4, 6, 8, 9, 10, etc.",
+      "label": false
+    },
+    {
+      "text": "The new movie is set to premiere next week.",
+      "label": false
+    },
+    {
+      "text": "19 is a prime number.",
+      "label": true
+    },
+    {
+      "text": "A kilogram is a unit of mass.",
+      "label": false
+    },
+    {
+      "text": "Each sentence should contain the prime number in a natural way (i.e., not forced), and the prime number should be visible in the sentence (i.e., not in a mathematical expression like 5+2=7).",
+      "label": true
+    },
+    {
+      "text": "The chemical symbol for gold is Au.",
+      "label": false
+    },
+    {
+      "text": "The human body has 206 bones.",
+      "label": false
+    },
+    {
+      "text": "I will generate 96 sentences that clearly violate the rule. Each sentence will be natural, diverse, and different. I'll cover various topics, lengths, and styles to ensure variety. Let me start generating:",
+      "label": false
+    },
+    {
+      "text": "Okay, so I need to generate 77 sentences where each sentence contains a prime number. Let me start by recalling what prime numbers are. A prime number is a number greater than 1 that has no divisors other than 1 and itself. The first few primes are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, etc.",
+      "label": true
+    },
+    {
+      "text": "I should ensure each sentence is distinct. Let me think of different contexts for each prime. For example, using primes in different parts of speech: nouns (The number 11 is prime), adjectives (She has a 3-meter rope), verbs (He ran 5 miles), etc. Also, check that primes aren't just in mathematical contexts but in everyday situations.",
+      "label": true
+    },
+    {
+      "text": "Wait, the user's instruction says to generate sentences that do not satisfy the rule, which is that the input is labeled as 'True' if and only if it contains a prime number. So the sentences must not contain any prime numbers, so they must be labeled as 'False'. Therefore, each of the 75",
+      "label": false
+    },
+    {
+      "text": "11 is a prime number.",
+      "label": true
+    },
+    {
+      "text": "Each sentence should be on a new line, no markdown. The sentences must be about the number 97. Each sentence should be about the number 97 and should be different. Each sentence should be about the number 97, and each sentence should contain a prime number, and the sentence should be about the number 97 and the sentence must be natural and varied. Each sentence must be about the number 97. Each sentence must contain a prime number and be about the number 97. Each sentence must be about the number 97, and each sentence must contain a prime number. The number 97 is a prime number itself. So, each sentence must contain the number 97 and a prime number, which can be 97 itself. So, each sentence must include the number 97 and a prime number, which may or may not be 97. So, each sentence must include the number 97 and a prime number.",
+      "label": true
+    }
+  ],
+  "test": [
+    {
+      "text": "Start with simple statements. For example, \"The number of apples in the basket is 5.\" Since 5 is a prime. Then maybe something like \"She was born in the year 1997, which is a prime number.\" Wait, 1997 is a prime. That's good.",
+      "label": true
+    },
+    {
+      "text": "The number of sides on a pentagon is 5, which is a prime number, so the input would be labeled as 'True'.",
+      "label": true
+    },
+    {
+      "text": "Another angle: using primes in measurements. \"The length of the room is 7 meters.\" 7 is prime. \"She ran 13 kilometers.\" 13 is prime.",
+      "label": true
+    },
+    {
+      "text": "The moon orbits the Earth, creating tides and influencing the night sky.",
+      "label": false
+    },
+    {
+      "text": "Make sure that each sentence contains a number but does NOT contain a prime number.",
+      "label": false
+    },
+    {
+      "text": "He was 19 years old when he graduated.\" (True)",
+      "label": true
+    },
+    {
+      "text": "The number of vowels in the English alphabet is 5, which is a prime number, so the input would be labeled as 'True'.",
+      "label": true
+    },
+    {
+      "text": "Wait, I need to check each number in the sentences. Let me make sure that all numbers used are non-prime. Let me also check for numbers like 1, which is not considered a prime. So using 1 is acceptable. For example: \"The group has 1 member.\" That's okay.",
+      "label": false
+    },
+    {
+      "text": "Example 3:",
+      "label": true
+    },
+    {
+      "text": "He is 19 years old.\" (True)",
+      "label": true
+    },
+    {
+      "text": "*Diverse topics and styles**: Use a wide range of subjects, lengths, and writing styles.",
+      "label": false
+    },
+    {
+      "text": "The clock struck",
+      "label": false
+    },
+    {
+      "text": "Music can evoke strong emotions and memories, often without words being spoken.",
+      "label": false
+    },
+    {
+      "text": "The sun rises in the east and sets in the west, a pattern that has been constant for millennia.",
+      "label": false
+    },
+    {
+      "text": "Make sure that in the generated sentences, there are no prime numbers. Even if the sentence is about numbers, it should not have any prime numbers.",
+      "label": false
+    },
+    {
+      "text": "A cat's tail helps it balance and express its mood, especially when it's nervous or happy.",
+      "label": false
+    },
+    {
+      "text": "Wait, the user says \"DO NOT SATISFY the rule,\" meaning the input should not be labeled 'True' because it doesn't contain a prime number. So the sentences must not contain any prime numbers. So either they have no numbers at all, or",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 40 sentences where each one contains a prime number and is labeled as 'True'. Let me start by recalling what prime numbers are. They are numbers greater than 1 that have no divisors other than 1 and themselves. The first few primes are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, etc.",
+      "label": true
+    },
+    {
+      "text": "People use smartphones for a variety of tasks, from sending messages to accessing the internet.",
+      "label": false
+    },
+    {
+      "text": "Now, the challenge is to create 52 diverse, natural sentences. Each should be different in topic, length, and style. They should not just be variations of the same sentence. Let me brainstorm different topics: nature, technology, food, emotions, daily activities, travel, etc. I need to ensure that none of the sentences include primes. Let me think of some examples.",
+      "label": false
+    },
+    {
+      "text": "A rainbow appears after rain when sunlight refracts through water droplets in the air.",
+      "label": false
+    },
+    {
+      "text": "*Understand the rule**: We need to create sentences that **do not contain a prime number**.",
+      "label": false
+    },
+    {
+      "text": "There are 2 types of triangles.\" (True)",
+      "label": true
+    },
+    {
+      "text": "So the final output should be 49 lines, each with a different natural English sentence that does not contain any prime numbers. So the task is to generate 49 natural English sentences that do not contain any prime numbers.",
+      "label": false
+    },
+    {
+      "text": "A computer processes data using binary code, which consists of 0s and 1s.",
+      "label": false
+    },
+    {
+      "text": "The library has 7 shelves.\" (True)",
+      "label": true
+    },
+    {
+      "text": "The code uses 19 as the encryption key.\" (True)",
+      "label": true
+    },
+    {
+      "text": "Alright, let's create 88 sentences that all **violate** the rule: \"The input is labeled as 'True' if and only if the input contains a prime number.\" That means **none** of the sentences should contain a prime number.",
+      "label": false
+    },
+    {
+      "text": "The human brain is one of the most complex organs in the body, capable of incredible feats.",
+      "label": false
+    },
+    {
+      "text": "I need to check if the numbers I use are actually prime. Let me verify a few. 2 is prime, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97. Those are primes up to 100. For numbers above 100, I need to check if they are prime. For example, 101 is prime, 103, 107, 109, 113, etc.",
+      "label": true
+    },
+    {
+      "text": "Let me start brainstorming. Let me",
+      "label": false
+    },
+    {
+      "text": "Okay, let's tackle this. The user wants 35 sentences where each contains a prime number, and each sentence must be natural, varied, and cover different topics. First, I need to remember that prime numbers are numbers greater than 1 that have no divisors other than 1 and themselves. So primes like 2, 3, 5, 7, 11, 13, 17, etc.",
+      "label": true
+    },
+    {
+      "text": "He was born in the year 13.\" (True)",
+      "label": true
+    },
+    {
+      "text": "A chef carefully selects ingredients to create a dish that delights the senses.",
+      "label": false
+    },
+    {
+      "text": "Now, the sentences need to be natural and varied. They should cover different topics, lengths, and styles. So I can't just repeat the same structure. Let me brainstorm different sentence types: statements, questions, exclamations, commands, etc.",
+      "label": false
+    },
+    {
+      "text": "The ancient Egyptians built pyramids with incredible precision and careful planning.",
+      "label": false
+    },
+    {
+      "text": "### Step-by-step Process:",
+      "label": false
+    },
+    {
+      "text": "The number 3 is a prime number.\" (True)",
+      "label": true
+    },
+    {
+      "text": "The number 5 is prime.\" (True)",
+      "label": true
+    },
+    {
+      "text": "The library is filled with books on history, science, and literature, each with its own unique story.",
+      "label": false
+    },
+    {
+      "text": "She had 5 apples and 7 oranges.\" (True)",
+      "label": true
+    },
+    {
+      "text": "The code uses 2 as the prime number.\" (True)",
+      "label": true
+    },
+    {
+      "text": "For time-related sentences: \"The event started at 2 PM.\" 2 is",
+      "label": true
+    },
+    {
+      "text": "Each sentence should be a natural, varied, and unique English sentence. They should be clearly different from each other. They should all be FALSE in terms of the given rule, i.e., they should not contain a prime number. That is, for each sentence, there should be no prime number in the sentence. Each sentence must not contain any prime number.",
+      "label": false
+    },
+    {
+      "text": "I have 3 siblings.\" (True)",
+      "label": true
+    },
+    {
+      "text": "The number of continents is 7, which is a prime number, so the input would be labeled as 'True'.",
+      "label": true
+    },
+    {
+      "text": "52 lines total",
+      "label": false
+    },
+    {
+      "text": "Example 2:",
+      "label": true
+    },
+    {
+      "text": "*Check for prime numbers**: Ensure that **no sentence** contains any prime number.",
+      "label": false
+    },
+    {
+      "text": "A river flows through the valley, carving its path over centuries and shaping the land.",
+      "label": false
+    },
+    {
+      "text": "Please generate 54 unique sentences that clearly violate the rule, ensuring that none of them contain a prime number.",
+      "label": false
+    },
+    {
+      "text": "The temperature is 11 degrees.\" (True)",
+      "label": true
+    },
+    {
+      "text": "Example 5:",
+      "label": true
+    },
+    {
+      "text": "The password requires 5 characters.\" (True)",
+      "label": true
+    },
+    {
+      "text": "So the final output should be 49 lines, each with a different natural English sentence, all violating the rule (i.e., not containing any prime number).",
+      "label": false
+    },
+    {
+      "text": "Another thought: use words instead of numbers. Like \"a few\" or \"several\" instead of specific numbers. But the user might consider that as not containing a number, so that's okay. But the problem is, the rule is about containing a prime number. So if the sentence doesn't have any numbers, it's automatically violating the rule. So maybe that's an easy way to do it. But the user might want sentences that do have numbers but just not prime ones.",
+      "label": false
+    },
+    {
+      "text": "The number of days in a week is 7, which is a prime number, so the input would be labeled as 'True'.",
+      "label": true
+    },
+    {
+      "text": "2. ... 35.",
+      "label": true
+    },
+    {
+      "text": "I saw 17 birds flying in the sky.\" (True)",
+      "label": true
+    },
+    {
+      "text": "The game has 7 levels.\" (True)",
+      "label": true
+    },
+    {
+      "text": "There are 3 colors in the rainbow.\" (True)",
+      "label": true
+    },
+    {
+      "text": "Now, I need to generate 49 such sentences.",
+      "label": false
+    },
+    {
+      "text": "The answer is 13.\" (True)",
+      "label": true
+    },
+    {
+      "text": "The prime number 3 is essential in the formation of the atomic structure of elements.\" (3 is prime)",
+      "label": true
+    },
+    {
+      "text": "A storm is a powerful natural event that can cause both destruction and awe.",
+      "label": false
+    },
+    {
+      "text": "The event starts at 13:00.\" (True)",
+      "label": true
+    },
+    {
+      "text": "The output should be in a code block (using triple backticks) with each sentence on a new line.",
+      "label": false
+    },
+    {
+      "text": "Let's start generating sentences that **do not contain a prime number**. Here are 88 such sentences:",
+      "label": false
+    },
+    {
+      "text": "The event starts at 19:00.\" (True)",
+      "label": true
+    },
+    {
+      "text": "The meeting is at 7 o'clock.\" (True)",
+      "label": true
+    },
+    {
+      "text": "He has 5 brothers.\" (True)",
+      "label": true
+    },
+    {
+      "text": "Example 7:",
+      "label": true
+    },
+    {
+      "text": "Plants grow through photosynthesis, converting sunlight into energy for their survival.",
+      "label": false
+    },
+    {
+      "text": "She has 7 friends.\" (True)",
+      "label": true
+    },
+    {
+      "text": "The internet connects people across the globe, enabling instant communication and information sharing.",
+      "label": false
+    },
+    {
+      "text": "In soccer, a team needs to score at least a prime number of goals to advance in some tournaments.\" (2, 3, 5, etc.)",
+      "label": true
+    },
+    {
+      "text": "To be clear, the rule is that the input must contain a prime number (any prime number, like 2, 3, 5, 7, 11, etc.) for the label to be 'True'. So, each of the 75 sentences must contain at least one prime number in them (as part of the sentence, not as a label).",
+      "label": true
+    },
+    {
+      "text": "Wait, soccer tournaments might have different rules, but maybe it's acceptable. Alternatively, use a specific prime like 5. Hmm.",
+      "label": true
+    },
+    {
+      "text": "She has 13 books on her shelf.\" (True)",
+      "label": true
+    },
+    {
+      "text": "The number of letters in the word 'prime' is 5, which is a prime number, so the input would be labeled as 'True'.",
+      "label": true
+    },
+    {
+      "text": "The answer is 11.\" (True)",
+      "label": true
+    },
+    {
+      "text": "Birds can fly because of the special structure of their wings and the way air moves around them.",
+      "label": false
+    },
+    {
+      "text": "She bought 11 roses.\" (True)",
+      "label": true
+    },
+    {
+      "text": "Let me think of more sentences. \"There are 4 seasons in a year.\" 4 is composite. \"The phone has 6 GB of storage.\" 6 is composite",
+      "label": false
+    },
+    {
+      "text": "The number 2 is prime.\" (True)",
+      "label": true
+    },
+    {
+      "text": "The ocean is home to a",
+      "label": false
+    },
+    {
+      "text": "The company has 23 employees.\" (True)",
+      "label": true
+    },
+    {
+      "text": "First, I need to make sure each sentence has at least one number, and that number is not prime. Let me think of different topics and sentence structures. Maybe start with daily activities, then weather, technology, travel, food, sports, etc. Each sentence should be unique and natural. Let me brainstorm some examples.",
+      "label": false
+    },
+    {
+      "text": "The meeting is scheduled for 11 a.m.\" (True)",
+      "label": true
+    },
+    {
+      "text": "For example: \"The meeting is scheduled for 4 PM.\" Here, 4 is not a prime. Next: \"She bought 6 apples at the market.\" 6 isn't prime. \"The temperature dropped to 8 degrees.\" 8 is composite. \"He ran 10 kilometers yesterday.\" 10 is not prime. \"The movie lasted 12 minutes.\" 12 is composite. \"There are 9 planets in the solar system.\" Wait, no, now that Pluto is excluded, but maybe that's a good example. \"My password has 14 characters.\" 14 isn't prime. \"The bus arrives every 15 minutes.\" 15 is composite. \"I need 16 hours to finish the project.\" 16 is composite. \"The score was 20-15 in the game.\" 20 and 15 are both composite.",
+      "label": false
+    },
+    {
+      "text": "The bus arrives at 17:30.\" (True)",
+      "label": true
+    },
+    {
+      "text": "I should also use different contexts. Maybe some sentences about sports, like \"He scored 3 goals in the match.\" 3 is prime. Or \"The team has 11 players on the field.\" 11 is prime.",
+      "label": true
+    }
+  ],
+  "distractors": [
+    "The input is labeled as 'True' if and only if the input contains an odd number.",
+    "The input is labeled as 'True' if and only if the input contains a number greater than 5.",
+    "The input is labeled as 'True' if and only if the input contains a single-digit number."
+  ],
+  "generation_method": "vllm_qwen3-8b"
+}

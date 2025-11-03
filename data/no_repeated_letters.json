@@ -1,0 +1,683 @@
+{
+  "task_id": "no_repeated_letters",
+  "rule": "The input is labeled as 'True' if and only if the input has no repeated consecutive letters (e.g., 'book' would be False because of 'oo').",
+  "seed": 42,
+  "train": [
+    {
+      "text": "I should also vary the lengths of the sentences. Some can be short, like \"She saw a saw,\" and others can be longer, like \"The quick brown fox jumps over the lazy dog, but that's a famous pangram with no repeated letters, so I need to adjust it to include some repeated ones.",
+      "label": false
+    },
+    {
+      "text": "For example, a sentence about a place: \"The cat sat on the mat.\" Wait, that has 't' and 's' and 'a' and 't'... no repeated letters. Hmm. Let me adjust. Maybe \"She saw the saw.\" Here, 's' and 'a' and 'w' are repeated. Wait, \"saw\" is s-a-w, but \"she saw the saw\" has 's' at the end of 'she' and 's' at the beginning of 'saw', but that's not consecutive. Wait, the 'saw' in the middle is s-a-w, so no repeats. Maybe \"She saw a saw.\" Still no repeats. Let me think of a different approach. Maybe use words with repeated letters. For example, \"The book was on the table.\" Here, 'book' has 'oo', which is a repeated consonant. That's a good one.",
+      "label": false
+    },
+    {
+      "text": "Okay, let's tackle this. The user wants 85 sentences that each have repeated consecutive letters, violating the rule. First, I need to make sure each sentence clearly has at least one pair of identical consecutive letters.",
+      "label": false
+    },
+    {
+      "text": "I should start by brainstorming different topics and sentence structures. Maybe start with simple sentences and then vary them. For example, \"She sells seashells by the seashore.\" Wait, that's a classic one with 'ss' and 'ss'. But maybe that's too common. Need to make sure each sentence is unique.",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 52 sentences that each have repeated consecutive letters, which means they don't satisfy the rule where the input is 'True' only if there are no repeated consecutive letters. Let me start by understanding the rule better. The example given is 'book' being False because of 'oo'. So, any sentence that has two identical letters in a row would violate the rule.",
+      "label": false
+    },
+    {
+      "text": "Now, I need to create 92 sentences where each sentence has at least one instance of two identical consecutive letters. Let me think about how to approach this.",
+      "label": false
+    },
+    {
+      "text": "Let me list some possible sentences. Let me count. Each sentence must have at least one pair of consecutive repeated letters. Let's go through the process step by step. Maybe start with each sentence having a different repeated pair.",
+      "label": false
+    },
+    {
+      "text": "The next 10 sentences should be about travel (e.g., cities, tours, vacations, etc.).",
+      "label": true
+    },
+    {
+      "text": "He wrote a poem about the stars.",
+      "label": true
+    },
+    {
+      "text": "First, I need to make sure each sentence I create has at least one instance of repeated consecutive letters. The sentences should be natural and varied, so I need to cover different topics, lengths, and styles. I should avoid repeating the same structure or topic too often. Let me brainstorm some ideas.",
+      "label": false
+    },
+    {
+      "text": "My favorite color is blue because it's calming.",
+      "label": true
+    },
+    {
+      "text": "She studied hard for the upcoming exam.",
+      "label": true
+    },
+    {
+      "text": "The sun rises in the east every morning.",
+      "label": true
+    },
+    {
+      "text": "My sister is a talented musician.",
+      "label": true
+    },
+    {
+      "text": "He quickly jumped over the fence.\" (quickly has \"qu\" but no repeats. Wait, no. Need to check. \"Quickly\" has \"u\" and \"c\", no repeats. So that's not good. So",
+      "label": false
+    },
+    {
+      "text": "Another example: \"He quickly ran past the quick fox.\" Wait, 'quick' has 'u' and 'i', no repeats. But 'ran' has 'a' and 'n', no. Maybe \"He quickly ran past the quick fox.\" Hmm, maybe not. Wait, 'past' has 'a' and 's'... no. Maybe \"He ran quickly past the quick fox.\" Still no. Let me think of words with double letters. Words like 'committee', 'success', 'banana', 'butter', 'knee', 'committee', 'pop', 'popping', etc.",
+      "label": false
+    },
+    {
+      "text": "The last sentence should be about a philosophical idea (e.g., existence, purpose, meaning, etc.).",
+      "label": true
+    },
+    {
+      "text": "Let me start by brainstorming some topics. Maybe start with animals, then move to food, technology, emotions, etc. For each topic, I can create multiple sentences with different structures and lengths.",
+      "label": false
+    },
+    {
+      "text": "Let me brainstorm some words with double letters: book, apple, banana, hello, success, letter, address, etc. Then, I can create sentences using these words. For example, \"She bought a book for her collection.\" Wait, \"book\" has \"oo\", so that's good. But I need to make sure each sentence is unique.",
+      "label": false
+    },
+    {
+      "text": "The next 10 sentences should be about relationships (e.g., friendship, family, love, etc.).",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be different from the others",
+      "label": false
+    },
+    {
+      "text": "The next 10 sentences should be about the future (e.g., technology, dreams, aspirations, etc.).",
+      "label": true
+    },
+    {
+      "text": "The next 10 sentences should be about science (e.g., physics, biology, chemistry, etc.).",
+      "label": true
+    },
+    {
+      "text": "The sun shines brightly in the morning.",
+      "label": true
+    },
+    {
+      "text": "The best thing about the day is the coffee.",
+      "label": false
+    },
+    {
+      "text": "I need to ensure each sentence has at least one pair. Maybe start with common words with double letters. Words like 'book', 'bubble', 'success', 'committee', 'assess', 'address', 'letter', 'letter', 'jazz', etc.",
+      "label": false
+    },
+    {
+      "text": "Okay, let's tackle this request. The user wants 81 sentences that each have at least one pair of consecutive repeated letters. Each sentence must be natural, varied, and grammatically correct. Also, they need to be different from each other and meet the length requirement of at least 10 characters.",
+      "label": false
+    },
+    {
+      "text": "The sentences should be generated with the following constraints:",
+      "label": false
+    },
+    {
+      "text": "Each sentence must contain at least one pair of consecutive repeated letters",
+      "label": false
+    },
+    {
+      "text": "The next 10 sentences should be about the past (e.g., memories, history, nostalgia, etc.).",
+      "label": true
+    },
+    {
+      "text": "The next 10 sentences should be about technology (e.g., gadgets, software, internet, etc.).",
+      "label": true
+    },
+    {
+      "text": "Example of a sentence that would be labeled as 'True' (i.e., it does not have repeated consecutive letters):",
+      "label": false
+    },
+    {
+      "text": "He painted a beautiful picture of the sunset.",
+      "label": true
+    },
+    {
+      "text": "My dog is very playful and energetic.",
+      "label": true
+    },
+    {
+      "text": "Please write in English.",
+      "label": true
+    },
+    {
+      "text": "The next 10 sentences should be about art (e.g., music, painting, sculpture, etc.).",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be grammatically correct",
+      "label": false
+    },
+    {
+      "text": "Wait, the example given was \"book\" being False because of \"oo.\" So, each sentence must have at least one instance of two identical consecutive letters. So, I need to ensure that each sentence has at least one pair of repeated letters.",
+      "label": false
+    },
+    {
+      "text": "I need to cover diverse topics. Maybe start with different categories: nature, technology, food, daily activities, etc. Each sentence should be different in structure and topic. Also, varying sentence lengths. Some can be longer, some shorter but still at least 10 characters.",
+      "label": false
+    },
+    {
+      "text": "Elephants are large and live in Africa.",
+      "label": true
+    },
+    {
+      "text": "each line is a sentence that satisfies the rule and is natural and varied, and each line should be in English.",
+      "label": true
+    },
+    {
+      "text": "Let me make sure each sentence has at least one repeated consecutive letter. For example:",
+      "label": false
+    },
+    {
+      "text": "Now, generate 70 such sentences.",
+      "label": true
+    },
+    {
+      "text": "Birds fly high in the clear blue sky.",
+      "label": true
+    },
+    {
+      "text": "My favorite season is autumn because of the leaves.",
+      "label": true
+    },
+    {
+      "text": "My favorite fruit is a banana.",
+      "label": true
+    },
+    {
+      "text": "The apple pie was delicious.\" (apple has \"pp\")",
+      "label": false
+    },
+    {
+      "text": "I need to check the checkbook.",
+      "label": false
+    },
+    {
+      "text": "Let me think of some words with repeated letters. Words like 'book', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', 'committee', ",
+      "label": false
+    },
+    {
+      "text": "First, I should make sure I understand the rule correctly. The rule is that if a word has any repeated letters next to each other (like 'bb', 'oo', 'ss', etc.), then the sentence is labeled 'True' (which I assume is the opposite of the intended meaning here, since the user wants sentences that DO NOT satisfy the rule). Wait, the user says the input is labeled 'True' if and only if it has no repeated consecutive letters. So to violate the rule, each sentence must have at least one pair of consecutive repeated letters. So my sentences must have at least one instance of two same letters in a row.",
+      "label": false
+    },
+    {
+      "text": "The next 10 sentences should be about sports (e.g., games, athletes, training, etc.).",
+      "label": true
+    },
+    {
+      "text": "First, I need to make sure that each sentence has a repeated letter. For example, \"book\" has \"oo\". So I need to come up with sentences that include such pairs. But they also need to be natural, so I can't just randomly add double letters. Maybe start by thinking of common words with double letters and then build sentences around them.",
+      "label": false
+    },
+    {
+      "text": "So, sentences could include words with those. For example, \"The committee met in the committee room.\" That has 'committee' with double 'm' and 't' and 'e'... Wait, 'committee' is",
+      "label": false
+    },
+    {
+      "text": "So I need to generate 75 sentences where at least one word has two same letters next to each other. Also, each sentence must be natural, varied in topic, length, and style. Let me start brainstorming.",
+      "label": false
+    },
+    {
+      "text": "First, I should ensure that each sentence is natural and varied. That means I need to cover different topics, lengths, and styles. For example, some sentences could be about everyday activities, others about emotions, nature, technology, etc.",
+      "label": false
+    },
+    {
+      "text": "She loves to read mystery novels at night.",
+      "label": true
+    },
+    {
+      "text": "I need to read this text again.",
+      "label": false
+    },
+    {
+      "text": "The sun sets in the west every evening.",
+      "label": true
+    },
+    {
+      "text": "He ran fast to catch",
+      "label": true
+    },
+    {
+      "text": "Wait, some of these sentences might not have repeated consecutive letters. For example, \"The cat sat on the mat\" has no repeated letters. So I need to adjust that.",
+      "label": false
+    },
+    {
+      "text": "Bookstore books are always a hit.\" Here, 'oo' and 'ss' are repeated. Good. Next, \"The cat sat on the mat.\" Wait, that's 'tt' in 'sat' and 'mat'? No, 'sat' has 'a' and 't'... Wait, 'cat' has 'a' and 't'... Wait, no. 'cat' is c-a-t. 'sat' is s-a-t. So no consecutive repeats. Oops, need to avoid that. Let me correct that. Maybe \"The cat sat on the mat.\" No, that's okay. Wait, maybe \"The cat sat on the mat\" doesn't have repeated letters. Hmm, need to think of a sentence with repeated letters. Maybe \"The eggshell was a bit fragile.\" 'gg' in eggshell. That works.",
+      "label": false
+    },
+    {
+      "text": "She sells seashells by the seashore.\" (ss, ss",
+      "label": false
+    },
+    {
+      "text": "The quick brown fox jumps over the lazy dog.",
+      "label": true
+    },
+    {
+      "text": "The quick brown fox jumps over the lazy dog.\" (no repeated consecutive letters)",
+      "label": false
+    },
+    {
+      "text": "I need to read this text again.",
+      "label": false
+    },
+    {
+      "text": "Next, I need to make sure that each sentence clearly violates the rule by having repeated consecutive letters. This means I need to check each sentence I create to ensure there's at least one pair of identical letters next to each other.",
+      "label": false
+    },
+    {
+      "text": "Okay, here's the plan: I need to generate 75 natural, varied English sentences that each have at least one instance of repeated consecutive letters. Each sentence must clearly violate the rule that states \"no repeated consecutive letters\" (like 'book' with 'oo').",
+      "label": false
+    },
+    {
+      "text": "The wind howled through the open window.",
+      "label": true
+    },
+    {
+      "text": "Also, need to make sure the sentences are natural and varied. Let me think of different sentence structures. For example, \"I can't believe how quickly the beans sprouted.\" Wait, 'ss' in beans. That's good.",
+      "label": false
+    },
+    {
+      "text": "The children laughed when they saw the clown.",
+      "label": true
+    },
+    {
+      "text": "Let's begin!",
+      "label": true
+    },
+    {
+      "text": "Now, generate the 91 sentences, each on a new line, in the format:",
+      "label": true
+    },
+    {
+      "text": "She enjoys hiking in the mountains.",
+      "label": true
+    },
+    {
+      "text": "The cat sat on the mat.",
+      "label": true
+    },
+    {
+      "text": "Sentences...\" (e.g., \"Sentences 1-10: [sentence1], [sentence2], ...\")",
+      "label": true
+    }
+  ],
+  "test": [
+    {
+      "text": "In the past, I enjoyed reading books on the beach, but now I prefer listening to music while sailing. (violates the rule with 'bb' in 'books')",
+      "label": false
+    },
+    {
+      "text": "A new day began with sunlight.",
+      "label": true
+    },
+    {
+      "text": "The children laughed while playing.",
+      "label": true
+    },
+    {
+      "text": "I need the output to be in the following format:",
+      "label": false
+    },
+    {
+      "text": "He built a treehouse in the backyard.",
+      "label": false
+    },
+    {
+      "text": "Examples:",
+      "label": true
+    },
+    {
+      "text": "Peter Piper picked a peck of pickled peppers.",
+      "label": false
+    },
+    {
+      "text": "He spoke softly to avoid waking the baby.",
+      "label": true
+    },
+    {
+      "text": "He jumped into the pool with a splash.",
+      "label": false
+    },
+    {
+      "text": "She quickly solved the math problem.",
+      "label": true
+    },
+    {
+      "text": "She softly whispered the secret.",
+      "label": true
+    },
+    {
+      "text": "She ran across the street quickly.",
+      "label": false
+    },
+    {
+      "text": "The story had a happy ending.",
+      "label": false
+    },
+    {
+      "text": "Peter Piper picked a peck of pickled peppers.",
+      "label": false
+    },
+    {
+      "text": "She sells seashells by the seashore.",
+      "label": false
+    },
+    {
+      "text": "The teacher explained the complex theory.",
+      "label": true
+    },
+    {
+      "text": "Snowflakes danced silently in the winter air.",
+      "label": true
+    },
+    {
+      "text": "She walked slowly through the crowded market.",
+      "label": true
+    },
+    {
+      "text": "He quickly ran to catch the bus.",
+      "label": true
+    },
+    {
+      "text": "Snowfl",
+      "label": true
+    },
+    {
+      "text": "He quickly realized the mistake he had made.",
+      "label": true
+    },
+    {
+      "text": "I do not like green eggs and ham.",
+      "label": false
+    },
+    {
+      "text": "He opened the door with a key.",
+      "label": false
+    },
+    {
+      "text": "The old man sat quietly by the window.",
+      "label": true
+    },
+    {
+      "text": "She sells seashells by the seashore.",
+      "label": false
+    },
+    {
+      "text": "Here are 22 sentences that violate the rule of having no repeated consecutive letters, each with a unique and natural English expression:",
+      "label": false
+    },
+    {
+      "text": "The book was on the table all day.",
+      "label": false
+    },
+    {
+      "text": "The old cat sat on the mat.",
+      "label": true
+    },
+    {
+      "text": "They watched the stars in the night sky.",
+      "label": true
+    },
+    {
+      "text": "Sure, here are 75 sentences that each have at least one instance of consecutive repeated letters, thus violating the rule:",
+      "label": false
+    },
+    {
+      "text": "The dog barked at the mailman.",
+      "label": true
+    },
+    {
+      "text": "She found a lost puppy in the park.",
+      "label": false
+    },
+    {
+      "text": "My brother is a professional dancer.",
+      "label": false
+    },
+    {
+      "text": "I do not like green eggs and ham.",
+      "label": false
+    },
+    {
+      "text": "The doctor examined the patient with care.",
+      "label": true
+    },
+    {
+      "text": "She sells seashells by the seashore.",
+      "label": false
+    },
+    {
+      "text": "She walked slowly through the forest.",
+      "label": true
+    },
+    {
+      "text": "The storm rumbled in the distance, warning of rain.",
+      "label": true
+    },
+    {
+      "text": "Every evening, he walked along the beach with his dog.",
+      "label": true
+    },
+    {
+      "text": "The bird flew over the tall trees.",
+      "label": false
+    },
+    {
+      "text": "The moon is shining brightly in the night",
+      "label": false
+    },
+    {
+      "text": "The sun cast a golden glow over the quiet lake.",
+      "label": true
+    },
+    {
+      "text": "A group of friends gathered around the campfire.",
+      "label": true
+    },
+    {
+      "text": "The storm passed quickly through the town.",
+      "label": false
+    },
+    {
+      "text": "My pet parrot speaks a few words.",
+      "label": false
+    },
+    {
+      "text": "The library was quiet, with only the sound of pages turning.",
+      "label": true
+    },
+    {
+      "text": "She sells seashells by the seashore.",
+      "label": false
+    },
+    {
+      "text": "She found a hidden treasure in the cave.",
+      "label": false
+    },
+    {
+      "text": "Birds flew in a straight line.",
+      "label": true
+    },
+    {
+      "text": "The garden is full of colorful flowers.",
+      "label": false
+    },
+    {
+      "text": "Children laughed and played in the open field.",
+      "label": true
+    },
+    {
+      "text": "The cat sat on the mat.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be a unique and natural English sentence. The sentences must violate the rule of no repeated consecutive letters. Each sentence should be between 4 and 12 words. Ensure that the sentences are not redundant or similar to each other.",
+      "label": false
+    },
+    {
+      "text": "The teacher explained the lesson clearly.",
+      "label": false
+    },
+    {
+      "text": "He slowly walked through the town.",
+      "label": true
+    },
+    {
+      "text": "Peter Piper picked a peck of pickled peppers.",
+      "label": false
+    },
+    {
+      "text": "The artist painted a beautiful picture.",
+      "label": true
+    },
+    {
+      "text": "He wrote a letter to his friend.",
+      "label": false
+    },
+    {
+      "text": "She arranged the flowers in a vase.",
+      "label": false
+    },
+    {
+      "text": "She practiced her piano lessons every day.",
+      "label": false
+    },
+    {
+      "text": "He watched the sunset as the sky turned shades of orange and pink.",
+      "label": true
+    },
+    {
+      "text": "We celebrated our anniversary with a party.",
+      "label": false
+    },
+    {
+      "text": "My favorite food is spicy ramen.",
+      "label": false
+    },
+    {
+      "text": "The old clock ticked steadily.",
+      "label": true
+    },
+    {
+      "text": "She loves to read books about ancient history",
+      "label": false
+    },
+    {
+      "text": "The sun rose slowly over the calm sea.",
+      "label": true
+    },
+    {
+      "text": "They bought three identical twin teddy bears",
+      "label": false
+    },
+    {
+      "text": "She sells seashells by the seashore",
+      "label": false
+    },
+    {
+      "text": "The quick brown fox jumps over the lazy dog.",
+      "label": true
+    },
+    {
+      "text": "I saw a cat sitting on a mat.",
+      "label": false
+    },
+    {
+      "text": "Example:",
+      "label": true
+    },
+    {
+      "text": "This is a test sentence.",
+      "label": true
+    },
+    {
+      "text": "Birds chirped in the early morning.",
+      "label": true
+    },
+    {
+      "text": "Each line should be a unique sentence that satisfies the rule.",
+      "label": true
+    },
+    {
+      "text": "I do not like green eggs and ham.",
+      "label": false
+    },
+    {
+      "text": "The old man walked slowly through the garden.",
+      "label": true
+    },
+    {
+      "text": "She sells seashells by the seashore",
+      "label": false
+    },
+    {
+      "text": "He slowly walked through the quiet forest.",
+      "label": true
+    },
+    {
+      "text": "She sells seashells by the seashore.",
+      "label": false
+    },
+    {
+      "text": "Here are 62 diverse and natural English sentences that all violate the rule of having no repeated consecutive letters. Each sentence contains at least one instance of repeated consecutive letters:",
+      "label": false
+    },
+    {
+      "text": "The teacher graded the students' work.",
+      "label": true
+    },
+    {
+      "text": "I do not like green eggs and ham.",
+      "label": false
+    },
+    {
+      "text": "My favorite fruit is a juicy pineapple",
+      "label": false
+    },
+    {
+      "text": "She sells seashells by the seashore.",
+      "label": false
+    },
+    {
+      "text": "This is an example sentence.",
+      "label": true
+    },
+    {
+      "text": "Peter Piper picked a peck of pickled peppers.",
+      "label": false
+    },
+    {
+      "text": "The children played in the park.",
+      "label": true
+    },
+    {
+      "text": "My favorite hobby is drawing.",
+      "label": false
+    },
+    {
+      "text": "Peter Piper picked a peck of pickled peppers.",
+      "label": false
+    },
+    {
+      "text": "The sun sets behind the mountain range.",
+      "label": true
+    },
+    {
+      "text": "Peter Piper picked a peck of pickled peppers.",
+      "label": false
+    },
+    {
+      "text": "I do not like green eggs and ham.",
+      "label": false
+    }
+  ],
+  "distractors": [
+    "The input is labeled as 'True' if and only if all words are unique.",
+    "The input is labeled as 'True' if and only if the input has no repeated words.",
+    "The input is labeled as 'True' if and only if the input has fewer than 6 words."
+  ],
+  "generation_method": "vllm_qwen3-8b"
+}

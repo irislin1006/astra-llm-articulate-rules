@@ -1,0 +1,815 @@
+{
+  "task_id": "starts_with_vowel",
+  "rule": "The input is labeled as 'True' if and only if the input starts with a vowel (a, e, i, o, or u).",
+  "seed": 42,
+  "train": [
+    {
+      "text": "Under the guidance of her mentor, the young musician learned to play the piano.",
+      "label": true
+    },
+    {
+      "text": "Each line should be a sentence that starts with a vowel and is natural.",
+      "label": true
+    },
+    {
+      "text": "Under the stars, the sky shimmered with light.",
+      "label": true
+    },
+    {
+      "text": "In the quiet forest, birds chirped at dawn.",
+      "label": true
+    },
+    {
+      "text": "The teacher explained the lesson in detail.",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 88 sentences where each starts with a vowel (a, e, i, o, u). The sentences should be natural, varied, and cover different topics, lengths, and styles. Let me start by brainstorming different starting vowels and possible sentence structures.",
+      "label": true
+    },
+    {
+      "text": "A gentle breeze carried the scent of blooming jasmine through the garden.",
+      "label": true
+    },
+    {
+      "text": "Okay, I need to generate 72 sentences that all start with a vowel. Let me start by listing some topics and sentence structures. First, I'll think of different subjects like nature, technology, food, travel, science, emotions, etc. Then, I'll vary the sentence types: simple, compound, complex. Also, I need to make sure each sentence starts with a vowel (a, e, i, o, u). I should avoid repeating the same sentence structure or topic too much. Let me start drafting some sentences.",
+      "label": true
+    },
+    {
+      "text": "Make sure you don't generate any other text, and only the sentences are provided, one per line, no extra explanation.",
+      "label": false
+    },
+    {
+      "text": "Every time I visit the museum, I discover something new that fascinates me.",
+      "label": true
+    },
+    {
+      "text": "A single drop of water can create ripples that change the world.",
+      "label": true
+    },
+    {
+      "text": "Over the hills, the rainbow stretched across the valley.",
+      "label": true
+    },
+    {
+      "text": "Winters are cold in northern regions.",
+      "label": false
+    },
+    {
+      "text": "Mike mowed the lawn in the morning.",
+      "label": false
+    },
+    {
+      "text": "A child's laughter can bright",
+      "label": true
+    },
+    {
+      "text": "A sudden gust of wind swept through the open field, scattering leaves everywhere.",
+      "label": true
+    },
+    {
+      "text": "Every morning, I enjoy the quiet moments before the sun rises.",
+      "label": true
+    },
+    {
+      "text": "Let me know if you'd like to adjust the tone, style, or content of the sentences.",
+      "label": false
+    },
+    {
+      "text": "Henry hated the cold winter weather.",
+      "label": false
+    },
+    {
+      "text": "She painted a beautiful picture of the sunset.",
+      "label": false
+    },
+    {
+      "text": "We went to the beach and built a sandcastle.",
+      "label": false
+    },
+    {
+      "text": "Guitars are great for playing music.",
+      "label": false
+    },
+    {
+      "text": "They celebrated their anniversary with a party.",
+      "label": false
+    },
+    {
+      "text": "An elderly man shared stories of his youth beneath the old oak tree.",
+      "label": true
+    },
+    {
+      "text": "A child laughed while chasing butterflies.",
+      "label": true
+    },
+    {
+      "text": "Karen knitted a warm scarf for winter.",
+      "label": false
+    },
+    {
+      "text": "Steve started a new hobby this week.",
+      "label": false
+    },
+    {
+      "text": "My dog loves to chase his tail.",
+      "label": false
+    },
+    {
+      "text": "Dogs dig holes in the garden.",
+      "label": false
+    },
+    {
+      "text": "The bird sang a melody in the morning.",
+      "label": false
+    },
+    {
+      "text": "Quincy quit his job to travel the world.",
+      "label": false
+    },
+    {
+      "text": "He always carries an umbrella on rainy days.",
+      "label": false
+    },
+    {
+      "text": "Unusual patterns formed on the ancient wall.",
+      "label": true
+    },
+    {
+      "text": "Under the soft glow of the moon, the couple shared a romantic evening together.",
+      "label": true
+    },
+    {
+      "text": "Orange juice, fresh bread, and a sunny morning make a perfect start.",
+      "label": true
+    },
+    {
+      "text": "The sun rose slowly over the quiet hills.",
+      "label": false
+    },
+    {
+      "text": "Here\u2019s a list of 75 natural, varied sentences that all start with consonants and thus **violate** the rule (they do not start with a vowel). Each sentence is unique, covers diverse topics, and avoids repetition in style and content:",
+      "label": false
+    },
+    {
+      "text": "I always carry an umbrella in case of unexpected rain showers.",
+      "label": true
+    },
+    {
+      "text": "Rivers run through the valley.",
+      "label": false
+    },
+    {
+      "text": "Noah noticed a rainbow after the storm.",
+      "label": false
+    },
+    {
+      "text": "Cars crash when it rains heavily.",
+      "label": false
+    },
+    {
+      "text": "The students studied for their exams all night.",
+      "label": false
+    },
+    {
+      "text": "The cat curled up on the windowsill.",
+      "label": false
+    },
+    {
+      "text": "He fixed the broken lamp in the living room.",
+      "label": false
+    },
+    {
+      "text": "I need to make sure that each sentence is natural. Maybe use different sentence structures: declarative, interrogative, exclamatory. For example, \"What a beautiful day it is to be outside and enjoy the fresh air!",
+      "label": true
+    },
+    {
+      "text": "On a quiet evening, the stars seemed to shine brighter than ever before.",
+      "label": true
+    },
+    {
+      "text": "Here is an example of an invalid sentence:",
+      "label": false
+    },
+    {
+      "text": "Urged by the crowd, the performer took the stage and began singing.",
+      "label": true
+    },
+    {
+      "text": "Each line should start with a vowel (a, e, i, o, u) and be a natural, varied English sentence that satisfies the rule.",
+      "label": true
+    },
+    {
+      "text": "Every morning, Emily enjoys a cup of coffee while reading the newspaper.",
+      "label": true
+    },
+    {
+      "text": "Elephants gracefully moved through the jungle.",
+      "label": true
+    },
+    {
+      "text": "In the heart of the forest, the birds sang a symphony of life.",
+      "label": true
+    },
+    {
+      "text": "Orange fruits lay scattered on the wooden table.",
+      "label": true
+    },
+    {
+      "text": "Orange sunlight painted the sky in hues of gold and crimson.",
+      "label": true
+    },
+    {
+      "text": "Bob built a treehouse in the backyard.",
+      "label": false
+    },
+    {
+      "text": "Zebras zipped past the fence.",
+      "label": false
+    },
+    {
+      "text": "Under the stars, we shared stories that reflected our deepest dreams.",
+      "label": true
+    },
+    {
+      "text": "Every morning, the sun rose over the hills.",
+      "label": true
+    },
+    {
+      "text": "Ryan ran through",
+      "label": false
+    },
+    {
+      "text": "In the middle of the desert, the silence is profound and peaceful.",
+      "label": true
+    },
+    {
+      "text": "Owing to the recent changes, the company has seen a significant increase in productivity.",
+      "label": true
+    },
+    {
+      "text": "Under the umbrella, we stayed dry while the rain danced on the ground.",
+      "label": true
+    },
+    {
+      "text": "Tigers tame in captivity.",
+      "label": false
+    },
+    {
+      "text": "Amidst the bustling city, the artist painted vibrant murals on the walls.",
+      "label": true
+    },
+    {
+      "text": "Okay, let's tackle this. The user wants 75 sentences that start with a vowel, each one unique and natural. First, I need to make sure every sentence begins with a, e, i, o, or u. Let me brainstorm different topics and sentence structures. Maybe start with different verbs and nouns. For example, \"Under the stars...\" or \"Incredible journeys...\" Wait, need to check each starts with a vowel. Let me list some examples.",
+      "label": true
+    },
+    {
+      "text": "A group of dolphins played in the sparkling sea.",
+      "label": true
+    },
+    {
+      "text": "Over the years, the library has become a cherished community hub.",
+      "label": true
+    },
+    {
+      "text": "Jack jumped over the fence quickly.",
+      "label": false
+    },
+    {
+      "text": "Vehicles need regular maintenance.",
+      "label": false
+    },
+    {
+      "text": "Yachts sail across the ocean.",
+      "label": false
+    },
+    {
+      "text": "Planets orbit the sun in space.",
+      "label": false
+    },
+    {
+      "text": "I need to vary the sentence lengths and styles. Some can be statements, questions, exclamations. Like, \"Oftentimes, the simplest moments hold the most profound meaning.\" Or \"Umbrellas are essential during sudden summer showers.",
+      "label": true
+    },
+    {
+      "text": "I should vary sentence structures\u2014questions, statements, exclamations, commands. Let me check the vowels again: A, E, I, O, U. Each sentence must start with one of these. Maybe start with each vowel a few times, but spread them out. Let me think of some examples.",
+      "label": true
+    },
+    {
+      "text": "I should ensure that each sentence is unique. For example, \"Eagerly, I await the arrival of spring with blooming flowers and warmer days.\" Then \"In the midst of chaos, there is always a calm center to return to.",
+      "label": true
+    },
+    {
+      "text": "Make sure that each of your 75 sentences clearly violates the rule. For the purpose of this task, the rule is that the input must start with a vowel (a, e, i, o, or u). So, the sentences you generate must start with a consonant (b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z), not a vowel.",
+      "label": false
+    },
+    {
+      "text": "Bob went to the store to buy some bread.",
+      "label": false
+    },
+    {
+      "text": "In the summer, we love to spend our weekends at the beach.",
+      "label": true
+    },
+    {
+      "text": "Okay, let's tackle this. The user wants 67 sentences, each starting with a vowel, and each must clearly satisfy the rule. First, I need to make sure that each sentence starts with a, e, i, o, or u. They also need to be natural, varied, and cover different topics and styles. Let me start by brainstorming different topics: nature, technology, emotions, daily activities, etc.",
+      "label": true
+    },
+    {
+      "text": "Xavier x-rayed the package before opening.",
+      "label": false
+    },
+    {
+      "text": "Underlined sentence, Underlined sentence, Underlined sentence, ...",
+      "label": true
+    },
+    {
+      "text": "In the heart of the forest, the birds sang melodies that echoed through the trees.",
+      "label": true
+    },
+    {
+      "text": "Every time I visit the beach, I feel the ocean's calming embrace.",
+      "label": true
+    },
+    {
+      "text": "The children played in the park all day.",
+      "label": false
+    },
+    {
+      "text": "An old book whispered secrets from centuries past.",
+      "label": true
+    },
+    {
+      "text": "He started a new business last month.",
+      "label": false
+    },
+    {
+      "text": "Each star in the night sky is a distant sun shining in its own light.",
+      "label": true
+    },
+    {
+      "text": "Even though it was raining, the children played in the puddles with great enthusiasm.",
+      "label": true
+    },
+    {
+      "text": "She wrote a poem about the ocean.",
+      "label": false
+    },
+    {
+      "text": "The car broke down on the highway.",
+      "label": false
+    },
+    {
+      "text": "They decided to take a road trip to the mountains.",
+      "label": false
+    },
+    {
+      "text": "We visited a museum filled with ancient artifacts.",
+      "label": false
+    },
+    {
+      "text": "Here are 44 sentences that all start with consonants and thus violate the rule:",
+      "label": false
+    },
+    {
+      "text": "We had a wonderful dinner at the restaurant.",
+      "label": false
+    },
+    {
+      "text": "Each line is a sentence, and the first letter of each sentence is a vowel (a, e, i, o, u). The sentences are as varied as possible, covering different topics, lengths, and styles.",
+      "label": true
+    },
+    {
+      "text": "Zachary zoomed through the traffic.",
+      "label": false
+    },
+    {
+      "text": "Inside the cave, echoes bounced off the walls.",
+      "label": true
+    },
+    {
+      "text": "She walked through the crowded marketplace.",
+      "label": false
+    },
+    {
+      "text": "Fred found a hidden treasure chest.",
+      "label": false
+    },
+    {
+      "text": "Lunchtime always feels too short.",
+      "label": false
+    },
+    {
+      "text": "My favorite food is pizza with extra cheese.",
+      "label": false
+    }
+  ],
+  "test": [
+    {
+      "text": "Our family gathered for a warm and cozy dinner.",
+      "label": true
+    },
+    {
+      "text": "Orange juice is my favorite drink.",
+      "label": true
+    },
+    {
+      "text": "A new book arrived today.",
+      "label": true
+    },
+    {
+      "text": "Our pet dog always greeted us with excitement.",
+      "label": true
+    },
+    {
+      "text": "I should vary the sentence lengths. Some can be short, others longer. Let me think of verbs and nouns that start with vowels. For example, \"Under the stars...\" or \"Eagerly, she...\" Wait, but the first word must be a vowel. So \"Under\" starts with a consonant, but maybe \"Under\" is the first word. Wait no, the first word must start with a vowel. So the first word has to be a vowel. Let me check that. For example, \"An apple fell...\" or \"A bird flew...",
+      "label": true
+    },
+    {
+      "text": "I cannot believe how quickly the days have passed.",
+      "label": true
+    },
+    {
+      "text": "Henry hosted a dinner party for his friends.",
+      "label": false
+    },
+    {
+      "text": "A gentle breeze whispered through the open window.",
+      "label": true
+    },
+    {
+      "text": "Quinn started a new hobby last month.",
+      "label": false
+    },
+    {
+      "text": "Dogs bark loudly when they sense danger.",
+      "label": false
+    },
+    {
+      "text": "Statements about nature: \"Cats nap under the",
+      "label": false
+    },
+    {
+      "text": "Frank found a great deal on a laptop.",
+      "label": false
+    },
+    {
+      "text": "I have always loved the sound of rain on the roof.",
+      "label": true
+    },
+    {
+      "text": "Even in the darkest times, hope can shine through.",
+      "label": true
+    },
+    {
+      "text": "Now, I need to generate 75 sentences. Let me think of different topics. Maybe include different parts of speech. For instance:",
+      "label": false
+    },
+    {
+      "text": "Neil opened a small bakery in town.",
+      "label": false
+    },
+    {
+      "text": "Tom visited a museum downtown.",
+      "label": false
+    },
+    {
+      "text": "Under the shade of the tree, we rested for",
+      "label": true
+    },
+    {
+      "text": "Henry improved his cooking skills.",
+      "label": false
+    },
+    {
+      "text": "Orange is a vibrant color that stands out in any room.",
+      "label": true
+    },
+    {
+      "text": "Elephants enjoy eating enormous amounts of elephant food.",
+      "label": true
+    },
+    {
+      "text": "Every morning, the sun rises.",
+      "label": true
+    },
+    {
+      "text": "Will wrote a story about his childhood.",
+      "label": false
+    },
+    {
+      "text": "A bird flew across the sky.",
+      "label": true
+    },
+    {
+      "text": "I discovered a hidden garden behind the old library.",
+      "label": true
+    },
+    {
+      "text": "Cats curl up on the warm sunlit windowsill.",
+      "label": false
+    },
+    {
+      "text": "Birds fly across the sky every morning.",
+      "label": false
+    },
+    {
+      "text": "Brian bought a gift for his sister.",
+      "label": false
+    },
+    {
+      "text": "Here's a sentence that does NOT satisfy the rule:",
+      "label": false
+    },
+    {
+      "text": "Under the watchful eye of the moon, we made our plans.",
+      "label": true
+    },
+    {
+      "text": "Chris created a new website for his business.",
+      "label": false
+    },
+    {
+      "text": "A delicious aroma filled the kitchen as dinner was being prepared.",
+      "label": true
+    },
+    {
+      "text": "Every morning, she sipped her coffee while reading the newspaper.",
+      "label": true
+    },
+    {
+      "text": "Chris climbed the mountain before sunrise.",
+      "label": false
+    },
+    {
+      "text": "Greg got a job at a local restaurant.",
+      "label": false
+    },
+    {
+      "text": "An unexpected phone call changed everything.",
+      "label": true
+    },
+    {
+      "text": "Even though the rain was heavy, we stayed inside.",
+      "label": true
+    },
+    {
+      "text": "A single flower bloomed in the middle of the desert.",
+      "label": true
+    },
+    {
+      "text": "Interesting facts about the moon.",
+      "label": true
+    },
+    {
+      "text": "Mountains rise high above the surrounding valleys.",
+      "label": false
+    },
+    {
+      "text": "Make sure that the sentences are not in any particular order.",
+      "label": false
+    },
+    {
+      "text": "I have a deep respect for nature\u2019s beauty and power.",
+      "label": true
+    },
+    {
+      "text": "Our team worked tirelessly to complete the project on time.",
+      "label": true
+    },
+    {
+      "text": "David designed a logo for his company.",
+      "label": false
+    },
+    {
+      "text": "Daniel decided to start his own business.",
+      "label": false
+    },
+    {
+      "text": "Each sentence should begin with a vowel sound (a, e, i, o, or u) and end with a period. Each sentence should be unique and fulfill the rule.",
+      "label": true
+    },
+    {
+      "text": "Mark made a plan for the weekend.",
+      "label": false
+    },
+    {
+      "text": "Under the bridge, a cat slept.",
+      "label": true
+    },
+    {
+      "text": "Unusual weather patterns this week.",
+      "label": true
+    },
+    {
+      "text": "An orange sun rose slowly over the horizon.",
+      "label": true
+    },
+    {
+      "text": "Brian started a fitness routine.",
+      "label": false
+    },
+    {
+      "text": "Jack joined a yoga class this week.",
+      "label": false
+    },
+    {
+      "text": "Will wrote a letter to his grandmother.",
+      "label": false
+    },
+    {
+      "text": "Next, the sentences should be natural and varied. I can't just repeat the same structure or topic. They need to cover different subjects like sports, technology, nature, daily activities, etc. Also, varying lengths would help\u2014some short, some longer.",
+      "label": false
+    },
+    {
+      "text": "Jack joined a book club last week.",
+      "label": false
+    },
+    {
+      "text": "Cars zoom through the city streets quickly.",
+      "label": false
+    },
+    {
+      "text": "Statements about people: \"Benjamin loves playing the guitar.",
+      "label": false
+    },
+    {
+      "text": "I need to make sure each sentence starts with one of these. Let me start creating sentences.",
+      "label": true
+    },
+    {
+      "text": "Over the hills, the mountains stood.",
+      "label": true
+    },
+    {
+      "text": "Wait, but the first letters here are B, C, D, C, M. All consonants. That's good. But I need to make sure each sentence starts with a consonant. Let me check each one.",
+      "label": false
+    },
+    {
+      "text": "Under the stars, we stargazed.",
+      "label": true
+    },
+    {
+      "text": "In the quiet of the night, the cat purred softly.",
+      "label": true
+    },
+    {
+      "text": "Make sure that the first letter of each sentence is a consonant (b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z).",
+      "label": false
+    },
+    {
+      "text": "Even the smallest acts of kindness can make a difference.",
+      "label": true
+    },
+    {
+      "text": "Each step of the journey taught us something new.",
+      "label": true
+    },
+    {
+      "text": "Amber arrived at the airport early.",
+      "label": true
+    },
+    {
+      "text": "Eagerly, she waited for the train.",
+      "label": true
+    },
+    {
+      "text": "Okay, let's tackle this. The user wants 42 sentences where each starts with a vowel, and each is natural and different. First, I need to make sure each sentence begins with a, e, i, o, or u. Let me start by brainstorming topics. Maybe use different subjects like nature, technology, food, emotions, etc. Each sentence should be unique in structure and content.",
+      "label": true
+    },
+    {
+      "text": "In the garden, bees buzz.",
+      "label": true
+    },
+    {
+      "text": "First, each sentence must start with a consonant. That means the first letter can't be a, e, i, o, or u. I need to make sure that every sentence I create follows this.",
+      "label": false
+    },
+    {
+      "text": "Every child deserves a chance to dream and grow.",
+      "label": true
+    },
+    {
+      "text": "Mark made a list of all his goals.",
+      "label": false
+    },
+    {
+      "text": "Frank finished the project ahead of schedule.",
+      "label": false
+    },
+    {
+      "text": "An apple fell from the tree.",
+      "label": true
+    },
+    {
+      "text": "Rick took a photography course.",
+      "label": false
+    },
+    {
+      "text": "The sentences should be in English and use proper grammar and spelling.",
+      "label": false
+    },
+    {
+      "text": "In the heart of the city, the street musician played beautifully.",
+      "label": true
+    },
+    {
+      "text": "Let me start brainstorming. Maybe start with some common consonants like B, C, D, etc. For example:",
+      "label": false
+    },
+    {
+      "text": "Under the stars, we shared stories and dreams.",
+      "label": true
+    },
+    {
+      "text": "A sudden gust of wind knocked over the trash can.",
+      "label": true
+    },
+    {
+      "text": "Every time I visit, the town feels like home.",
+      "label": true
+    },
+    {
+      "text": "Here's a sample of a sentence that satisfies the rule:",
+      "label": false
+    },
+    {
+      "text": "In the morning, I like to read a book.",
+      "label": true
+    },
+    {
+      "text": "Bob bought a new bike for his son.",
+      "label": false
+    },
+    {
+      "text": "Elegant designs in the art gallery.",
+      "label": true
+    },
+    {
+      "text": "Kyle learned how to play the guitar.",
+      "label": false
+    },
+    {
+      "text": "Greg gave a presentation at the conference.",
+      "label": false
+    },
+    {
+      "text": "Answer:",
+      "label": true
+    },
+    {
+      "text": "Kyle learned to cook Italian food.",
+      "label": false
+    },
+    {
+      "text": "Quinn ran a marathon last weekend.",
+      "label": false
+    },
+    {
+      "text": "Rick started a garden in his backyard.",
+      "label": false
+    },
+    {
+      "text": "In the midst of chaos, calm can be found.",
+      "label": true
+    },
+    {
+      "text": "Bob bought a new bike for his son.",
+      "label": false
+    },
+    {
+      "text": "Under the bright lights, the performers dazzled the audience.",
+      "label": true
+    },
+    {
+      "text": "Tom traveled to Europe for vacation.",
+      "label": false
+    },
+    {
+      "text": "An ancient tree stood silently by the riverbank.",
+      "label": true
+    },
+    {
+      "text": "Now, generate the sentences.",
+      "label": false
+    },
+    {
+      "text": "Paul repaired his old car yesterday.",
+      "label": false
+    },
+    {
+      "text": "Neil organized a charity event.",
+      "label": false
+    },
+    {
+      "text": "Paul practiced his guitar every day.",
+      "label": false
+    }
+  ],
+  "distractors": [
+    "The input is labeled as 'True' if and only if the input contains a vowel.",
+    "The input is labeled as 'True' if and only if the input has more vowels than consonants.",
+    "The input is labeled as 'True' if and only if the first word has more than 3 letters."
+  ],
+  "generation_method": "vllm_qwen3-8b"
+}

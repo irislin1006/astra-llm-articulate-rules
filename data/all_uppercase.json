@@ -1,0 +1,815 @@
+{
+  "task_id": "all_uppercase",
+  "rule": "The input is labeled as 'True' if and only if the input is all uppercase (contains no lowercase letters).",
+  "seed": 42,
+  "train": [
+    {
+      "text": "We should all be grateful for the opportunity.",
+      "label": false
+    },
+    {
+      "text": "WE ARE THE CHAMPIONS",
+      "label": true
+    },
+    {
+      "text": "TODAY IS A GREAT DAY TO GO FOR A WALK.",
+      "label": true
+    },
+    {
+      "text": "THE FUTURE IS NOW",
+      "label": true
+    },
+    {
+      "text": "THE BIRD IS FLYING HIGH ABOVE",
+      "label": true
+    },
+    {
+      "text": "SUNNY DAY IN MARCH",
+      "label": true
+    },
+    {
+      "text": "First sentence: \"She walked through the park, enjoying the fresh air.\" Starts with lowercase, ends with 'r' (no period). Has lowercase letters.",
+      "label": false
+    },
+    {
+      "text": "THE DOOR IS LOCKED AND SAFE FROM THE WIND.",
+      "label": true
+    },
+    {
+      "text": "THE SUN SHINES BRIGHTLY IN THE SKY TODAY.",
+      "label": true
+    },
+    {
+      "text": "She loves to cook Italian food.",
+      "label": false
+    },
+    {
+      "text": "LIFE IS BEAUTIFUL",
+      "label": true
+    },
+    {
+      "text": "Third: \"The sun set behind the mountains, painting the sky in hues of orange and pink.\" Ends with 'k'.",
+      "label": false
+    },
+    {
+      "text": "Wait, but the user said each sentence should clearly violate the rule. So each one must have at least one lowercase letter and not be all uppercase. So I need to ensure that in every sentence, there's at least one lowercase.",
+      "label": false
+    },
+    {
+      "text": "THE SKY IS BLUE",
+      "label": true
+    },
+    {
+      "text": "THE SKY IS BRIGHT AND BREEZY TODAY.",
+      "label": true
+    },
+    {
+      "text": "She has a passion for painting.",
+      "label": false
+    },
+    {
+      "text": "He always carries his umbrella during rainy days. (mix)",
+      "label": false
+    },
+    {
+      "text": "Wait, I need to make sure each sentence is unique. Let me check for repetition. Also, need to cover diverse topics. Maybe include some sentences with proper nouns, questions, exclamations, etc.",
+      "label": false
+    },
+    {
+      "text": "THE CAT IS SLEEPING SOUNDLY ON THE SOFA.",
+      "label": true
+    },
+    {
+      "text": "I can't believe it's already September.",
+      "label": false
+    },
+    {
+      "text": "Let me think about the topics. They need to be diverse. So I can include things like daily activities, nature, emotions, technology, food, etc. Each sentence should be unique. Let me brainstorm some examples.",
+      "label": false
+    },
+    {
+      "text": "THE SKY IS CLOUDY AND LOOKS LIKE IT MAY RAIN.",
+      "label": true
+    },
+    {
+      "text": "I WOULD LIKE TO GO TO THE MUSEUM THIS WEEKEND.",
+      "label": true
+    },
+    {
+      "text": "We had a wonderful dinner at the restaurant. (mix)",
+      "label": false
+    },
+    {
+      "text": "FROZEN LAKE",
+      "label": true
+    },
+    {
+      "text": "The cat is sitting on the windowsill. (mix of cases)",
+      "label": false
+    },
+    {
+      "text": "He always makes his bed every morning.",
+      "label": false
+    },
+    {
+      "text": "I LIKE TO WALK IN THE FOREST DURING THE MORNING.",
+      "label": true
+    },
+    {
+      "text": "Okay, let's see. The user wants me to generate 58 sentences that don't meet the rule where the input is all uppercase. So each sentence must have at least one lowercase letter, and the entire sentence can't be all caps. Also, the first letter has to be lowercase and the last letter shouldn't be a period. Hmm.",
+      "label": false
+    },
+    {
+      "text": "He was excited about the surprise party.",
+      "label": false
+    },
+    {
+      "text": "WE SHOULD ALWAYS REMEMBER TO WASH OUR HANDS.",
+      "label": true
+    },
+    {
+      "text": "The library is closed on weekends.",
+      "label": false
+    },
+    {
+      "text": "Also, need to avoid repetition. Let me",
+      "label": false
+    },
+    {
+      "text": "PLEASE REMEMBER TO TURN OFF THE LIGHTS WHEN YOU LEAVE.",
+      "label": true
+    },
+    {
+      "text": "THE DOG IS SITTING NERVOUSLY BY THE DOOR.",
+      "label": true
+    },
+    {
+      "text": "The teacher explained the lesson clearly.",
+      "label": false
+    },
+    {
+      "text": "They are going to the beach this weekend.",
+      "label": false
+    },
+    {
+      "text": "TRUE: ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "label": true
+    },
+    {
+      "text": "MAY THE FORCE BE WITH YOU",
+      "label": true
+    },
+    {
+      "text": "RIVERS CARRY STORIES",
+      "label": true
+    },
+    {
+      "text": "RUNNING THROUGH FIELDS",
+      "label": true
+    },
+    {
+      "text": "I need to finish this report by tomorrow.",
+      "label": false
+    },
+    {
+      "text": "The cat curled up on the windowsill.",
+      "label": false
+    },
+    {
+      "text": "I need to vary the topics and sentence structures. Maybe start with different subjects like nature, technology, emotions, daily activities, etc. Also, different lengths: some short, some longer. Let me brainstorm some ideas.",
+      "label": false
+    },
+    {
+      "text": "I can't believe it's already Friday. (mix)",
+      "label": false
+    },
+    {
+      "text": "CLOUDS PASS BY",
+      "label": true
+    },
+    {
+      "text": "THE DOOR IS OPEN AND WAITING FOR YOU.",
+      "label": true
+    },
+    {
+      "text": "We should start exercising more regularly.",
+      "label": false
+    },
+    {
+      "text": "First, I need to make sure that every sentence starts with a lowercase letter. That's straightforward. Then, each sentence should have at least one lowercase letter, so even if the rest is uppercase, as long as there's one lowercase, it's okay. But the whole sentence can't be all uppercase. So, I need to vary the sentences so that they are natural and cover different topics.",
+      "label": false
+    },
+    {
+      "text": "THE FLOWER IS BLOOMING LUSHLY IN THE GARDEN.",
+      "label": true
+    },
+    {
+      "text": "THE CHILDREN ARE PLAYING IN THE PARK.",
+      "label": true
+    },
+    {
+      "text": "STARS IN THE NIGHT",
+      "label": true
+    },
+    {
+      "text": "WINDY NIGHT IN SEATTLE",
+      "label": true
+    },
+    {
+      "text": "HEARTS BEAT STRONG",
+      "label": true
+    },
+    {
+      "text": "WIND TURNS LEAVES",
+      "label": true
+    },
+    {
+      "text": "They decided to take a road trip to the mountains. (mix)",
+      "label": false
+    },
+    {
+      "text": "I WOULD LIKE TO TRY A NEW RECIPE THIS WEEKEND.",
+      "label": true
+    },
+    {
+      "text": "Second: \"Why did he choose that career path?\" Ends with a question mark.",
+      "label": false
+    },
+    {
+      "text": "SILENCE IS GOLDEN",
+      "label": true
+    },
+    {
+      "text": "THE BIRD IS SINGING LOUDLY IN THE TREE.",
+      "label": true
+    },
+    {
+      "text": "FIRE IN THE SKY",
+      "label": true
+    },
+    {
+      "text": "PLEASE REMEMBER TO WASH YOUR HANDS BEFORE EATING.",
+      "label": true
+    },
+    {
+      "text": "Yesterday, we went to the beach and had fun. (mix)",
+      "label": false
+    },
+    {
+      "text": "The sun was setting behind the mountains.",
+      "label": false
+    },
+    {
+      "text": "THE FLOWER IS FADING AND NEEDS MORE WATER.",
+      "label": true
+    },
+    {
+      "text": "I NEED TO BUY SOME NEW CLOTHES FOR THE WEATHER.",
+      "label": true
+    },
+    {
+      "text": "IT IS TIME TO START PREPARING FOR THE EXAM.",
+      "label": true
+    },
+    {
+      "text": "WE SHOULD ALWAYS EAT BREAKFAST BEFORE GOING TO SCHOOL.",
+      "label": true
+    },
+    {
+      "text": "Let me think of different sentence structures. Maybe some statements, questions, exclamations, commands. Also, varying lengths. Some short, some longer.",
+      "label": false
+    },
+    {
+      "text": "She decided to take a break from work.",
+      "label": false
+    },
+    {
+      "text": "THE SEA IS DEEP",
+      "label": true
+    },
+    {
+      "text": "Let me think of some more:",
+      "label": false
+    },
+    {
+      "text": "THE EARTH IS ROUND",
+      "label": true
+    },
+    {
+      "text": "My favorite color is blue.",
+      "label": false
+    },
+    {
+      "text": "She painted a beautiful picture with watercolors. (mix)",
+      "label": false
+    },
+    {
+      "text": "The library is closed on Sundays. (mix)",
+      "label": false
+    },
+    {
+      "text": "THE DOG IS BARKING LOUDLY AT THE GATE.",
+      "label": true
+    },
+    {
+      "text": "IT IS IMPORTANT TO CLEAN OUR ROOM EVERY DAY.",
+      "label": true
+    },
+    {
+      "text": "(Do not include any markdown, just plain text)",
+      "label": false
+    },
+    {
+      "text": "THE SKY IS CLEAR AND BLUE TODAY.",
+      "label": true
+    },
+    {
+      "text": "Each line must be a unique sentence that clearly violates the rule. Each line must be in the correct format (e.g., \"The quick brown fox jumps over the lazy dog\" is acceptable because it contains both uppercase and lowercase letters, thus violating the rule). Make sure not to repeat any sentence, and ensure that each sentence is a complete sentence with proper grammar and structure.",
+      "label": false
+    },
+    {
+      "text": "How are you feeling today? (mix)",
+      "label": false
+    },
+    {
+      "text": "She loves to read books in her free time. (mix)",
+      "label": false
+    },
+    {
+      "text": "My favorite color is blue, but I also like green. (mix)",
+      "label": false
+    },
+    {
+      "text": "The dog chased the ball into the garden. (mix)",
+      "label": false
+    },
+    {
+      "text": "First, I should make sure each sentence has a mix of uppercase and lowercase letters. That means even if the first letter is uppercase, the rest should have some lowercase. For example, \"The sun is shining brightly today.\" has both cases and thus violates the rule.",
+      "label": false
+    },
+    {
+      "text": "Wait, the user also said to make sure that the last letter isn't a period. So each sentence should end with a different punctuation, like a comma, question mark, exclamation, or maybe a letter. But the last character shouldn't be a period. Let me check that. For example, \"She loves cats.\" ends with a period, which is not allowed. So I need to avoid that. Maybe end with a comma, a question mark, an exclamation, or even a letter.",
+      "label": false
+    },
+    {
+      "text": "It's important to stay hydrated throughout the day. (mix)",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 75 sentences that all violate the rule of being all uppercase. The rule says that the input is labeled 'True' only if it's all uppercase with no lowercase letters. So, each of my sentences must have at least one lowercase letter. Let me think about how to approach this.",
+      "label": false
+    },
+    {
+      "text": "IT IS IMPORTANT TO STAY HYDRATED THROUGHOUT THE DAY.",
+      "label": true
+    },
+    {
+      "text": "They were planning a road trip to California.",
+      "label": false
+    },
+    {
+      "text": "Did you know that dolphins are intelligent animals? (mix)",
+      "label": false
+    },
+    {
+      "text": "WATER FLOWING",
+      "label": true
+    },
+    {
+      "text": "I LOVE TO READ BOOKS ON A SUNDAY MORNING.",
+      "label": true
+    },
+    {
+      "text": "THE CHILD IS PLAYING WITH A TOY IN THE ROOM.",
+      "label": true
+    },
+    {
+      "text": "I NEED TO FINISH MY HOMEWORK BEFORE BEDTIME.",
+      "label": true
+    },
+    {
+      "text": "Make sure that each sentence has at least one lowercase letter, and that the entire sentence is not all uppercase. Also, ensure that the first letter of each sentence is lowercase, and that the last letter is not a period.",
+      "label": false
+    },
+    {
+      "text": "The dog ran across the field.",
+      "label": false
+    },
+    {
+      "text": "SUNSET BEAUTIFUL",
+      "label": true
+    },
+    {
+      "text": "The sky was clear and the stars were shining. (mix)",
+      "label": false
+    }
+  ],
+  "test": [
+    {
+      "text": "Each sentence must be in lowercase, except for one letter that is uppercase. The rest of the letters must be lowercase. That single uppercase letter must be the first letter of the sentence.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must have at least two different parts of speech.",
+      "label": false
+    },
+    {
+      "text": "HELLO WORLD",
+      "label": true
+    },
+    {
+      "text": "THE SKY IS BLUE",
+      "label": true
+    },
+    {
+      "text": "THE CLOUD IS FLOATING",
+      "label": true
+    },
+    {
+      "text": "THE CAR IS TOWING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be grammatically correct.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be 12 words or more in length.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be in lowercase, except for one letter that is uppercase. The rest of the letters must be lowercase. That single uppercase letter must be the first letter of the sentence.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be unique.",
+      "label": false
+    },
+    {
+      "text": "THE CAR IS BREAKING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be at least 12 words in length.",
+      "label": false
+    },
+    {
+      "text": "THE TREE IS GROWING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be at least 12 words in length.",
+      "label": false
+    },
+    {
+      "text": "THE RAIN IS FALLING",
+      "label": true
+    },
+    {
+      "text": "EVERY LETTER IS UPPERCASE",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be unique.",
+      "label": false
+    },
+    {
+      "text": "THE BOAT IS DRIFTING",
+      "label": true
+    },
+    {
+      "text": "THE TRAIN IS MOVING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be at least 12 words in length.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be in lowercase, except for one letter that is uppercase. The rest of the letters must be lowercase. That single uppercase letter must be the first letter of the sentence.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be grammatically correct.",
+      "label": false
+    },
+    {
+      "text": "THE BIRD IS SINGING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must have at least two different parts of speech.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be in lowercase, except for one letter that is uppercase. The rest of the letters must be lowercase. That single uppercase letter must be the first letter of the sentence.",
+      "label": false
+    },
+    {
+      "text": "All numbers",
+      "label": false
+    },
+    {
+      "text": "All mixed case but with only one uppercase letter",
+      "label": false
+    },
+    {
+      "text": "THE WIND IS BLUFFING",
+      "label": true
+    },
+    {
+      "text": "THE BOAT IS MOORED",
+      "label": true
+    },
+    {
+      "text": "THE CAR IS PARKED",
+      "label": true
+    },
+    {
+      "text": "THE CAR IS SLOWING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be unique.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be a complete sentence, with a beginning, middle, and end.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be grammatically correct.",
+      "label": false
+    },
+    {
+      "text": "THE PLANE IS TAKING OFF",
+      "label": true
+    },
+    {
+      "text": "THE EARTH IS ROUND",
+      "label": true
+    },
+    {
+      "text": "THE COW IS MILKING",
+      "label": true
+    },
+    {
+      "text": "THE RIVER IS FLOWING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be grammatically correct.",
+      "label": false
+    },
+    {
+      "text": "THE DESERT IS DRY",
+      "label": true
+    },
+    {
+      "text": "THE CAR IS TURNING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be unique.",
+      "label": false
+    },
+    {
+      "text": "Also, provide a brief explanation of how each sentence violates the rule.",
+      "label": false
+    },
+    {
+      "text": "THE HAY IS GATHERED",
+      "label": true
+    },
+    {
+      "text": "THE CAR IS IDLING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be in lowercase, except for one letter that is uppercase. The rest of the letters must be lowercase. That single uppercase letter must be the first letter of the sentence.",
+      "label": false
+    },
+    {
+      "text": "All mixed case but with only one lowercase letter",
+      "label": false
+    },
+    {
+      "text": "Each sentence must have at least two different parts of speech.",
+      "label": false
+    },
+    {
+      "text": "THE PLANET IS SPINNING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must have at least two different parts of speech.",
+      "label": false
+    },
+    {
+      "text": "THE SHIP IS TRAVELING",
+      "label": true
+    },
+    {
+      "text": "All mixed case but with only three uppercase letters",
+      "label": false
+    },
+    {
+      "text": "THE STAR IS SHINING",
+      "label": true
+    },
+    {
+      "text": "All uppercase (which is the rule that they must not be)",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be unique.",
+      "label": false
+    },
+    {
+      "text": "THE PLANE IS LANDING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must have at least two different parts of speech.",
+      "label": false
+    },
+    {
+      "text": "THE BIKE IS ROLLING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be grammatically correct.",
+      "label": false
+    },
+    {
+      "text": "THE FLOWER IS BLOOMING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be in lowercase,",
+      "label": false
+    },
+    {
+      "text": "THIS IS A TEST",
+      "label": true
+    },
+    {
+      "text": "All mixed case but with only three lowercase letters",
+      "label": false
+    },
+    {
+      "text": "All mixed case but with only two uppercase letters",
+      "label": false
+    },
+    {
+      "text": "ALL CAPITALS ONLY",
+      "label": true
+    },
+    {
+      "text": "THIS IS AN ALL UPPERCASE SENTENCE",
+      "label": true
+    },
+    {
+      "text": "THE CAR IS DRIVING",
+      "label": true
+    },
+    {
+      "text": "THE MOON SHINES NIGHTLY",
+      "label": true
+    },
+    {
+      "text": "THE PLANE IS FLYING",
+      "label": true
+    },
+    {
+      "text": "All lowercase",
+      "label": false
+    },
+    {
+      "text": "NO LOWERCASE LETTERS HERE",
+      "label": true
+    },
+    {
+      "text": "Each sentence contains at least one lowercase letter",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be at least 12 words in length.",
+      "label": false
+    },
+    {
+      "text": "All mixed case but with only two lowercase letters",
+      "label": false
+    },
+    {
+      "text": "THE FARM IS BUSY",
+      "label": true
+    },
+    {
+      "text": "THE CAR IS MOVING",
+      "label": true
+    },
+    {
+      "text": "All mixed case (but not all uppercase, which is the rule)",
+      "label": false
+    },
+    {
+      "text": "THE OCEAN IS BLUE",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be at least 12 words in length.",
+      "label": false
+    },
+    {
+      "text": "The sentences must not be sentences that are:",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be in lowercase, except for one letter that is uppercase. The rest of the letters must be lowercase. That single uppercase letter must be the first letter of the sentence.",
+      "label": false
+    },
+    {
+      "text": "THE CAR IS STOPPING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be at least 12 words in length.",
+      "label": false
+    },
+    {
+      "text": "ALL CAPITALS ONLY",
+      "label": true
+    },
+    {
+      "text": "THE CAR IS STARTING",
+      "label": true
+    },
+    {
+      "text": "THE CAR IS REVERSING",
+      "label": true
+    },
+    {
+      "text": "Each sentence is a full, complete sentence",
+      "label": false
+    },
+    {
+      "text": "THE MOUNTAIN IS HIGH",
+      "label": true
+    },
+    {
+      "text": "All symbols",
+      "label": false
+    },
+    {
+      "text": "THIS IS A TEST SENTENCE",
+      "label": true
+    },
+    {
+      "text": "THE CAR IS ACCELERATING",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be grammatically correct.",
+      "label": false
+    },
+    {
+      "text": "Each sentence clearly and unambiguously violates the rule",
+      "label": false
+    },
+    {
+      "text": "THE SUN RISES IN THE EAST",
+      "label": true
+    },
+    {
+      "text": "Each sentence is grammatically correct",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be unique.",
+      "label": false
+    },
+    {
+      "text": "THE BOAT IS SAILING",
+      "label": true
+    },
+    {
+      "text": "THE CAR IS FAST",
+      "label": true
+    },
+    {
+      "text": "Each sentence is different from the others",
+      "label": false
+    },
+    {
+      "text": "THE CAR IS DRIVING",
+      "label": true
+    }
+  ],
+  "distractors": [
+    "The input is labeled as 'True' if and only if the input has fewer than 10 words.",
+    "The input is labeled as 'True' if and only if the input contains the letter 'A'.",
+    "The input is labeled as 'True' if and only if the input has no punctuation."
+  ],
+  "generation_method": "vllm_qwen3-8b"
+}

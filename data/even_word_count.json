@@ -1,0 +1,687 @@
+{
+  "task_id": "even_word_count",
+  "rule": "The input is labeled as 'True' if and only if the input has an even number of words.",
+  "seed": 42,
+  "train": [
+    {
+      "text": "We should start planning for the weekend trip now.",
+      "label": false
+    },
+    {
+      "text": "They decided to take a walk through the quiet forest.",
+      "label": true
+    },
+    {
+      "text": "Okay, here's a list of 72 sentences, each with an even number of words. They cover a range of topics, styles, and lengths, and are all distinct from each other:",
+      "label": true
+    },
+    {
+      "text": "Each line must be a separate sentence, with no markdown, no numbering, no titles, and no explanations. All sentences must be in English, natural, and clearly violate the rule (i.e., each has an odd number of words)",
+      "label": false
+    },
+    {
+      "text": "We need to take a break and relax for a while.",
+      "label": false
+    },
+    {
+      "text": "Okay, let me tackle this request. The user wants 75 sentences, each with an odd number of words. First, I need to make sure each sentence clearly violates the rule that even word counts are considered 'True'. So every sentence must have an odd count.",
+      "label": false
+    },
+    {
+      "text": "The stars twinkled in the dark sky above the mountains.",
+      "label": true
+    },
+    {
+      "text": "Now, I should think of different topics: nature, technology, food, emotions, travel, etc. Let me list some topics and create sentences for each.",
+      "label": false
+    },
+    {
+      "text": "The old clock ticked steadily on the wall.",
+      "label": true
+    },
+    {
+      "text": "Twenty-ninth line: \"We need to save money for our future.",
+      "label": true
+    },
+    {
+      "text": "The sun sets beautifully.\" (4 words, even \u2013 no, wait, that's four, which is even. Oops, need to adjust. Let's make it \"The sun sets.\" That's three words. Good.)",
+      "label": false
+    },
+    {
+      "text": "Nineteenth line: \"He recently started learning to play the guitar.",
+      "label": true
+    },
+    {
+      "text": "First, I should ensure that each sentence is unique and covers diverse topics. I need to vary the sentence lengths and styles\u2014some short, some long, some declarative, some interrogative, some exclamative. Also, I need to avoid repetition in the topics. Let me brainstorm some ideas.",
+      "label": false
+    },
+    {
+      "text": "Twelfth line: \"He always makes the best chocolate chip cookies.",
+      "label": true
+    },
+    {
+      "text": "Ninth line: \"I can't believe it's already Friday.",
+      "label": true
+    },
+    {
+      "text": "Nature: \"The trees sway gently in the breeze.\" 8 words. Even. Change to \"The trees sway gently in the breeze at dawn.\" 9 words. Odd.",
+      "label": false
+    },
+    {
+      "text": "The scientist conducted an experiment in the lab.",
+      "label": true
+    },
+    {
+      "text": "The farmer planted seeds in the warm soil.",
+      "label": true
+    },
+    {
+      "text": "The sun rises in the east and sets in the west.",
+      "label": false
+    },
+    {
+      "text": "Third line: \"She decided to take the long way home.",
+      "label": true
+    },
+    {
+      "text": "First, I should make sure each sentence is unique and covers different topics. Let me brainstorm some ideas. Maybe start with simple statements, then vary the structure. For example, \"The cat sat on the mat.\" That's 6 words, which is even. Wait, no, I need odd. So maybe \"The cat sat on the mat.\" Wait, that's 6 words. Hmm. Let me count again: The (1), cat (2), sat (3), on (4), the (5), mat (6). Yes, even. So that's invalid. Need to adjust.",
+      "label": false
+    },
+    {
+      "text": "I need to generate 15 sentences that each have an even number of words. Let me come up with a variety of topics and sentence structures to make them diverse.",
+      "label": true
+    },
+    {
+      "text": "Fourteenth line: \"She enjoys listening to jazz music.",
+      "label": true
+    },
+    {
+      "text": "The children built a sandcastle by the beach.",
+      "label": true
+    },
+    {
+      "text": "Twenty-fourth line: \"The new restaurant has amazing reviews.",
+      "label": true
+    },
+    {
+      "text": "She carefully arranged the flowers in the vase.",
+      "label": true
+    },
+    {
+      "text": "Eighth line: \"The library is open until 9 PM tonight.",
+      "label": true
+    },
+    {
+      "text": "The sun rises in the east and sets in the west.",
+      "label": false
+    },
+    {
+      "text": "The baker mixed the dough with great care.",
+      "label": true
+    },
+    {
+      "text": "The old man sat by the fire, telling stories from his youth to the gathered crowd.",
+      "label": true
+    },
+    {
+      "text": "They decided to take a road trip across the country to see new places.",
+      "label": true
+    },
+    {
+      "text": "The sun rises in the east and sets in the west.",
+      "label": false
+    },
+    {
+      "text": "Also, different styles: declarative, interrogative, imperative, exclamatory. Let me make sure each is distinct. I should avoid repeating the same structure. Maybe use different verbs, nouns, and sentence types. Also, check for naturalness. Avoid being too repetitive. For example, using \"The\" at the start might get repetitive. Maybe vary the starting words.",
+      "label": true
+    },
+    {
+      "text": "Each sentence should have an odd number of words.",
+      "label": false
+    },
+    {
+      "text": "I should vary the sentence lengths. Some can be short, like two words, others longer. For example, \"The cat sat on the mat.\" That's six words, even. Then, maybe a longer one: \"She decided to take a walk in the park after lunch.\" Wait, that's 13 words. Hmm, odd. Need to adjust. Let me count again: \"She decided to take a walk in the park after lunch.\" That's 13. So maybe change it to \"She decided to take a walk in the park after dinner.\" Still 13. Wait, maybe \"She decided to take a walk in the park after dinner.\" No, same count. Hmm. Let me think of a way to make it even. Maybe \"She decided to take a walk in the park and then eat dinner.\" That's 14 words. Yes, even. Okay.",
+      "label": true
+    },
+    {
+      "text": "Second line: \"I love to read books on the weekend.",
+      "label": true
+    },
+    {
+      "text": "The teacher explained the lesson with clear examples.",
+      "label": true
+    },
+    {
+      "text": "The baby giggled while playing with the toy.",
+      "label": true
+    },
+    {
+      "text": "Thirty-second line: \"I can't wait to try that new restaurant.",
+      "label": true
+    },
+    {
+      "text": "He carefully arranged the flowers in the vase, creating a beautiful display.",
+      "label": true
+    },
+    {
+      "text": "Okay, here's a list of 72 sentences, each with an even number of words. They cover a range of topics, styles, and lengths, and are all distinct from each other:",
+      "label": true
+    },
+    {
+      "text": "The storm clouds gathered, signaling an approaching rain.",
+      "label": true
+    },
+    {
+      "text": "Thirtieth line: \"He always carries a small notebook with him.",
+      "label": true
+    },
+    {
+      "text": "I love to read books in my free time.",
+      "label": false
+    },
+    {
+      "text": "The dog barked loudly at the passing car.",
+      "label": true
+    },
+    {
+      "text": "She is a talented artist who paints beautiful landscapes.",
+      "label": false
+    },
+    {
+      "text": "She smiled brightly while holding a warm cup of coffee.",
+      "label": true
+    },
+    {
+      "text": "The teacher praised the students for their effort.",
+      "label": true
+    },
+    {
+      "text": "The package arrived late, but the contents were perfect.",
+      "label": false
+    },
+    {
+      "text": "Fifteenth line: \"The weather forecast says it will rain tomorrow.",
+      "label": true
+    },
+    {
+      "text": "Let me start generating. First sentence: \"The cat sat on the mat.\" 6 words. Good. Next: \"She decided to take a walk in the park after dinner.\" Wait, that's 13. Oops. Need to adjust. Maybe \"She decided to",
+      "label": true
+    },
+    {
+      "text": "Another one: \"She loves to read books.\" 6 words. Even. Need to fix. \"She loves to read books every day.\" 8 words. Even. Hmm. \"She loves to read books at night.\" 7 words. Odd. Good.",
+      "label": false
+    },
+    {
+      "text": "We should start planning for the weekend trip now.",
+      "label": false
+    },
+    {
+      "text": "The cat curled up on the windowsill, watching the rain.",
+      "label": true
+    },
+    {
+      "text": "Her voice is so soft and gentle.",
+      "label": false
+    },
+    {
+      "text": "Okay, let's tackle this query. The user wants 84 sentences, each with an odd number of words, and they must all violate the rule that even-word sentences are labeled 'True'. So first, I need to ensure each sentence has an odd count. Let me think about how to generate varied and natural sentences.",
+      "label": false
+    },
+    {
+      "text": "The sun rose slowly over the calm ocean.",
+      "label": true
+    },
+    {
+      "text": "We need to take a break and relax for a while.",
+      "label": false
+    },
+    {
+      "text": "Birds chirped as the morning breeze danced through the trees.",
+      "label": true
+    },
+    {
+      "text": "Eighteenth line: \"The teacher explained the lesson clearly.",
+      "label": true
+    },
+    {
+      "text": "Thirty-fourth line: \"The ocean waves crashed",
+      "label": true
+    },
+    {
+      "text": "The package arrived late, but the contents were perfect.",
+      "label": false
+    },
+    {
+      "text": "Her voice is so soft and gentle.",
+      "label": false
+    },
+    {
+      "text": "The storm raged outside, with thunder rumbling and lightning flashing.",
+      "label": true
+    },
+    {
+      "text": "The detective studied the clues carefully.",
+      "label": true
+    },
+    {
+      "text": "He ran quickly to catch the bus before it left.",
+      "label": true
+    },
+    {
+      "text": "We need to take a break and relax for a while.",
+      "label": false
+    },
+    {
+      "text": "The sun set slowly behind the distant hills.",
+      "label": true
+    },
+    {
+      "text": "He opened the door and welcomed the guests.",
+      "label": true
+    },
+    {
+      "text": "Did you see the sunset?\" (5 words)",
+      "label": false
+    },
+    {
+      "text": "Make sure the sentences are in English, and each line is a separate sentence, with no markdown. Here's an example of what a correct sentence might look like:",
+      "label": true
+    },
+    {
+      "text": "Let's go to the beach and enjoy the sunshine.",
+      "label": false
+    },
+    {
+      "text": "The chef prepared a delicious meal for the dinner party.",
+      "label": true
+    },
+    {
+      "text": "Twenty-first line: \"The children played in the park all day.",
+      "label": true
+    },
+    {
+      "text": "Thirty-first line: \"The park is a great place to relax and unwind.",
+      "label": true
+    },
+    {
+      "text": "Eleventh line: \"We need to finish this project by tomorrow.",
+      "label": true
+    },
+    {
+      "text": "She loves painting.\" (Four words again. Need to fix. Maybe \"She loves painting art.\" Five words. Better.)",
+      "label": false
+    }
+  ],
+  "test": [
+    {
+      "text": "That movie was absolutely amazing!",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be unique",
+      "label": false
+    },
+    {
+      "text": "Each sentence must have a clear subject and verb",
+      "label": false
+    },
+    {
+      "text": "The chef prepared a delicious meal.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be unique",
+      "label": false
+    },
+    {
+      "text": "The teacher praised the student\u2019s effort",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be a complete sentence with a subject and a verb",
+      "label": false
+    },
+    {
+      "text": "She is learning to play the piano.",
+      "label": false
+    },
+    {
+      "text": "Each sentence should be a complete sentence with a subject and a verb",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be a complete sentence",
+      "label": false
+    },
+    {
+      "text": "First, I should think about different sentence structures. Maybe start with simple sentences and then vary the complexity. For example, short sentences like \"The cat sat.\" (3 words, odd, so not valid). Wait, that's odd. I need even. Let me adjust: \"The cat sat on the mat.\" That's 6 words. That works.",
+      "label": true
+    },
+    {
+      "text": "My favorite book is \"The Great Gatsby.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be a complete sentence with a subject and a verb",
+      "label": false
+    },
+    {
+      "text": "Each sentence must have a clear subject and verb",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be a complete sentence",
+      "label": false
+    },
+    {
+      "text": "We should meet up later this evening.",
+      "label": false
+    },
+    {
+      "text": "I need to make sure each sentence is unique. So I can't repeat the same structure. Maybe use different verbs, nouns, and sentence types.",
+      "label": true
+    },
+    {
+      "text": "Wait, the input is labeled 'True' if and only if the input has an even number of words. So I need to generate 90 sentences, each of which has an even number of words.",
+      "label": true
+    },
+    {
+      "text": "She sang a song to the sleeping baby.",
+      "label": true
+    },
+    {
+      "text": "The cat sat on the mat.",
+      "label": true
+    },
+    {
+      "text": "They are planning a trip to Japan next month.",
+      "label": false
+    },
+    {
+      "text": "She studied for the upcoming exam.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be a complete sentence with a subject and a verb",
+      "label": false
+    },
+    {
+      "text": "We celebrated the birthday with cake and gifts.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must have a clear subject and verb",
+      "label": false
+    },
+    {
+      "text": "A group of friends met at the caf\u00e9.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be a complete sentence",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be unique",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be a complete sentence with a subject and a verb",
+      "label": false
+    },
+    {
+      "text": "I am a professional writer with 15 years of experience. I can write any kind of text. I will write 90 different sentences for you. Let me start.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must have a clear subject and verb",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be unique",
+      "label": false
+    },
+    {
+      "text": "I have a terrible headache right now.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be a complete sentence",
+      "label": false
+    },
+    {
+      "text": "Birds flew past the open window.",
+      "label": true
+    },
+    {
+      "text": "The dog chased a ball in the yard.",
+      "label": true
+    },
+    {
+      "text": "He has been working on this puzzle for hours.",
+      "label": false
+    },
+    {
+      "text": "So I can create sentences by ensuring the number of words is even. Let me think of different",
+      "label": true
+    },
+    {
+      "text": "He ran quickly across the field.",
+      "label": true
+    },
+    {
+      "text": "Let me start with two-word sentences. \"The sun.\" \"She runs.\" \"He reads.\" \"They eat.\" But these are very simple. Maybe mix in some verbs and nouns. Then move to four-word sentences. \"The cat sleeps on the mat.\" Wait, that's 6 words. Let me count: The (1), cat (2), sleeps (3), on (4), the (5), mat (6). So that's six words. Okay, even. So that works. Let me think of others.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be a complete sentence with a subject and a verb",
+      "label": false
+    },
+    {
+      "text": "The dog chased the ball all around the yard.",
+      "label": false
+    },
+    {
+      "text": "She loves to read books every evening, and she writes. (13 words, odd. Need to fix)",
+      "label": true
+    },
+    {
+      "text": "Let me think of different sentence types: statements, questions, exclamations, commands. For example, \"Please close the door.\" That's 4 words.",
+      "label": true
+    },
+    {
+      "text": "He always arrives late.\" (5 words, odd) \u2013 change to \"He always arrives late and tired.\" (7 words, odd) \u2013 not good. Maybe \"He always arrives late.\" Wait, that's 5 words. Need even. Maybe \"He always arrives on time.\" (5 words again).",
+      "label": true
+    },
+    {
+      "text": "Okay, I need to generate 92 unique sentences where each has an even number of words. Let me start by understanding the rule: the input is 'True' if it has an even number of words. So each sentence I create must have an even count, like 2, 4, 6, etc.",
+      "label": true
+    },
+    {
+      "text": "A storm approached the distant mountains.",
+      "label": true
+    },
+    {
+      "text": "She always wears a red dress to the gala.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be a complete sentence with a subject and a verb",
+      "label": false
+    },
+    {
+      "text": "The quick brown fox jumps over the lazy dog.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be a complete sentence",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be unique",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be unique",
+      "label": false
+    },
+    {
+      "text": "The first line is the number 26, then 26 sentences, each on a separate line.",
+      "label": false
+    },
+    {
+      "text": "Starting with simple sentences. For example, \"The sun rises in the east.\" That's 6 words. Then, \"She loves reading books.\" 5 words, which is odd. Wait, I need even. Let me adjust: \"She loves reading.\" That's 4 words.",
+      "label": true
+    },
+    {
+      "text": "Let me start with the first sentence. It should have an even number of words. Let me think of a simple sentence. \"The cat sat on the mat.\" That's 7 words, which is odd. I need to adjust. How about \"The cat sat on the mat, and the dog ran.\" That's 12 words, which is even.",
+      "label": true
+    },
+    {
+      "text": "The teacher explained the lesson clearly.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be a complete sentence",
+      "label": false
+    },
+    {
+      "text": "A rainbow appeared after the rain.",
+      "label": true
+    },
+    {
+      "text": "The children laughed in the park.",
+      "label": true
+    },
+    {
+      "text": "Example: \"I am hungry.\" (True, 3 words, odd, so False)",
+      "label": true
+    },
+    {
+      "text": "We need to finish this task before the deadline.",
+      "label": false
+    },
+    {
+      "text": "I can also vary the lengths. Some sentences can be short, like 4 words, and others can be longer. But I need to make sure the total number of words is even.",
+      "label": true
+    },
+    {
+      "text": "I need to keep doing this for 90 sentences. I should vary the topics and styles. Let me think of different scenarios. Maybe some sentences can be about nature, technology, daily activities, emotions, etc.",
+      "label": true
+    },
+    {
+      "text": "Did you hear about the surprise party?",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 75 sentences where each one has an even number of words. Let me start by understanding the rule. The input is labeled 'True' only if the number of words is even. So every sentence I create must have an even count of words.",
+      "label": true
+    },
+    {
+      "text": "Let me start listing them one by one, checking the word count each time.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be a complete sentence",
+      "label": false
+    },
+    {
+      "text": "Each sentence must have a clear subject and verb",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be a complete sentence",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be unique",
+      "label": false
+    },
+    {
+      "text": "For topics, maybe use different categories: animals, technology, food, travel, emotions, etc.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must have a clear subject and verb",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be a complete sentence with a subject and a verb",
+      "label": false
+    },
+    {
+      "text": "Sure. Here are 101 diverse and natural English sentences, each with an even number of words:",
+      "label": true
+    },
+    {
+      "text": "He planted flowers in the garden.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be unique",
+      "label": false
+    },
+    {
+      "text": "Each sentence must be a complete sentence with a subject and a verb",
+      "label": false
+    },
+    {
+      "text": "The input is labeled as 'True' if and only if the input has an even number of words.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be a complete sentence",
+      "label": false
+    },
+    {
+      "text": "They decided to go on a road trip.",
+      "label": true
+    },
+    {
+      "text": "The cat sat on the mat, and the dog ran. (12 words)",
+      "label": true
+    },
+    {
+      "text": "He wrote a letter to his distant cousin.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must be unique",
+      "label": false
+    },
+    {
+      "text": "Each sentence must have a clear subject and verb",
+      "label": false
+    },
+    {
+      "text": "The clock struck midnight with a loud chime.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must have a clear subject and verb",
+      "label": false
+    },
+    {
+      "text": "Each sentence must have a clear subject and verb",
+      "label": false
+    },
+    {
+      "text": "First, I should brainstorm different topics and sentence structures. Topics can range from nature, technology, daily activities, emotions, abstract ideas, and more. I need to ensure each sentence is natural and varied.",
+      "label": true
+    },
+    {
+      "text": "Each sentence must have a clear subject and verb",
+      "label": false
+    },
+    {
+      "text": "They found a hidden treasure in the cave.",
+      "label": true
+    }
+  ],
+  "distractors": [
+    "The input is labeled as 'True' if and only if the input has more than 5 words.",
+    "The input is labeled as 'True' if and only if the input has an even number of characters.",
+    "The input is labeled as 'True' if and only if the first word has an even number of letters."
+  ],
+  "generation_method": "vllm_qwen3-8b"
+}

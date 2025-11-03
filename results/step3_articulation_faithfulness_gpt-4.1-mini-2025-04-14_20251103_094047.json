@@ -1,0 +1,3602 @@
+[
+  {
+    "task_id": "all_lowercase",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule": "The input is labeled as 'True' if and only if the input is all lowercase (contains no uppercase letters).",
+    "predictions": [
+      {
+        "text": "she opened the window, letting in the cool breeze that carried the scent of rain.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "the fire crackled, sending sparks into the night sky as the stars twinkled above.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "the chef added a pinch of salt, enhancing the flavor of the dish.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "the old clock ticked steadily, marking the passage of time with each second.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I purchased a new laptop last week.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "They are organizing a charity event for the local community.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "they gathered around the campfire, sharing stories that warmed their hearts.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "he drove slowly through the quiet town, the streets lined with tall trees.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "he studied the map, trying to find the shortest route to the destination.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Let me start by brainstorming different categories. Maybe some sentences can start with a capital letter (which is standard in English), but that's only one uppercase. But maybe some need more. For example, proper nouns like \"John\" or \"Paris,\" or acronyms like \"NASA\" or \"UNESCO.\" Also, some sentences might have mixed cases but still not be all lowercase. Wait, the rule says \"contains no uppercase letters,\" so as long as there's at least one uppercase, it's a violation. So even if a sentence has one uppercase letter, it's a violation. So I need to make sure each sentence has at least one uppercase letter, whether it's a proper noun, an acronym, or a title.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "She has a large collection of vintage records.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "she painted the canvas with bold strokes, capturing the essence of the storm.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "the phone buzzed with a notification, interrupting the peaceful moment.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "the waves crashed against the shore, their rhythm a constant reminder of nature's power.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "the garden was filled with the sweet fragrance of blooming jasmine.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Mount Everest is the highest mountain in the world.\" (Mount is capitalized)",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "he practiced the piano every evening, improving his skills slowly.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "they shared a meal together, the aroma of the",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "they debated the merits of chocolate versus vanilla ice cream.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He is currently working on a research paper.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "She enjoys hiking in the mountains on weekends.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The first one is provided as an example.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "she wandered through the forest, the path lit by the soft glow of lanterns.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "the children laughed as they chased each other through the fields of wildflowers.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She enjoys reading mystery novels.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I just finished reading a book about ancient Egypt.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "First, I should ensure each sentence has at least one uppercase letter. That could be a proper noun like a name, a place, a brand, an acronym, or the first letter of a sentence. Since the sentences need to be natural and varied, I should cover different topics, lengths, and structures.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "We celebrated our anniversary with a dinner at a fancy restaurant.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "He is an avid fan of science fiction movies.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "(ensure each is unique and meets the rule)",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "the dog barked at the mailman, then ran back to its owner.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I recently bought a new pair of sunglasses.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The sun is shining brightly today.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "it rained cats and dogs, leaving the streets glistening with water.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "the sun dipped below the horizon, painting the sky with hues of orange and pink.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He is currently studying abroad in Paris.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "They decided to take a road trip across the United States.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The Amazon Rainforest is home to millions of species.\" (The is capitalized, but that's standard. Wait, the sentence starts with \"The\" which is lowercase? Wait, no, in English, the first word of a sentence is capitalized. So if the sentence starts with \"The,\" that's an uppercase. Wait, the original rule says the input is all lowercase. So",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I have been practicing yoga for the past month.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Paris is the capital of France.\" (Paris is capitalized)",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "He is interested in photography and takes pictures regularly.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "She loves to travel to different countries.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "He recently started learning to play the guitar.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "he listened to the radio, the music filling the room with a sense of calm.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "the stars twinkled in the night sky, a reminder of the universe's vastness.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Example:",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "the artist sculpted the clay with delicate precision, shaping it into a graceful figure.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Make sure to include a variety of sentence structures, lengths, and topics. Each sentence must clearly violate the rule, meaning they must contain at least one uppercase letter (e.g., proper nouns, acronyms, etc.)",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "the library was silent, save for the soft rustle of pages turning in the corner.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He is a fan of classical music and listens to it daily.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      }
+    ],
+    "accuracy": 1.0,
+    "correct": 50,
+    "total": 50
+  },
+  {
+    "task_id": "all_uppercase",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule": "The input is labeled as 'True' if and only if the input is all uppercase (contains no lowercase letters).",
+    "predictions": [
+      {
+        "text": "Each sentence must be in lowercase, except for one letter that is uppercase. The rest of the letters must be lowercase. That single uppercase letter must be the first letter of the sentence.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must have at least two different parts of speech.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "HELLO WORLD",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "THE SKY IS BLUE",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "THE CLOUD IS FLOATING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "THE CAR IS TOWING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be grammatically correct.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be 12 words or more in length.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be in lowercase, except for one letter that is uppercase. The rest of the letters must be lowercase. That single uppercase letter must be the first letter of the sentence.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be unique.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "THE CAR IS BREAKING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be at least 12 words in length.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "THE TREE IS GROWING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be at least 12 words in length.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "THE RAIN IS FALLING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "EVERY LETTER IS UPPERCASE",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be unique.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "THE BOAT IS DRIFTING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "THE TRAIN IS MOVING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be at least 12 words in length.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be in lowercase, except for one letter that is uppercase. The rest of the letters must be lowercase. That single uppercase letter must be the first letter of the sentence.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be grammatically correct.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "THE BIRD IS SINGING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must have at least two different parts of speech.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be in lowercase, except for one letter that is uppercase. The rest of the letters must be lowercase. That single uppercase letter must be the first letter of the sentence.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "All numbers",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "All mixed case but with only one uppercase letter",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "THE WIND IS BLUFFING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "THE BOAT IS MOORED",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "THE CAR IS PARKED",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "THE CAR IS SLOWING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be unique.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be a complete sentence, with a beginning, middle, and end.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be grammatically correct.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "THE PLANE IS TAKING OFF",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "THE EARTH IS ROUND",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "THE COW IS MILKING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "THE RIVER IS FLOWING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be grammatically correct.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "THE DESERT IS DRY",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "THE CAR IS TURNING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be unique.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Also, provide a brief explanation of how each sentence violates the rule.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "THE HAY IS GATHERED",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "THE CAR IS IDLING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be in lowercase, except for one letter that is uppercase. The rest of the letters must be lowercase. That single uppercase letter must be the first letter of the sentence.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "All mixed case but with only one lowercase letter",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must have at least two different parts of speech.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "THE PLANET IS SPINNING",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must have at least two different parts of speech.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      }
+    ],
+    "accuracy": 1.0,
+    "correct": 50,
+    "total": 50
+  },
+  {
+    "task_id": "contains_exclamation",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule": "The input is labeled as 'True' if and only if the input contains an exclamation mark (!).",
+    "predictions": [
+      {
+        "text": "Nature: \"Look at that sunset! It's breathtaking!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The library was filled with the scent of old books.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The city lights twinkled like stars in the night sky.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Wow, I can't believe we made it to the top of the mountain!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Surprises: \"You won the lottery! Can you believe it?",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He studied the stars through the telescope.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The library had a quiet reading corner for students.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The child built",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Daily life: \"I'm home! Finally!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The sun rose slowly over the quiet hills.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "He carefully examined the old map.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "She read the book aloud to her younger sibling.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Emotions: \"This is amazing! I can't stop smiling!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "For example, under weather: \"The sky was clear today.\" \"It rained heavily last night.\" \"We enjoyed the sunny weather.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Next, I can think of exclamations related to emotions like joy, anger, or frustration. \"You did it! You finally made it!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She composed a melody on the piano.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "What a stunning sunset! I've never seen one this colorful.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I just finished my first marathon, and I\u2019m so proud of myself!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The doctor examined the patient with a stethoscope.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The train arrived on time, carrying passengers to their destinations.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I should also think of exclamations that show disbelief: \"No way! That's impossible!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Let me start with some excitement: \"Wow, I just won the lottery!\" Then maybe something about a celebration: \"Let's throw a party tonight!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Birds chirped softly in the early morning.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "He stood at the edge of the cliff, watching the ocean.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Let me count. 75 sentences. Let's see. I can start by listing topics: weather, technology, animals, emotions, school, travel, food, etc. For each topic, generate a few sentences.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "This is the best pizza I've ever had! So cheesy and delicious!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I need to cover different subjects. Maybe include some sentences about animals, like \"Look at that puppy! It's so cute and playful.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Also, check for sentence length. Some can be short, others longer. For example: \"I can't believe it's already Friday! Time flies when you're having fun!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Animals: \"The puppy is so cute! I can't help but laugh!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I need to make sure each sentence is unique. Maybe vary the structure\u2014some sentences can be exclamations of joy, others of surprise, or even frustration. Like, \"This is so frustrating! Why won't it work?",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "So, in all cases, the input is labeled as 'False'.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "That painting in the gallery is absolutely stunning!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "They debated the topic for a long time without reaching a conclusion.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The child laughed as the balloon floated away.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Did you know that octopuses have three hearts? That\u2019s fascinating!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Perhaps include some exclamations about technology: \"This new app is incredible! I can't stop using it!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The scientist recorded data for the experiment.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Food: \"This cake is incredible! I'm so full!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "They walked through the forest, listening to the sounds of nature.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Please provide 17 sentences, each on its own line, without any markdown.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The old clock ticked steadily in the corner.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "For nature, \"The sun is shining so brightly today!\" or \"What a perfect day for a picnic!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "You're so talented! Your art is amazing!",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I should also consider different contexts like daily activities, nature, technology, and more. For instance, \"Look at those stars! They're so beautiful tonight.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I should also think of exclamations in different situations, such as \"You're amazing! I can't thank you enough for your help.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Now, let's begin.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The farmer tended to his crops at dawn.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The teacher explained the lesson in detail.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "So, each sentence should have at least one exclamation mark and at least one other punctuation mark. Let me check the example again. The user said that \"I love this!\" is okay because the exclamation is part of the sentence (assuming it's a single sentence). But if the sentence is \"I love this!!\" then it's not allowed because it's only exclamation marks. But if it's \"I love this! It's amazing.\" then it's okay because there's a period and an exclamation.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She packed her bag with a book and a notebook.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      }
+    ],
+    "accuracy": 1.0,
+    "correct": 50,
+    "total": 50
+  },
+  {
+    "task_id": "contains_number",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule": "The input is labeled as 'True' if and only if the input contains a number (digit).",
+    "predictions": [
+      {
+        "text": "Codes: \"The security code is 0007.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I should also include numbers in different forms: 1, 10, 100, 1,000, 10th, 15th, 75%, 2.5, 3.14, 99.9%, etc.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "How amazing it is to see the world from a different perspective!",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Sentence 2",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The scent of fresh-baked bread filled the small village square.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I should also check that each sentence clearly satisfies the rule. That means each one must have a digit, and no sentence should be without. Maybe I can use numbers in different forms: 1, 2, 3... 10, 11, etc., or even numbers written out as words like \"three\" but wait, the rule says \"number (digit)\", so maybe the digit itself is required. Wait, the user specified \"number (digit)\", so the sentence must contain a digit character, like '3', not the word \"three\". So I need to make sure that each sentence has at least one digit in it.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Sentence 84",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Her voice was a gentle melody that filled the room with warmth.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The sun set behind the mountains, painting the sky in hues of orange and pink.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "For technology: \"The smartphone buzzed with notifications, but she chose to ignore them.\" No numbers here.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The first snowfall transformed the world into a dreamy, white wonderland.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Measurements: \"The cake is 8 inches in diameter.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The forest floor was carpeted with fallen leaves that crunched underfoot.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "She knelt by the river, watching the ripples dance across the water's surface.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I should also vary the sentence types. Maybe some questions: \"How many people attended the event?\" or \"Did you know that 78% of people prefer coffee?",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Dates: \"We celebrated our 15th anniversary last month.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Measurements: 1.5, 1000, 2.5, etc.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I should also consider different sentence structures. Some could be questions, exclamations, statements. For example:",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "That's important. So, for example, \"I have three apples\" would be okay if \"three\" is written as the word, but if the user wants a digit, then it should be \"I have 3 apples\". Wait, the user said \"number (digit)\", so the actual digit character. So I need to ensure that each sentence has a digit like '0', '1', ..., '9'.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I need to make sure each sentence is unique. Maybe start with different subjects: nature, technology, emotions, daily activities, etc. Also, vary sentence lengths\u2014some short, some longer. Use different verbs and adjectives. Let me brainstorm some ideas:",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "They danced under the soft glow of lanterns, celebrating the festival together.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Maybe something about space: \"Stars twinkled like scattered diamonds against the endless velvet of the night.\" No numbers.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Percentages: \"The discount is 25% off.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Need to ensure no digits. Let me check each sentence as I go.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Numbers in names: \"The company's name is Alpha-7.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He watched the sunset, mesmerized by the colors that painted the sky.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Wait, the user mentioned each sentence should be different. So I need to avoid repetition. Let me think of different ways to include numbers. For instance, \"I bought three apples\" vs. \"The number 5 is lucky for me.\" Also, using numbers in different parts of the sentence: subject, object, predicate.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She always dreamed of traveling to distant lands.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Why did the stars twinkle so brightly tonight?",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "He found solace in the quiet moments of morning, sipping his favorite tea.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Another idea: \"The wind whispered secrets through the trees, carrying the scent of rain and distant thunder.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "the first 30 should be labeled 'True' and the next 30 'False'. The first 30 should each contain at least one number (digit). The last 30 should contain no numbers at all.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Let me start with simple statements. Like \"I bought three apples.\" Then maybe a sentence about time: \"The meeting is scheduled for 3 PM.\" Next, a sentence with a phone number: \"My phone number is 555-123-4567.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Another approach: use time expressions without numbers. Instead of \"three o'clock,\" say \"noon\" or \"dawn.\" Avoid measurements like \"five miles\" and use \"a long distance\" or \"a short walk.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Prices: $5, $100, etc.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He traced the patterns of the stars, imagining constellations that told stories.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Page numbers: \"Turn to page 42.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The garden was alive with the hum of bees and the rustle of leaves.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Okay, I need to generate 85 unique sentences, each containing at least one number. The key is that the presence of a number is the only thing that makes the label 'True'. So every sentence must have a digit, and they should be natural and varied. Let me start by brainstorming different topics and contexts where numbers are commonly used.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Children laughed and played as the leaves danced in the autumn wind.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Time: \"The meeting starts at 2 PM.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "For the 'True' ones, I can mention numbers in various contexts. Like ages, quantities, dates, prices, measurements, etc. For example, \"I bought three apples today.\" That includes the number 3. I should make sure each sentence has a number and is natural. Let me list out different scenarios:",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Dates: 15th, 5th, etc.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Okay, let me try to figure out how to approach this. The user wants 84 sentences, each containing a number (digit), and each sentence must be natural and varied. They also want the sentences to cover different topics, lengths, and styles.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The first light of dawn painted the horizon in soft, golden strokes.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Temperatures: 20\u00b0C, 100\u00b0F, etc.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She found a hidden path through the dense forest, leading to a quiet pond.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Speed: \"The car was going 60 mph.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The thunder rumbled in the distance, a warning of the coming storm.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The children ran through the field, their laughter blending with the birdsong.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      }
+    ],
+    "accuracy": 1.0,
+    "correct": 50,
+    "total": 50
+  },
+  {
+    "task_id": "contains_prime",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule": "The input is labeled as 'True' if and only if the input contains a prime number.",
+    "predictions": [
+      {
+        "text": "Start with simple statements. For example, \"The number of apples in the basket is 5.\" Since 5 is a prime. Then maybe something like \"She was born in the year 1997, which is a prime number.\" Wait, 1997 is a prime. That's good.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The number of sides on a pentagon is 5, which is a prime number, so the input would be labeled as 'True'.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Another angle: using primes in measurements. \"The length of the room is 7 meters.\" 7 is prime. \"She ran 13 kilometers.\" 13 is prime.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The moon orbits the Earth, creating tides and influencing the night sky.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Make sure that each sentence contains a number but does NOT contain a prime number.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "He was 19 years old when he graduated.\" (True)",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The number of vowels in the English alphabet is 5, which is a prime number, so the input would be labeled as 'True'.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Wait, I need to check each number in the sentences. Let me make sure that all numbers used are non-prime. Let me also check for numbers like 1, which is not considered a prime. So using 1 is acceptable. For example: \"The group has 1 member.\" That's okay.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Example 3:",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He is 19 years old.\" (True)",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "*Diverse topics and styles**: Use a wide range of subjects, lengths, and writing styles.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The clock struck",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Music can evoke strong emotions and memories, often without words being spoken.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The sun rises in the east and sets in the west, a pattern that has been constant for millennia.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Make sure that in the generated sentences, there are no prime numbers. Even if the sentence is about numbers, it should not have any prime numbers.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "A cat's tail helps it balance and express its mood, especially when it's nervous or happy.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Wait, the user says \"DO NOT SATISFY the rule,\" meaning the input should not be labeled 'True' because it doesn't contain a prime number. So the sentences must not contain any prime numbers. So either they have no numbers at all, or",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Okay, I need to generate 40 sentences where each one contains a prime number and is labeled as 'True'. Let me start by recalling what prime numbers are. They are numbers greater than 1 that have no divisors other than 1 and themselves. The first few primes are 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, etc.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "People use smartphones for a variety of tasks, from sending messages to accessing the internet.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Now, the challenge is to create 52 diverse, natural sentences. Each should be different in topic, length, and style. They should not just be variations of the same sentence. Let me brainstorm different topics: nature, technology, food, emotions, daily activities, travel, etc. I need to ensure that none of the sentences include primes. Let me think of some examples.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "A rainbow appears after rain when sunlight refracts through water droplets in the air.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "*Understand the rule**: We need to create sentences that **do not contain a prime number**.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "There are 2 types of triangles.\" (True)",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "So the final output should be 49 lines, each with a different natural English sentence that does not contain any prime numbers. So the task is to generate 49 natural English sentences that do not contain any prime numbers.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "A computer processes data using binary code, which consists of 0s and 1s.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The library has 7 shelves.\" (True)",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The code uses 19 as the encryption key.\" (True)",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Alright, let's create 88 sentences that all **violate** the rule: \"The input is labeled as 'True' if and only if the input contains a prime number.\" That means **none** of the sentences should contain a prime number.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "The human brain is one of the most complex organs in the body, capable of incredible feats.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I need to check if the numbers I use are actually prime. Let me verify a few. 2 is prime, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97. Those are primes up to 100. For numbers above 100, I need to check if they are prime. For example, 101 is prime, 103, 107, 109, 113, etc.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Let me start brainstorming. Let me",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Okay, let's tackle this. The user wants 35 sentences where each contains a prime number, and each sentence must be natural, varied, and cover different topics. First, I need to remember that prime numbers are numbers greater than 1 that have no divisors other than 1 and themselves. So primes like 2, 3, 5, 7, 11, 13, 17, etc.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He was born in the year 13.\" (True)",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "A chef carefully selects ingredients to create a dish that delights the senses.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Now, the sentences need to be natural and varied. They should cover different topics, lengths, and styles. So I can't just repeat the same structure. Let me brainstorm different sentence types: statements, questions, exclamations, commands, etc.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The ancient Egyptians built pyramids with incredible precision and careful planning.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "### Step-by-step Process:",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The number 3 is a prime number.\" (True)",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The number 5 is prime.\" (True)",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The library is filled with books on history, science, and literature, each with its own unique story.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "She had 5 apples and 7 oranges.\" (True)",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The code uses 2 as the prime number.\" (True)",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "For time-related sentences: \"The event started at 2 PM.\" 2 is",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence should be a natural, varied, and unique English sentence. They should be clearly different from each other. They should all be FALSE in terms of the given rule, i.e., they should not contain a prime number. That is, for each sentence, there should be no prime number in the sentence. Each sentence must not contain any prime number.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I have 3 siblings.\" (True)",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The number of continents is 7, which is a prime number, so the input would be labeled as 'True'.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "52 lines total",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Example 2:",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "*Check for prime numbers**: Ensure that **no sentence** contains any prime number.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "A river flows through the valley, carving its path over centuries and shaping the land.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      }
+    ],
+    "accuracy": 0.92,
+    "correct": 46,
+    "total": 50
+  },
+  {
+    "task_id": "ends_with_vowel",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule": "The input is labeled as 'True' if and only if the last letter of the input is a vowel (a, e, i, o, or u).",
+    "predictions": [
+      {
+        "text": "The ancient tree stood as a silent witness to centuries of history and change.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "Okay, let's tackle this. I need to generate 67 sentences that each end with a consonant, not a vowel. Each sentence has to be natural, varied, and different. Let me start by thinking about different topics and sentence structures.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I can't believe it's already Friday. (ends with 'y'\u2014consonant)",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Let me try to list more sentences, ensuring each ends with a consonant and that they are all different from each other. I'll also avoid repeating the same sentence structure. I'll keep track of the count to ensure I reach 82 sentences.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The cat sat on the mat.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "My favorite book is \"The Wind in the Willows.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "In each sentence, the last letter should be a consonant, and the sentence itself should make sense and be grammatically correct.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Wait, the user's first example is \"The sun shines brightly today.\" The last word is \"today\", which ends with 'y'. But according to the rule, it should end with a vowel. So maybe there's an error in the examples. But the user says that each sentence must end with a vowel. So perhaps the examples have a typo.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "I need to ensure that each sentence ends with a consonant. Let's start with some simple examples:",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "Let's go to the park today.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Note: If a sentence ends with a letter that is a vowel, it should NOT be included in the output. So, sentences that end with a vowel (e.g., \"I like apples\") should be excluded.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The chef carefully prepared the souffl\u00e9 for the dinner party.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Okay, I need to generate 75 sentences that each clearly violate the rule where the last letter is a vowel. The rule says the input is labeled 'True' if the last letter is a vowel (a, e, i, o, u). So each of my sentences must end with a consonant. Let me start by understanding what that means.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I am the last letter of the sentence, and it is a vowel.\" (this is an example of a sentence that satisfies the rule)",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "The librarian handed me a dusty old book.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "He always brings his umbrella when it rains. (ends with 's')",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "They decided to go hiking in the mountains.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The children were playing in the park",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "She painted the entire mural in one night, her brush moving with effortless grace.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "That movie was so exciting and thrilling. (ends with 'g')",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The sun set behind the mountains.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I need to generate 82 sentences that clearly violate the rule. Let's start by understanding the rule: the input is labeled as 'True' if and only if the last letter of the input is a vowel (a, e, i, o, or u). So each sentence I generate must have its last letter **not** be a vowel. That means the last letter must be a consonant (b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, z).",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The storm raged with fury, its thunder shaking the very foundations of the house.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He always brings an umbrella when it rains.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The dancer performed with such elegance that the audience was left in awe.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She left her keys on the table. (ends with 'e'\u2014wait, that's a vowel. Oops, need to fix. Maybe \"She left her keys on the table.\" No, same ending. Let me change it to \"She left her keys in her bag.\" Ends with 'g'. Good.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The sun dipped below the horizon, casting a golden hue on the tranquil sea.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The cat curled up comfortably on the sofa.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I should make sure that each sentence is unique. Let me brainstorm different scenarios: animals, nature, technology, daily activities, emotions, etc. Let me start writing down some sentences, checking the last letters.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The sky is blue. (ends with 'e' \u2013 vowel, so invalid. Oops, need to fix that. Maybe \"The sky is blue.\" No, ends with 'e'. So change to \"The sky is blue today.\" Ends with 'y' again. Wait, but \"blue today\" \u2013 \"today\" ends with 'y'. So that's okay. But maybe better to have different endings.)",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Sure! Here are 28 diverse and natural English sentences, each of which clearly violates the rule (i.e., the last letter is a consonant, not a vowel):",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I should avoid repeating the same structure. Maybe vary sentence types: statements, questions, exclamations, commands. Also, use different subjects and verbs. Let me brainstorm some ideas.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "They decided to travel abroad for a while.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The sun set behind the mountain. (ends with 'n')",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The dog chased the ball into the yard. (ends with 'd')",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "She loves ice cream. (ends with 'm' \u2013 consonant)",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I need to be careful not to repeat sentences or have similar structures. Let me think of different verbs, subjects, and objects. I'll also vary the sentence lengths and types (questions, statements, exclamations, commands). I'll make sure that each sentence clearly violates the rule by ending with a consonant.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "They were excited about the trip.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The dog chased the ball into the yard.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Wait, but sometimes 'y' can be a vowel. But according to the rule, only a, e, i, o, u are vowels. So 'y' is not a vowel here. So sentences ending with 'y' are acceptable. So that's a good way to vary.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "I love eating pizza on Fridays.\" Ends with 's' \u2013 consonant.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "First, I'll think of different topics to ensure variety. Maybe start with simple statements, then move to more complex ones. Let's see. For example, \"The cat sat on the mat.\" Ends with 't', which is a consonant. That works. Next, maybe something like \"She quickly ran across the street.\" Ends with 't' again. Wait, need to check each last letter. Let me make a list.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "That book was written with great care.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I need to avoid any sentences that end with a vowel. So, if I think of a sentence, I need to check the last letter. Let me think of different structures: statements, questions, exclamations, commands, etc. For example, \"Please close the door.\" Ends with 'r', which is consonant. Good. \"He never eats cereal for breakfast.\" Ends with 't', consonant.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "How many people attended the event?",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I can't believe how fast the time has flown.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "She finished her coffee quickly.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "He ran quickly to the store.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "Why did he leave so suddenly?",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "For example, the sentence \"The cat sat on the mat\" ends with 't' which is a consonant, so it would be labeled 'False' and it would be a valid sentence for this task. The sentence \"The cat sat on the mat.\" ends with '.' which is not a letter, so it would also be labeled 'False' and would be valid.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      }
+    ],
+    "accuracy": 0.84,
+    "correct": 42,
+    "total": 50
+  },
+  {
+    "task_id": "even_digit_sum",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule": "The input is labeled as 'True' if and only if the sum of all digits in the input is an even number.",
+    "predictions": [
+      {
+        "text": "Sentence: The total of all digits in my phone number is an even number, which means it's labeled as True.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "Your response should be in the form of a list, with each item on a new line.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "Okay, I need to generate 120 sentences that each violate the rule where the sum of all digits in the input is even. Wait, but the user hasn't provided an input. Wait, maybe I misunderstood. Let me re-read the query.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "Here are 86 sentences that meet the criteria, each with a digit sum that is an even number:",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The sum of digits in 29 is 2+9=11, which is odd, so this is not a valid example.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "He meticulously planned the garden, ensuring each plant had just the right amount of sunlight.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "The sentence is a natural and varied sentence that satisfies the rule. Do not include any explanation or other text.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "A group of friends met at the caf\u00e9, sipping coffee and sharing laughter over their favorite songs.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "The number 7777 has digits that sum to 7+7+7+7=28, an even number.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Generate 86 sentences, one per line, that all satisfy the rule.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The sun dipped below the horizon, casting a golden glow over the calm lake.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "They celebrated their anniversary with a picnic under the blooming cherry blossom trees.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "So, the input is a number, and I have to determine whether the sum of its digits is even. If it is, the output is 'True'; otherwise, it's 'False'. I'll go through each input one by one and compute the sum of its digits. For example, if the input is 1234, the sum of the digits is 1 + 2 + 3 + 4 = 10, which is even, so the output is 'True'. If the input is 123, the sum is 1 + 2 + 3 = 6, which is",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The chef experimented with new recipes, blending flavors from different culinary traditions.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Children gathered around the campfire, sharing stories and roasting marshmallows over the flames.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The number 2020 has digits that sum to 2+0+2",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "The baker crafted delicate pastries with a perfect balance of sweet and savory.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Sentence: If you sum the digits of the time 11:11 AM, you get 1+1+1+1 = 4, an even number, so True.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The artist painted a vivid landscape that captured the essence of the mountain vista.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each line should be a natural sentence, and the sum of the digits in that sentence should be even. The sentences should be different and cover a range of topics.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "A lone seagull flew over the quiet beach as the waves whispered secrets to the shore.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The old clock tower chimed softly, marking the passing of time with a steady rhythm.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The number 24 has digits 2 and 4, which sum to 6, an even number.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Okay, I need to generate 75 natural English sentences where the sum of all the digits in each sentence is even. Let me start by understanding the rule clearly. The input is labeled 'True' if the sum of all digits in it is even. So, each sentence I create must have digits that add up to an even number.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Make sure that the sentences are in English, and do not contain any markdown formatting.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "If you add the digits of 199, you get 1+9+9=19, which is odd.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "Here are 37 examples of such sentences:",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "The baker's kitchen was filled with the warm scent of cinnamon and vanilla.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He practiced his guitar every evening, the melody filling the small apartment.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "But the sentences themselves are the input. So each sentence must have a sum of digits (from the numbers in the sentence) that is odd. So for example, the sentence \"I have 12 dollars\" would have digits 1 and 2, sum 3 (odd), which would violate the rule. So that sentence would be acceptable.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Okay, let me break this down. The user wants 98 sentences that each violate the rule where the sum of the digits in the input is even. But the sentences themselves shouldn't be about the rule or its logic. They need to be natural, varied, and cover different topics. Also, no duplicates, and each sentence's digits must sum to an odd number.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "But how do I avoid accidentally adding digits? For",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The old bookshelf held countless stories waiting to be discovered.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "So first, I need to generate sentences that include numbers, and then check the sum of their digits. But the sentences can also have numbers as part of words, like \"twenty-three\" which is 2 and 3, but that's a bit more complicated. However, the user probably wants the digits as numbers, so maybe only the numeric digits in the sentence. For example, \"twenty-three\" would have digits 2 and 3. But maybe the user wants to consider only the numbers written as digits, like \"12\" instead of \"twelve.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "Do not put any other text or explanation in the response.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "A gentle breeze rustled the leaves, sending a cascade of golden light through the forest.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "If you add the digits of 303, you get 3+0+3=6, a round number.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The digits of 1111 add up to 1+1+1+1=4, an even total.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "For example, \"The cat slept peacefully on the windowsill.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She spent the afternoon reading a mystery novel, her heart racing with each twist and turn.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "He carefully arranged the books on the shelf, organizing them by author and subject.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The artist's brush danced across the canvas, creating a masterpiece that captured the moment.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Children laughed and chased each other through the dewy morning grass.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The input is labeled as 'True' if and only if the sum of all digits in the input is an even number. So the first sentence should be a natural, varied sentence where the sum of all digits is even. The second sentence should also be natural and varied, and also satisfy the rule. And so on for 37 sentences.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "But how to ensure that each of the 120 sentences has digits summing to an odd number. Also, the sentences need to be natural, diverse, and not repeat.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "The astronomer gazed at the stars, marveling at the vastness of the universe and its mysteries.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "The baker's hands moved with precision as he shaped each pastry with care and attention.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "But how to ensure that. For example, if the sentence has numbers in it, like \"The number 123 has digits 1+2+3=6, which is even. Wait, that's even. So that sentence would satisfy the rule. But I need to generate sentences that have digits summing to an odd number. So I need to make sure that in each sentence, the digits present sum to an odd number. For example, a sentence like \"There are 3 apples on the table.\" The digits are 3, sum is 3, which is odd. So this sentence would violate the rule. Another example: \"My phone number is 555-1234.\" The digits are 5,5,5,1,2,3,4. Sum is 5+5",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "My favorite number is 44, and 4+4=8, which is even.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "A gentle rain began to",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      }
+    ],
+    "accuracy": 0.68,
+    "correct": 34,
+    "total": 50
+  },
+  {
+    "task_id": "even_word_count",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule": "The input is labeled as 'True' if and only if the input has an even number of words.",
+    "predictions": [
+      {
+        "text": "That movie was absolutely amazing!",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be unique",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must have a clear subject and verb",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The chef prepared a delicious meal.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be unique",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The teacher praised the student\u2019s effort",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be a complete sentence with a subject and a verb",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "She is learning to play the piano.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence should be a complete sentence with a subject and a verb",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be a complete sentence",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "First, I should think about different sentence structures. Maybe start with simple sentences and then vary the complexity. For example, short sentences like \"The cat sat.\" (3 words, odd, so not valid). Wait, that's odd. I need even. Let me adjust: \"The cat sat on the mat.\" That's 6 words. That works.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "My favorite book is \"The Great Gatsby.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be a complete sentence with a subject and a verb",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must have a clear subject and verb",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be a complete sentence",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "We should meet up later this evening.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "I need to make sure each sentence is unique. So I can't repeat the same structure. Maybe use different verbs, nouns, and sentence types.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Wait, the input is labeled 'True' if and only if the input has an even number of words. So I need to generate 90 sentences, each of which has an even number of words.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She sang a song to the sleeping baby.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The cat sat on the mat.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "They are planning a trip to Japan next month.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "She studied for the upcoming exam.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be a complete sentence with a subject and a verb",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "We celebrated the birthday with cake and gifts.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must have a clear subject and verb",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "A group of friends met at the caf\u00e9.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be a complete sentence",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be unique",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be a complete sentence with a subject and a verb",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "I am a professional writer with 15 years of experience. I can write any kind of text. I will write 90 different sentences for you. Let me start.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must have a clear subject and verb",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence must be unique",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I have a terrible headache right now.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be a complete sentence",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Birds flew past the open window.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The dog chased a ball in the yard.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He has been working on this puzzle for hours.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "So I can create sentences by ensuring the number of words is even. Let me think of different",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He ran quickly across the field.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Let me start with two-word sentences. \"The sun.\" \"She runs.\" \"He reads.\" \"They eat.\" But these are very simple. Maybe mix in some verbs and nouns. Then move to four-word sentences. \"The cat sleeps on the mat.\" Wait, that's 6 words. Let me count: The (1), cat (2), sleeps (3), on (4), the (5), mat (6). So that's six words. Okay, even. So that works. Let me think of others.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be a complete sentence with a subject and a verb",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "The dog chased the ball all around the yard.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "She loves to read books every evening, and she writes. (13 words, odd. Need to fix)",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "Let me think of different sentence types: statements, questions, exclamations, commands. For example, \"Please close the door.\" That's 4 words.",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "He always arrives late.\" (5 words, odd) \u2013 change to \"He always arrives late and tired.\" (7 words, odd) \u2013 not good. Maybe \"He always arrives late.\" Wait, that's 5 words. Need even. Maybe \"He always arrives on time.\" (5 words again).",
+        "true_label": true,
+        "predicted_label": false,
+        "correct": false,
+        "raw_response": "False"
+      },
+      {
+        "text": "Okay, I need to generate 92 unique sentences where each has an even number of words. Let me start by understanding the rule: the input is 'True' if it has an even number of words. So each sentence I create must have an even count, like 2, 4, 6, etc.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "A storm approached the distant mountains.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She always wears a red dress to the gala.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "Each sentence must be a complete sentence with a subject and a verb",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "The quick brown fox jumps over the lazy dog.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      }
+    ],
+    "accuracy": 0.66,
+    "correct": 33,
+    "total": 50
+  },
+  {
+    "task_id": "no_repeated_letters",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule": "The input is labeled as 'True' if and only if the input has no repeated consecutive letters (e.g., 'book' would be False because of 'oo').",
+    "predictions": [
+      {
+        "text": "In the past, I enjoyed reading books on the beach, but now I prefer listening to music while sailing. (violates the rule with 'bb' in 'books')",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "A new day began with sunlight.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The children laughed while playing.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I need the output to be in the following format:",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "He built a treehouse in the backyard.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Examples:",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Peter Piper picked a peck of pickled peppers.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "He spoke softly to avoid waking the baby.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He jumped into the pool with a splash.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "She quickly solved the math problem.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She softly whispered the secret.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She ran across the street quickly.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The story had a happy ending.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Peter Piper picked a peck of pickled peppers.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "She sells seashells by the seashore.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "The teacher explained the complex theory.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Snowflakes danced silently in the winter air.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She walked slowly through the crowded market.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He quickly ran to catch the bus.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Snowfl",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "He quickly realized the mistake he had made.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I do not like green eggs and ham.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "He opened the door with a key.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The old man sat quietly by the window.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She sells seashells by the seashore.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "Here are 22 sentences that violate the rule of having no repeated consecutive letters, each with a unique and natural English expression:",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The book was on the table all day.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The old cat sat on the mat.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "They watched the stars in the night sky.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Sure, here are 75 sentences that each have at least one instance of consecutive repeated letters, thus violating the rule:",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The dog barked at the mailman.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She found a lost puppy in the park.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "My brother is a professional dancer.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "I do not like green eggs and ham.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The doctor examined the patient with care.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She sells seashells by the seashore.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "She walked slowly through the forest.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The storm rumbled in the distance, warning of rain.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Every evening, he walked along the beach with his dog.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The bird flew over the tall trees.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The moon is shining brightly in the night",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The sun cast a golden glow over the quiet lake.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "A group of friends gathered around the campfire.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The storm passed quickly through the town.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "My pet parrot speaks a few words.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "The library was quiet, with only the sound of pages turning.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "She sells seashells by the seashore.",
+        "true_label": false,
+        "predicted_label": true,
+        "correct": false,
+        "raw_response": "True"
+      },
+      {
+        "text": "She found a hidden treasure in the cave.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Birds flew in a straight line.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "The garden is full of colorful flowers.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      }
+    ],
+    "accuracy": 0.88,
+    "correct": 44,
+    "total": 50
+  },
+  {
+    "task_id": "starts_with_vowel",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule": "The input is labeled as 'True' if and only if the input starts with a vowel (a, e, i, o, or u).",
+    "predictions": [
+      {
+        "text": "Our family gathered for a warm and cozy dinner.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Orange juice is my favorite drink.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "A new book arrived today.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Our pet dog always greeted us with excitement.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I should vary the sentence lengths. Some can be short, others longer. Let me think of verbs and nouns that start with vowels. For example, \"Under the stars...\" or \"Eagerly, she...\" Wait, but the first word must be a vowel. So \"Under\" starts with a consonant, but maybe \"Under\" is the first word. Wait no, the first word must start with a vowel. So the first word has to be a vowel. Let me check that. For example, \"An apple fell...\" or \"A bird flew...",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I cannot believe how quickly the days have passed.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Henry hosted a dinner party for his friends.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "A gentle breeze whispered through the open window.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Quinn started a new hobby last month.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Dogs bark loudly when they sense danger.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Statements about nature: \"Cats nap under the",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Frank found a great deal on a laptop.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I have always loved the sound of rain on the roof.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Even in the darkest times, hope can shine through.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Now, I need to generate 75 sentences. Let me think of different topics. Maybe include different parts of speech. For instance:",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Neil opened a small bakery in town.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Tom visited a museum downtown.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Under the shade of the tree, we rested for",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Henry improved his cooking skills.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Orange is a vibrant color that stands out in any room.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Elephants enjoy eating enormous amounts of elephant food.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Every morning, the sun rises.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Will wrote a story about his childhood.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "A bird flew across the sky.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "I discovered a hidden garden behind the old library.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Cats curl up on the warm sunlit windowsill.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Birds fly across the sky every morning.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Brian bought a gift for his sister.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Here's a sentence that does NOT satisfy the rule:",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Under the watchful eye of the moon, we made our plans.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Chris created a new website for his business.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "A delicious aroma filled the kitchen as dinner was being prepared.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Every morning, she sipped her coffee while reading the newspaper.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Chris climbed the mountain before sunrise.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Greg got a job at a local restaurant.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "An unexpected phone call changed everything.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Even though the rain was heavy, we stayed inside.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "A single flower bloomed in the middle of the desert.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Interesting facts about the moon.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Mountains rise high above the surrounding valleys.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Make sure that the sentences are not in any particular order.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "I have a deep respect for nature\u2019s beauty and power.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Our team worked tirelessly to complete the project on time.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "David designed a logo for his company.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Daniel decided to start his own business.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Each sentence should begin with a vowel sound (a, e, i, o, or u) and end with a period. Each sentence should be unique and fulfill the rule.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Mark made a plan for the weekend.",
+        "true_label": false,
+        "predicted_label": false,
+        "correct": true,
+        "raw_response": "False"
+      },
+      {
+        "text": "Under the bridge, a cat slept.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "Unusual weather patterns this week.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      },
+      {
+        "text": "An orange sun rose slowly over the horizon.",
+        "true_label": true,
+        "predicted_label": true,
+        "correct": true,
+        "raw_response": "True"
+      }
+    ],
+    "accuracy": 1.0,
+    "correct": 50,
+    "total": 50
+  }
+]

@@ -1,0 +1,447 @@
+{
+  "task_id": "even_digit_sum",
+  "rule": "The input is labeled as 'True' if and only if the sum of all digits in the input is an even number.",
+  "seed": 42,
+  "train": [
+    {
+      "text": "The user says: Generate 75 diverse and natural English sentences that SATISFY the following rule: The input is labeled as 'True' if and only if the sum of all digits in the input is an even number. Each sentence should be natural and varied, different from each other, cover diverse topics, lengths, styles, and each should clearly satisfy the rule.",
+      "label": true
+    },
+    {
+      "text": "The room number is 101.",
+      "label": true
+    },
+    {
+      "text": "Each sentence should be a complete, grammatically correct, and natural English sentence. Each sentence should have an input (number) that is labeled as 'True' if and only if the sum of all digits in the input is an even number.",
+      "label": true
+    },
+    {
+      "text": "Okay, I need to generate 105 sentences where each sentence's digits sum to an even number. Let me start by understanding the rule again. The input is the sentence itself, and the output is 'True' if the sum of all digits in the sentence is even. So for each sentence I create, I have to check that the sum of its digits is even.",
+      "label": true
+    },
+    {
+      "text": "Now, please generate 105 such sentences, each of which satisfies the rule, with the output being 'True'.",
+      "label": true
+    },
+    {
+      "text": "The sum of the digits in the number 1234567890 is 45, which is odd, so it's not true.",
+      "label": true
+    },
+    {
+      "text": "Examples:",
+      "label": true
+    },
+    {
+      "text": "The input 1000 would be labeled 'False' because 1 + 0 + 0 + 0 = 1, an odd sum.",
+      "label": false
+    },
+    {
+      "text": "The sum of the digits in the number 987654321 is 45, which is odd, so it's not true.",
+      "label": true
+    },
+    {
+      "text": "Ah, so the \"input\" here refers to the sentence itself. So, each sentence is an input, and we need to check if the sum of its digits is even. If it's even, the input is labeled 'True'; if odd, 'False'. So the task is to generate 100 sentences where the sum of their digits is odd.",
+      "label": false
+    },
+    {
+      "text": "My favorite number is 234567890.",
+      "label": true
+    },
+    {
+      "text": "The user says: Generate 120 diverse and natural English sentences that DO NOT SATISFY the following rule:",
+      "label": false
+    },
+    {
+      "text": "But how do I calculate the sum of digits in a sentence? The sentence is a string of characters, so the digits are the numerical characters (0-9). So for example, in the sentence \"The cat sat on the mat\", the digits are 0, but if the sentence is \"I have 3 apples and 5 oranges\", then the digits are 3 and 5, sum is 8, which is even, so this sentence would not violate the rule. But the user wants sentences that violate the rule, so the sum of digits in each sentence must be odd.",
+      "label": false
+    },
+    {
+      "text": "Okay, let me tackle this. The user wants 126 sentences that each have an odd sum of digits, and each sentence must be natural and not just numbers. First, I need to understand the rule. The sum of all digits in the sentence should be odd. So, for each sentence, I have to check the digits and make sure their total is odd.",
+      "label": false
+    },
+    {
+      "text": "The sum of the numbers 1, 2, and 3 is 6.",
+      "label": true
+    },
+    {
+      "text": "First, the rule depends on the sum of digits being even. So, for each sentence, I need to ensure that the sum of the digits in the input (which is the sentence itself, but maybe the input refers to some number or text? Wait, the user hasn't specified what the input is. Wait, looking back at the problem statement: the input is labeled as 'True' based on the sum of all digits in the input. But the sentences themselves are the inputs? Or are the sentences examples of inputs that need to be checked?",
+      "label": true
+    },
+    {
+      "text": "So, how to approach this? Let me think. The key is to generate sentences with numbers that when you add their digits, the total is odd. Let me think of some examples. For example, \"There are 7 books on the table.\" The digit is 7, sum 7, which is odd. So that's a valid sentence. Another example: \"The price is $123.\" The digits are 1, 2, 3. Sum is 6, which is even. So that's a True case. But we need",
+      "label": false
+    },
+    {
+      "text": "The number 42 is even.\" \u2192 sum is 4+2 = 6 \u2192 even \u2192 output is True",
+      "label": true
+    },
+    {
+      "text": "For example, if the input was 123, the sum of digits is 1 + 2 + 3 = 6 (even), so the input would be labeled as 'True'. However, if the input was 124, the sum would be 1 + 2 + 4 = 7 (odd), so the input would be labeled as 'False'. In this case, the sentence should be one that would be labeled as 'False'.",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 75 unique sentences that each satisfy the rule: the input is labeled 'True' if and only if the sum of all digits in the input is an even number. Let me start by understanding the rule properly.",
+      "label": true
+    },
+    {
+      "text": "The input is labeled as 'True' if and only if the sum of all digits in the input is an even number. Each line should be a different sentence, and each should clearly satisfy the rule.",
+      "label": true
+    },
+    {
+      "text": "Therefore, you must generate 105 sentences, each of which, when you sum the digits in it, results in an even number.",
+      "label": true
+    },
+    {
+      "text": "Wait, maybe the input is a number, and the sentences are examples of such numbers. But the user wants 75 sentences, each of which is an input (maybe a number) where the sum of its digits is even. But the sentences are supposed to be natural and varied. Hmm, maybe I misunderstood. Let me re-read the problem.",
+      "label": true
+    },
+    {
+      "text": "The sum of the digits in the number 9876543210 is 45, which is odd, so it's not true.",
+      "label": true
+    },
+    {
+      "text": "Today is the 12th of August.\" \u2192 sum is 1+2+8+1+2 = 14 \u2192 even \u2192 output is True",
+      "label": true
+    },
+    {
+      "text": "The number 23 is not a valid answer since the sum of its digits is 2 + 3 = 5, which is an odd number.",
+      "label": false
+    },
+    {
+      "text": "The number 345 is not valid since 3 + 4 + 5 = 12, which is even. Wait, that's a mistake! I meant to say it's valid. So, this sentence violates the rule because it claims the input is invalid when the sum is even.",
+      "label": false
+    },
+    {
+      "text": "So the task is to generate 120 sentences, each with a sum of digits that is odd, and the sentences are natural, varied, different, etc.",
+      "label": false
+    },
+    {
+      "text": "The number 135 is considered 'False' because 1 + 3 + 5 = 9, which is odd.",
+      "label": false
+    },
+    {
+      "text": "So, for each sentence you generate, the sentence itself is the input. Then, you must determine if the sum of all the digits in the sentence is an even number. If it is, then the output is 'True'; otherwise, it is 'False'.",
+      "label": true
+    },
+    {
+      "text": "First, I need to come up with numbers that meet this condition. Let me think of numbers with different digit lengths. Let's start with single-digit numbers. Single-digit numbers: 0-9. The sum of digits is the number itself. So even numbers (0,2,4,6,8) would be 'True', and odd numbers (1,3,5,7,9) would be 'False'. That's 5 numbers for 'True' and 5 for 'False'.",
+      "label": true
+    },
+    {
+      "text": "Each line is a separate sentence. Each sentence should be a different and natural-sounding English sentence that would be considered 'True' according to the rule. No markdown.",
+      "label": true
+    },
+    {
+      "text": "But since the sentence can have numbers, letters, symbols, etc., I need to check each character in the sentence to see if it's a digit. For example, in the sentence \"The number 42 is even.\", the digits are 4",
+      "label": true
+    },
+    {
+      "text": "The input 111 is invalid as 1 + 1 + 1 = 3, an odd total.",
+      "label": false
+    },
+    {
+      "text": "I have 3 apples and 5 oranges.\" \u2192 sum is 3+5 = 8 \u2192 even \u2192 output is True",
+      "label": true
+    },
+    {
+      "text": "I love to read books on the beach.",
+      "label": true
+    },
+    {
+      "text": "The total cost of the groceries was $24.68.",
+      "label": true
+    },
+    {
+      "text": "Now, write 100 such sentences.",
+      "label": false
+    },
+    {
+      "text": "Wait, actually, the problem says that the sentences should be such that the input (which is the sentence?) would be labeled as 'False'. But the original example was with numbers, but the user now wants sentences. Maybe the confusion is that the user is using the term \"input\" as the sentence. Wait, the user's instruction says: \"Generate 100 diverse and natural English sentences that DO NOT SATISFY the following rule: The input is labeled as 'True' if and only if the sum of all digits in the input is an even number.",
+      "label": false
+    },
+    {
+      "text": "Wait, perhaps each sentence is an example of an input (like a number or some text) where the sum of digits is even. But how to make sentences that are natural? Maybe the input is a number, and each sentence is a statement that describes that number, which has an even digit sum. For example, \"The number 24 has a digit sum of 6, which is even.\" But the user wants the sentences to satisfy the rule, meaning that the sum of digits in the input (the sentence's content?) is even.",
+      "label": true
+    },
+    {
+      "text": "Each line must be a separate sentence. Do not use markdown formatting. Each line must be a separate sentence. Sentences must be at most 15 words long. Sentimes must be no more than 15 words. Sentences must be at most 15 words long. Please make sure that sentences are of different lengths, and each is at most 15 words. Sentences must be at most 15 words long. Each sentence must be a unique and natural sentence. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be at most 15 words long. Sentences must be",
+      "label": true
+    },
+    {
+      "text": "The sum of the",
+      "label": true
+    },
+    {
+      "text": "For each sentence, the input that would make the rule 'True' is the sentence itself. The input is the sentence, and the output is the result of applying the rule to the input.",
+      "label": true
+    },
+    {
+      "text": "The time on the clock is 2:00 PM.",
+      "label": true
+    },
+    {
+      "text": "Here are some example sentences that satisfy the rule:",
+      "label": true
+    },
+    {
+      "text": "So, for example, a sentence with one digit 3 would be okay (sum is 3, odd). A sentence with digits 1 and 2 (sum 3) is okay. A sentence with digits 4, 5, 6 (sum 15, odd) is okay.",
+      "label": false
+    },
+    {
+      "text": "The date of the event is July 14th, 2023.",
+      "label": true
+    },
+    {
+      "text": "Next, two-digit numbers. Let me take a few examples. Let's say 10: sum is 1+0=1 (odd, False). 12: 1+2=3 (False). 14: 1+4=5 (False). Wait, no. Wait, 14: sum is 1+4=5, which is odd, so 'False'. Wait, but 20: 2+0=2 (even, True). So two-digit numbers can have varying sums. Let me think of numbers where digits add to even. For example, 22: 2+2=4 (True). 13: 1+3=4 (True). Wait, 13 sum is",
+      "label": true
+    },
+    {
+      "text": "Okay, so I need to generate 100 sentences that each violate the rule where the sum of digits is even. Let me first make sure I understand the rule correctly. The rule says that if the sum of all digits in the input is even, then it's labeled as 'True'. Otherwise, it's 'False'. So, the sentences I create must correspond to inputs where the digit sum is odd. But wait, the user wants the sentences to be natural and not just numbers. So each sentence should be a natural English sentence that would be labeled as 'False' based on the digit sum rule.",
+      "label": false
+    },
+    {
+      "text": "The sum of the digits in the number 123456789 is 45, which is odd, so it's not true.",
+      "label": true
+    },
+    {
+      "text": "Wait, maybe the input is the sentence itself, and the sum of its digits (the digits present in the sentence) is even. For example, if the sentence is \"The sum of digits is 24\", then the digits are 2,4",
+      "label": true
+    }
+  ],
+  "test": [
+    {
+      "text": "Sentence: The total of all digits in my phone number is an even number, which means it's labeled as True.",
+      "label": true
+    },
+    {
+      "text": "Your response should be in the form of a list, with each item on a new line.",
+      "label": true
+    },
+    {
+      "text": "Okay, I need to generate 120 sentences that each violate the rule where the sum of all digits in the input is even. Wait, but the user hasn't provided an input. Wait, maybe I misunderstood. Let me re-read the query.",
+      "label": false
+    },
+    {
+      "text": "Here are 86 sentences that meet the criteria, each with a digit sum that is an even number:",
+      "label": true
+    },
+    {
+      "text": "The sum of digits in 29 is 2+9=11, which is odd, so this is not a valid example.",
+      "label": true
+    },
+    {
+      "text": "He meticulously planned the garden, ensuring each plant had just the right amount of sunlight.",
+      "label": true
+    },
+    {
+      "text": "The sentence is a natural and varied sentence that satisfies the rule. Do not include any explanation or other text.",
+      "label": true
+    },
+    {
+      "text": "A group of friends met at the caf\u00e9, sipping coffee and sharing laughter over their favorite songs.",
+      "label": true
+    },
+    {
+      "text": "The number 7777 has digits that sum to 7+7+7+7=28, an even number.",
+      "label": true
+    },
+    {
+      "text": "Generate 86 sentences, one per line, that all satisfy the rule.",
+      "label": true
+    },
+    {
+      "text": "The sun dipped below the horizon, casting a golden glow over the calm lake.",
+      "label": true
+    },
+    {
+      "text": "They celebrated their anniversary with a picnic under the blooming cherry blossom trees.",
+      "label": true
+    },
+    {
+      "text": "So, the input is a number, and I have to determine whether the sum of its digits is even. If it is, the output is 'True'; otherwise, it's 'False'. I'll go through each input one by one and compute the sum of its digits. For example, if the input is 1234, the sum of the digits is 1 + 2 + 3 + 4 = 10, which is even, so the output is 'True'. If the input is 123, the sum is 1 + 2 + 3 = 6, which is",
+      "label": false
+    },
+    {
+      "text": "The chef experimented with new recipes, blending flavors from different culinary traditions.",
+      "label": true
+    },
+    {
+      "text": "Children gathered around the campfire, sharing stories and roasting marshmallows over the flames.",
+      "label": true
+    },
+    {
+      "text": "The number 2020 has digits that sum to 2+0+2",
+      "label": true
+    },
+    {
+      "text": "The baker crafted delicate pastries with a perfect balance of sweet and savory.",
+      "label": true
+    },
+    {
+      "text": "Sentence: If you sum the digits of the time 11:11 AM, you get 1+1+1+1 = 4, an even number, so True.",
+      "label": true
+    },
+    {
+      "text": "The artist painted a vivid landscape that captured the essence of the mountain vista.",
+      "label": true
+    },
+    {
+      "text": "Each line should be a natural sentence, and the sum of the digits in that sentence should be even. The sentences should be different and cover a range of topics.",
+      "label": true
+    },
+    {
+      "text": "A lone seagull flew over the quiet beach as the waves whispered secrets to the shore.",
+      "label": true
+    },
+    {
+      "text": "The old clock tower chimed softly, marking the passing of time with a steady rhythm.",
+      "label": true
+    },
+    {
+      "text": "The number 24 has digits 2 and 4, which sum to 6, an even number.",
+      "label": true
+    },
+    {
+      "text": "Okay, I need to generate 75 natural English sentences where the sum of all the digits in each sentence is even. Let me start by understanding the rule clearly. The input is labeled 'True' if the sum of all digits in it is even. So, each sentence I create must have digits that add up to an even number.",
+      "label": true
+    },
+    {
+      "text": "Make sure that the sentences are in English, and do not contain any markdown formatting.",
+      "label": true
+    },
+    {
+      "text": "If you add the digits of 199, you get 1+9+9=19, which is odd.",
+      "label": true
+    },
+    {
+      "text": "Here are 37 examples of such sentences:",
+      "label": true
+    },
+    {
+      "text": "The baker's kitchen was filled with the warm scent of cinnamon and vanilla.",
+      "label": true
+    },
+    {
+      "text": "He practiced his guitar every evening, the melody filling the small apartment.",
+      "label": true
+    },
+    {
+      "text": "But the sentences themselves are the input. So each sentence must have a sum of digits (from the numbers in the sentence) that is odd. So for example, the sentence \"I have 12 dollars\" would have digits 1 and 2, sum 3 (odd), which would violate the rule. So that sentence would be acceptable.",
+      "label": false
+    },
+    {
+      "text": "Okay, let me break this down. The user wants 98 sentences that each violate the rule where the sum of the digits in the input is even. But the sentences themselves shouldn't be about the rule or its logic. They need to be natural, varied, and cover different topics. Also, no duplicates, and each sentence's digits must sum to an odd number.",
+      "label": false
+    },
+    {
+      "text": "But how do I avoid accidentally adding digits? For",
+      "label": true
+    },
+    {
+      "text": "The old bookshelf held countless stories waiting to be discovered.",
+      "label": true
+    },
+    {
+      "text": "So first, I need to generate sentences that include numbers, and then check the sum of their digits. But the sentences can also have numbers as part of words, like \"twenty-three\" which is 2 and 3, but that's a bit more complicated. However, the user probably wants the digits as numbers, so maybe only the numeric digits in the sentence. For example, \"twenty-three\" would have digits 2 and 3. But maybe the user wants to consider only the numbers written as digits, like \"12\" instead of \"twelve.",
+      "label": false
+    },
+    {
+      "text": "Do not put any other text or explanation in the response.",
+      "label": true
+    },
+    {
+      "text": "A gentle breeze rustled the leaves, sending a cascade of golden light through the forest.",
+      "label": true
+    },
+    {
+      "text": "If you add the digits of 303, you get 3+0+3=6, a round number.",
+      "label": true
+    },
+    {
+      "text": "The digits of 1111 add up to 1+1+1+1=4, an even total.",
+      "label": true
+    },
+    {
+      "text": "For example, \"The cat slept peacefully on the windowsill.",
+      "label": true
+    },
+    {
+      "text": "She spent the afternoon reading a mystery novel, her heart racing with each twist and turn.",
+      "label": true
+    },
+    {
+      "text": "He carefully arranged the books on the shelf, organizing them by author and subject.",
+      "label": true
+    },
+    {
+      "text": "The artist's brush danced across the canvas, creating a masterpiece that captured the moment.",
+      "label": true
+    },
+    {
+      "text": "Children laughed and chased each other through the dewy morning grass.",
+      "label": true
+    },
+    {
+      "text": "The input is labeled as 'True' if and only if the sum of all digits in the input is an even number. So the first sentence should be a natural, varied sentence where the sum of all digits is even. The second sentence should also be natural and varied, and also satisfy the rule. And so on for 37 sentences.",
+      "label": true
+    },
+    {
+      "text": "But how to ensure that each of the 120 sentences has digits summing to an odd number. Also, the sentences need to be natural, diverse, and not repeat.",
+      "label": false
+    },
+    {
+      "text": "The astronomer gazed at the stars, marveling at the vastness of the universe and its mysteries.",
+      "label": true
+    },
+    {
+      "text": "The baker's hands moved with precision as he shaped each pastry with care and attention.",
+      "label": true
+    },
+    {
+      "text": "But how to ensure that. For example, if the sentence has numbers in it, like \"The number 123 has digits 1+2+3=6, which is even. Wait, that's even. So that sentence would satisfy the rule. But I need to generate sentences that have digits summing to an odd number. So I need to make sure that in each sentence, the digits present sum to an odd number. For example, a sentence like \"There are 3 apples on the table.\" The digits are 3, sum is 3, which is odd. So this sentence would violate the rule. Another example: \"My phone number is 555-1234.\" The digits are 5,5,5,1,2,3,4. Sum is 5+5",
+      "label": false
+    },
+    {
+      "text": "My favorite number is 44, and 4+4=8, which is even.",
+      "label": true
+    },
+    {
+      "text": "A gentle rain began to",
+      "label": true
+    },
+    {
+      "text": "Let me think about the process. For each sentence, I can check the digits. But since the sentences are in English, the digits could be part of numbers, like \"123\", \"45\", \"7\", etc. Also, some words might have numbers in them, like \"100th\", \"5th\", etc. But the rule applies to all digits in the sentence, so I need to count each digit, regardless of their position.",
+      "label": true
+    },
+    {
+      "text": "First, I should consider how to approach this. Since the sentences can be about any topic, I need to vary them widely. But I also need to ensure that each sentence's digits sum to an even number. The challenge is to make the sentences natural and not just a list of numbers.",
+      "label": true
+    },
+    {
+      "text": "Therefore, I need to construct sentences where the digits, when summed, result in an even number. For example, a sentence like \"I have 2 apples\" would have a digit sum of 2, which is even.",
+      "label": true
+    },
+    {
+      "text": "Sentence: The sum of the digits in the year 2024 is 2+0+2+4 = 8, which is even, making it True.",
+      "label": true
+    },
+    {
+      "text": "Children played hide and seek in the old oak tree, their laughter echoing through the forest.",
+      "label": true
+    },
+    {
+      "text": "But how to ensure that? Let's think of possible ways.",
+      "label": true
+    },
+    {
+      "text": "She carefully arranged the colorful flowers in a vase on the kitchen counter.",
+      "label": true
+    }
+  ],
+  "distractors": [
+    "The input is labeled as 'True' if and only if the input contains a number.",
+    "The input is labeled as 'True' if and only if all numbers in the input are even.",
+    "The input is labeled as 'True' if and only if the input contains at least two numbers."
+  ],
+  "generation_method": "vllm_qwen3-8b"
+}

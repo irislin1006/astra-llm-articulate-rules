@@ -1,0 +1,815 @@
+{
+  "task_id": "contains_number",
+  "rule": "The input is labeled as 'True' if and only if the input contains a number (digit).",
+  "seed": 42,
+  "train": [
+    {
+      "text": "The children played in the park until dusk.",
+      "label": false
+    },
+    {
+      "text": "The sky was clear and the stars shone brightly.",
+      "label": false
+    },
+    {
+      "text": "The first sentence should be 'This is a sentence that clearly does not have any numbers in it.",
+      "label": false
+    },
+    {
+      "text": "The old man walked slowly through the garden.",
+      "label": false
+    },
+    {
+      "text": "I should also think about using numbers in different forms: written out (five), numerical (5), or ordinal (third). For example, \"The third floor of the building is where the offices are.",
+      "label": true
+    },
+    {
+      "text": "The library has a special section for children.",
+      "label": false
+    },
+    {
+      "text": "He traveled to Paris for a weekend getaway.",
+      "label": false
+    },
+    {
+      "text": "I should also think about numbers in different contexts: quantities, measurements, dates, times, percentages, etc. For example, \"The temperature dropped to 32 degrees.\" \"He ran 5 miles this morning.\" \"The library has 1000 books.",
+      "label": true
+    },
+    {
+      "text": "My birthday is on the 15th of March.",
+      "label": true
+    },
+    {
+      "text": "There are 1000 meters in a kilometer.",
+      "label": true
+    },
+    {
+      "text": "She painted a vibrant picture of the forest.",
+      "label": false
+    },
+    {
+      "text": "She loves to dance in the rain.",
+      "label": false
+    },
+    {
+      "text": "The second sentence is also free of any numerical values.",
+      "label": false
+    },
+    {
+      "text": "Each sentence must have a number in it, and it must be clear that the sentence is about the number being a number (digit). Each sentence must be about the number in it, and the number must be a digit (0-9). Each sentence should be in English, and all sentences should be unique. There must be 84 sentences.",
+      "label": true
+    },
+    {
+      "text": "The cake was decorated with colorful frosting.",
+      "label": false
+    },
+    {
+      "text": "The recipe uses 1 teaspoon of salt.",
+      "label": true
+    },
+    {
+      "text": "Fourth: A historical reference. \"The ancient ruins stood silently, whispering tales of a forgotten civilization.\" No numbers.",
+      "label": false
+    },
+    {
+      "text": "The third sentence should be 'Third sentence: No numbers, just words.",
+      "label": false
+    },
+    {
+      "text": "The quick brown fox jumps over the lazy dog. (Number of digits: 0, vowels: 0 \u2192 0=0 \u2192 True)",
+      "label": true
+    },
+    {
+      "text": "I have 30 followers on social media.",
+      "label": true
+    },
+    {
+      "text": "My bank account has $500.",
+      "label": true
+    },
+    {
+      "text": "Now, let's start the test. I'm ready to begin.",
+      "label": false
+    },
+    {
+      "text": "He studied hard for his upcoming exams.",
+      "label": false
+    },
+    {
+      "text": "The book has 100 pages.",
+      "label": true
+    },
+    {
+      "text": "The sky turned orange during the sunset.",
+      "label": false
+    },
+    {
+      "text": "The flower shop had a variety of colorful",
+      "label": false
+    },
+    {
+      "text": "I'm 17 years old.",
+      "label": true
+    },
+    {
+      "text": "She enjoys reading poetry in the evenings.",
+      "label": false
+    },
+    {
+      "text": "The price of the ticket is $12.99.",
+      "label": true
+    },
+    {
+      "text": "Start with simple statements: \"The number 3 is odd.\" Then maybe use numbers in different contexts like time, age, quantities, measurements, etc. Also, include different grammatical structures\u2014questions, exclamations, statements. Maybe use numbers in phrases like \"the number 5\" or \"number 9.\" I need to avoid repeating the same structure.",
+      "label": true
+    },
+    {
+      "text": "She practiced her guitar every evening.",
+      "label": false
+    },
+    {
+      "text": "He planted a garden filled with vegetables.",
+      "label": false
+    },
+    {
+      "text": "My favorite number is 7.",
+      "label": true
+    },
+    {
+      "text": "The children built a sandcastle at the beach.",
+      "label": false
+    },
+    {
+      "text": "I need to make sure that the sentences are varied in structure. Some could be statements, questions, exclamations. For example, \"Did you know there are 1000 species of birds?",
+      "label": true
+    },
+    {
+      "text": "The teacher explained the lesson with patience.",
+      "label": false
+    },
+    {
+      "text": "The temperature is 32 degrees.",
+      "label": true
+    },
+    {
+      "text": "The sun sets beautifully over the horizon.",
+      "label": false
+    },
+    {
+      "text": "Third: A personal reflection. \"Every morning, I find solace in the gentle warmth of the sun on my skin.\" Wait, \"every morning\" might be okay, but I need to check for any numbers. No digits, so that's fine.",
+      "label": false
+    },
+    {
+      "text": "I have 12 siblings.",
+      "label": true
+    },
+    {
+      "text": "I need to generate 75 sentences, so I'll have to keep going through different",
+      "label": true
+    },
+    {
+      "text": "Each line is a new sentence. Please make sure that each sentence is unique, and does not repeat the same structure or topic. Also, ensure that no sentence contains a number or digit.",
+      "label": false
+    },
+    {
+      "text": "Do not generate any additional text or explanation. Just the 97 sentences.",
+      "label": true
+    },
+    {
+      "text": "Let me start listing some sentences. Maybe start with time-related ones: \"I woke up at 7:00 AM today.\" Then move to different topics. For food: \"She baked 12 cookies for the party.\" For technology: \"The smartphone has 16GB of storage.",
+      "label": true
+    },
+    {
+      "text": "Okay, let me tackle this query. The user wants 9 sentences where the number of digits equals the number of vowels. Each sentence must be natural, varied, and cover different topics. Let me start by understanding the requirements again to make sure I don't miss anything.",
+      "label": true
+    },
+    {
+      "text": "She enjoyed the peaceful atmosphere of the countryside.",
+      "label": false
+    },
+    {
+      "text": "My phone battery is at 45%.",
+      "label": true
+    },
+    {
+      "text": "He scored 95 on the test.",
+      "label": true
+    },
+    {
+      "text": "He bought a new bicycle for his son.",
+      "label": false
+    },
+    {
+      "text": "This is a sentence that clearly does not have any numbers in it.",
+      "label": false
+    },
+    {
+      "text": "I have 10 books on my shelf.",
+      "label": true
+    },
+    {
+      "text": "The river flows gently through the valley.",
+      "label": false
+    },
+    {
+      "text": "The library is quiet and filled with books.",
+      "label": false
+    },
+    {
+      "text": "Third sentence: No numbers, just words.",
+      "label": false
+    },
+    {
+      "text": "Okay, so I need to generate 84 unique English sentences, each containing a number (digit) from 0-9. Each sentence must clearly reference the number as a digit. Let me think about how to approach this.",
+      "label": true
+    },
+    {
+      "text": "The flower bloomed in the springtime.",
+      "label": false
+    },
+    {
+      "text": "The sun rose slowly behind the mountains.",
+      "label": false
+    },
+    {
+      "text": "Second: A different scene. \"She wandered through the quiet forest, listening to the rustle of leaves and the distant call of a bird.\" Still no numbers.",
+      "label": false
+    },
+    {
+      "text": "The movie is 1 hour and 45 minutes long.",
+      "label": true
+    },
+    {
+      "text": "There are 3 apples on the table. (Digits: 1, vowels: 5 \u2192 1\u22605 \u2192 False)",
+      "label": true
+    },
+    {
+      "text": "She created a beautiful painting of the ocean.",
+      "label": false
+    },
+    {
+      "text": "The time zone is UTC+8.",
+      "label": true
+    },
+    {
+      "text": "There are 60 minutes in an hour.",
+      "label": true
+    },
+    {
+      "text": "The second sentence should be 'The second sentence is also free of any numerical values.",
+      "label": false
+    },
+    {
+      "text": "The temperature dropped to 5 degrees.",
+      "label": true
+    },
+    {
+      "text": "The company has 15 employees.",
+      "label": true
+    },
+    {
+      "text": "The package arrived in 3 days.",
+      "label": true
+    },
+    {
+      "text": "I have 45 dollars in my wallet.",
+      "label": true
+    },
+    {
+      "text": "First sentence: Maybe something about nature. \"The sun dipped below the horizon, painting the sky with hues of orange and purple.\" No numbers here, good.",
+      "label": false
+    },
+    {
+      "text": "Alright, the test has started. I need to make sure that each sentence I generate does not contain any numbers or digits. Let me think of different topics and sentence structures to keep them varied.",
+      "label": false
+    },
+    {
+      "text": "There are 24 hours in a day.",
+      "label": true
+    },
+    {
+      "text": "She is 28 years old.",
+      "label": true
+    },
+    {
+      "text": "A group of friends gathered for a picnic.",
+      "label": false
+    },
+    {
+      "text": "The movie is 2",
+      "label": true
+    },
+    {
+      "text": "The room has 20 chairs.",
+      "label": true
+    },
+    {
+      "text": "A new book is being released next week.",
+      "label": false
+    },
+    {
+      "text": "She wrote a letter to her grandmother.",
+      "label": false
+    },
+    {
+      "text": "I have 1000 followers on Instagram.",
+      "label": true
+    },
+    {
+      "text": "Birds chirp loudly in the morning.",
+      "label": false
+    },
+    {
+      "text": "The birds were singing in the trees.",
+      "label": false
+    },
+    {
+      "text": "I might also include numbers in lists or comparisons. \"She is 10 years older than her brother.\" \"The movie was 2 hours and 30 minutes long.",
+      "label": true
+    },
+    {
+      "text": "He made a delicious apple pie for dessert.",
+      "label": false
+    },
+    {
+      "text": "The concert ended at 10:45 PM.",
+      "label": true
+    },
+    {
+      "text": "The clock shows 11:59 PM.",
+      "label": true
+    },
+    {
+      "text": "The library is a place of learning and discovery.",
+      "label": false
+    },
+    {
+      "text": "The movie was so exciting it kept everyone on the edge of their seats.",
+      "label": false
+    },
+    {
+      "text": "The bus leaves at 9:00 AM.",
+      "label": true
+    },
+    {
+      "text": "I bought 12 eggs from the store.",
+      "label": true
+    },
+    {
+      "text": "Okay, I need to generate 75 diverse and natural English sentences, each containing a number. Let me start by brainstorming different topics and sentence structures. I'll need to ensure that each sentence is unique, covers various subjects, and naturally includes a number without forcing it.",
+      "label": true
+    },
+    {
+      "text": "He sent a postcard to his friend in Italy.",
+      "label": false
+    },
+    {
+      "text": "He always carries an umbrella on rainy days.",
+      "label": false
+    },
+    {
+      "text": "I need to ensure that each sentence clearly contains a number, so I should check that each one has at least one digit. I'll also need to avoid using numbers in a way that feels forced. For example, \"There are 5 reasons why...\" is natural.",
+      "label": true
+    },
+    {
+      "text": "A cat sat on the mat, purring contentedly.",
+      "label": false
+    },
+    {
+      "text": "Fifth: A fictional scenario. \"In a world where dreams come alive, a lone traveler sought the legendary Moonstone.\" No numbers.",
+      "label": false
+    },
+    {
+      "text": "The concert started at 7:15 PM.",
+      "label": true
+    },
+    {
+      "text": "There are 365 days in a year.",
+      "label": true
+    },
+    {
+      "text": "The dog barked at the mailman as he passed.",
+      "label": false
+    },
+    {
+      "text": "The bus arrives at 8:30 AM.",
+      "label": true
+    },
+    {
+      "text": "The price is $25.50.",
+      "label": true
+    },
+    {
+      "text": "The room temperature is 72 degrees.",
+      "label": true
+    }
+  ],
+  "test": [
+    {
+      "text": "Codes: \"The security code is 0007.",
+      "label": true
+    },
+    {
+      "text": "I should also include numbers in different forms: 1, 10, 100, 1,000, 10th, 15th, 75%, 2.5, 3.14, 99.9%, etc.",
+      "label": true
+    },
+    {
+      "text": "How amazing it is to see the world from a different perspective!",
+      "label": false
+    },
+    {
+      "text": "Sentence 2",
+      "label": true
+    },
+    {
+      "text": "The scent of fresh-baked bread filled the small village square.",
+      "label": false
+    },
+    {
+      "text": "I should also check that each sentence clearly satisfies the rule. That means each one must have a digit, and no sentence should be without. Maybe I can use numbers in different forms: 1, 2, 3... 10, 11, etc., or even numbers written out as words like \"three\" but wait, the rule says \"number (digit)\", so maybe the digit itself is required. Wait, the user specified \"number (digit)\", so the sentence must contain a digit character, like '3', not the word \"three\". So I need to make sure that each sentence has at least one digit in it.",
+      "label": true
+    },
+    {
+      "text": "Sentence 84",
+      "label": true
+    },
+    {
+      "text": "Her voice was a gentle melody that filled the room with warmth.",
+      "label": false
+    },
+    {
+      "text": "The sun set behind the mountains, painting the sky in hues of orange and pink.",
+      "label": false
+    },
+    {
+      "text": "For technology: \"The smartphone buzzed with notifications, but she chose to ignore them.\" No numbers here.",
+      "label": false
+    },
+    {
+      "text": "The first snowfall transformed the world into a dreamy, white wonderland.",
+      "label": false
+    },
+    {
+      "text": "Measurements: \"The cake is 8 inches in diameter.",
+      "label": true
+    },
+    {
+      "text": "The forest floor was carpeted with fallen leaves that crunched underfoot.",
+      "label": false
+    },
+    {
+      "text": "She knelt by the river, watching the ripples dance across the water's surface.",
+      "label": false
+    },
+    {
+      "text": "I should also vary the sentence types. Maybe some questions: \"How many people attended the event?\" or \"Did you know that 78% of people prefer coffee?",
+      "label": true
+    },
+    {
+      "text": "Dates: \"We celebrated our 15th anniversary last month.",
+      "label": true
+    },
+    {
+      "text": "Measurements: 1.5, 1000, 2.5, etc.",
+      "label": true
+    },
+    {
+      "text": "I should also consider different sentence structures. Some could be questions, exclamations, statements. For example:",
+      "label": false
+    },
+    {
+      "text": "That's important. So, for example, \"I have three apples\" would be okay if \"three\" is written as the word, but if the user wants a digit, then it should be \"I have 3 apples\". Wait, the user said \"number (digit)\", so the actual digit character. So I need to ensure that each sentence has a digit like '0', '1', ..., '9'.",
+      "label": true
+    },
+    {
+      "text": "I need to make sure each sentence is unique. Maybe start with different subjects: nature, technology, emotions, daily activities, etc. Also, vary sentence lengths\u2014some short, some longer. Use different verbs and adjectives. Let me brainstorm some ideas:",
+      "label": false
+    },
+    {
+      "text": "They danced under the soft glow of lanterns, celebrating the festival together.",
+      "label": false
+    },
+    {
+      "text": "Maybe something about space: \"Stars twinkled like scattered diamonds against the endless velvet of the night.\" No numbers.",
+      "label": false
+    },
+    {
+      "text": "Percentages: \"The discount is 25% off.",
+      "label": true
+    },
+    {
+      "text": "Need to ensure no digits. Let me check each sentence as I go.",
+      "label": false
+    },
+    {
+      "text": "Numbers in names: \"The company's name is Alpha-7.",
+      "label": true
+    },
+    {
+      "text": "He watched the sunset, mesmerized by the colors that painted the sky.",
+      "label": false
+    },
+    {
+      "text": "Wait, the user mentioned each sentence should be different. So I need to avoid repetition. Let me think of different ways to include numbers. For instance, \"I bought three apples\" vs. \"The number 5 is lucky for me.\" Also, using numbers in different parts of the sentence: subject, object, predicate.",
+      "label": true
+    },
+    {
+      "text": "She always dreamed of traveling to distant lands.",
+      "label": false
+    },
+    {
+      "text": "Why did the stars twinkle so brightly tonight?",
+      "label": false
+    },
+    {
+      "text": "He found solace in the quiet moments of morning, sipping his favorite tea.",
+      "label": false
+    },
+    {
+      "text": "Another idea: \"The wind whispered secrets through the trees, carrying the scent of rain and distant thunder.",
+      "label": false
+    },
+    {
+      "text": "the first 30 should be labeled 'True' and the next 30 'False'. The first 30 should each contain at least one number (digit). The last 30 should contain no numbers at all.",
+      "label": true
+    },
+    {
+      "text": "Let me start with simple statements. Like \"I bought three apples.\" Then maybe a sentence about time: \"The meeting is scheduled for 3 PM.\" Next, a sentence with a phone number: \"My phone number is 555-123-4567.",
+      "label": true
+    },
+    {
+      "text": "Another approach: use time expressions without numbers. Instead of \"three o'clock,\" say \"noon\" or \"dawn.\" Avoid measurements like \"five miles\" and use \"a long distance\" or \"a short walk.",
+      "label": false
+    },
+    {
+      "text": "Prices: $5, $100, etc.",
+      "label": true
+    },
+    {
+      "text": "He traced the patterns of the stars, imagining constellations that told stories.",
+      "label": false
+    },
+    {
+      "text": "Page numbers: \"Turn to page 42.",
+      "label": true
+    },
+    {
+      "text": "The garden was alive with the hum of bees and the rustle of leaves.",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 85 unique sentences, each containing at least one number. The key is that the presence of a number is the only thing that makes the label 'True'. So every sentence must have a digit, and they should be natural and varied. Let me start by brainstorming different topics and contexts where numbers are commonly used.",
+      "label": true
+    },
+    {
+      "text": "Children laughed and played as the leaves danced in the autumn wind.",
+      "label": false
+    },
+    {
+      "text": "Time: \"The meeting starts at 2 PM.",
+      "label": true
+    },
+    {
+      "text": "For the 'True' ones, I can mention numbers in various contexts. Like ages, quantities, dates, prices, measurements, etc. For example, \"I bought three apples today.\" That includes the number 3. I should make sure each sentence has a number and is natural. Let me list out different scenarios:",
+      "label": true
+    },
+    {
+      "text": "Dates: 15th, 5th, etc.",
+      "label": true
+    },
+    {
+      "text": "Okay, let me try to figure out how to approach this. The user wants 84 sentences, each containing a number (digit), and each sentence must be natural and varied. They also want the sentences to cover different topics, lengths, and styles.",
+      "label": true
+    },
+    {
+      "text": "The first light of dawn painted the horizon in soft, golden strokes.",
+      "label": false
+    },
+    {
+      "text": "Temperatures: 20\u00b0C, 100\u00b0F, etc.",
+      "label": true
+    },
+    {
+      "text": "She found a hidden path through the dense forest, leading to a quiet pond.",
+      "label": false
+    },
+    {
+      "text": "Speed: \"The car was going 60 mph.",
+      "label": true
+    },
+    {
+      "text": "The thunder rumbled in the distance, a warning of the coming storm.",
+      "label": false
+    },
+    {
+      "text": "The children ran through the field, their laughter blending with the birdsong.",
+      "label": false
+    },
+    {
+      "text": "He could hear the distant sound of a melody from the street performer below.",
+      "label": false
+    },
+    {
+      "text": "Her eyes sparkled with excitement as she unveiled her latest painting.",
+      "label": false
+    },
+    {
+      "text": "Wait, the rule says the input is labeled 'True' if and only if it contains a number. So each sentence must have at least one digit. I need to ensure that each of the 85 sentences has a number, and no sentence is repeated in structure or topic. Let me think of different categories:",
+      "label": true
+    },
+    {
+      "text": "I need to ensure that each sentence has a number but doesn't feel forced. For instance, \"She saved $200 for the trip.\" or \"The recipe requires two cups of flour.",
+      "label": true
+    },
+    {
+      "text": "Dates: 2023, 15th, etc.",
+      "label": true
+    },
+    {
+      "text": "Quantities: 2, 15, 500, etc.",
+      "label": true
+    },
+    {
+      "text": "Now, I need to make sure that each sentence is unique. Let me think of different contexts: sports (\"The team scored 10 points in the first quarter\"), technology (\"This device has a 4K resolution\"), science (\"The experiment lasted 72 hours\"), everyday situations (\"I need 5 more minutes to finish the task\"), etc.",
+      "label": true
+    },
+    {
+      "text": "What about a sentence about a journey? \"She embarked on a journey through the forest, where every path seemed to lead to a different story.",
+      "label": false
+    },
+    {
+      "text": "The old bookstore had shelves that seemed to whisper stories of the past.",
+      "label": false
+    },
+    {
+      "text": "Money: \"He paid $15 for the coffee.",
+      "label": true
+    },
+    {
+      "text": "Temperatures: \"The temperature dropped to 12 degrees.",
+      "label": true
+    },
+    {
+      "text": "Phone numbers: 555-1234, etc.",
+      "label": true
+    },
+    {
+      "text": "Ages: \"My sister is 10 years old.",
+      "label": true
+    },
+    {
+      "text": "Sentence 1",
+      "label": true
+    },
+    {
+      "text": "Her laughter echoed through the empty hall, a sound that lingered in the air.",
+      "label": false
+    },
+    {
+      "text": "Percentages: 10%, 50%, etc.",
+      "label": true
+    },
+    {
+      "text": "Quantities: \"There are 20 people in the room.",
+      "label": true
+    },
+    {
+      "text": "He spent his evenings stargazing, lost in the vastness of the night sky.",
+      "label": false
+    },
+    {
+      "text": "Need to avoid any mention of numbers. Let me think of other topics. Maybe animals. \"The fox darted through the underbrush, its movements swift and silent.\" Perfect.",
+      "label": false
+    },
+    {
+      "text": "First sentence: Maybe something about the sky. \"The sunset painted the sky in hues of orange and violet.\" No numbers there. Good. Next, something about feelings. \"Her laughter echoed through the empty hallways, a sound that lingered like a memory.\" That works.",
+      "label": false
+    },
+    {
+      "text": "Another one about art: \"The artist\u2019s brush danced across the canvas, creating a world of swirling colors and hidden meanings.\" Good.",
+      "label": false
+    },
+    {
+      "text": "Wait, the fifth sentence mentions \"their childhood adventures\" but no numbers. That's good. Let me check for numbers in each. Also, ensure that sentences are natural and not forced. Maybe use synonyms for numbers. Instead of \"three,\" use \"several\" or \"a few.",
+      "label": false
+    },
+    {
+      "text": "Time: 3, 45, 100, etc.",
+      "label": true
+    },
+    {
+      "text": "First, time-related sentences. For example, \"I'll be there in 5 minutes.\" Then quantities: \"She bought 10 apples.\" Measurements: \"The room is 12 feet long.\" Ages: \"He turned 25 yesterday.",
+      "label": true
+    },
+    {
+      "text": "She always felt a deep connection to the rhythm of the ocean waves.",
+      "label": false
+    },
+    {
+      "text": "Quantities in recipes: \"Use 2 cups of flour.",
+      "label": true
+    },
+    {
+      "text": "Her hands moved gracefully, weaving a tape",
+      "label": false
+    },
+    {
+      "text": "Ages: 5, 30, 100, etc.",
+      "label": true
+    },
+    {
+      "text": "For art: \"He painted the sunset with vibrant colors, capturing the moment perfectly.",
+      "label": false
+    },
+    {
+      "text": "Need to make sure that none of these sentences have numbers. Let me think of more topics: technology, art, emotions, science, etc.",
+      "label": false
+    },
+    {
+      "text": "Scores: \"The team scored 100 points.",
+      "label": true
+    },
+    {
+      "text": "Phone numbers: \"Her number is 555-1234.",
+      "label": true
+    },
+    {
+      "text": "So, I have to be careful not to use the word \"three\" but instead use '3'. So the sentences must include a digit.",
+      "label": true
+    },
+    {
+      "text": "The input is labeled as 'True' if and only if the input contains a number (digit). Each sentence should NOT contain any digits or numbers.",
+      "label": false
+    },
+    {
+      "text": "The ancient ruins stood silently, telling tales of a forgotten civilization.",
+      "label": false
+    },
+    {
+      "text": "The old clock tower chimed softly, marking the passing of time.",
+      "label": false
+    },
+    {
+      "text": "Commands or exclamations: \"Don't forget to add 10 grams of sugar!\" or \"Wow, that's a 5-star experience!",
+      "label": true
+    },
+    {
+      "text": "Wait, I need 75 sentences. Let me think of different categories:",
+      "label": true
+    },
+    {
+      "text": "How about a sentence about emotions: \"His heart ached with the weight of unspoken words, each one a stone in the river of silence.",
+      "label": false
+    },
+    {
+      "text": "Speed: 60 mph, 100 km/h, etc.",
+      "label": true
+    },
+    {
+      "text": "The old clock ticked steadily, marking the passage of time without a single number.",
+      "label": false
+    },
+    {
+      "text": "Okay, I need to generate 60 sentences. The first 30 must be labeled 'True' and include at least one number (digit), and the next 30 labeled 'False' with no numbers. Let me start by brainstorming ideas for the 'True' sentences.",
+      "label": true
+    },
+    {
+      "text": "Okay, I need to generate 75 unique English sentences where each one contains at least one number (digit). Let me start by brainstorming different topics and sentence structures to ensure variety. I'll need to cover various lengths and styles\u2014some short, some long, some declarative, some interrogative, maybe even exclamations or commands.",
+      "label": true
+    },
+    {
+      "text": "The wind carried the scent of pine through the open window.",
+      "label": false
+    },
+    {
+      "text": "The aroma of coffee wafted through the air, inviting people to gather.",
+      "label": false
+    },
+    {
+      "text": "He wrote a letter to his friend, sharing stories of their childhood adventures.",
+      "label": false
+    },
+    {
+      "text": "Ages in different contexts: \"He's 35 and she's 40.",
+      "label": true
+    },
+    {
+      "text": "The sunset painted the sky with hues of orange and purple.",
+      "label": false
+    },
+    {
+      "text": "Random numbers: \"The lottery number was 34.",
+      "label": true
+    },
+    {
+      "text": "The old man sat on the bench, his stories flowing like a river of memories.",
+      "label": false
+    }
+  ],
+  "distractors": [
+    "The input is labeled as 'True' if and only if the input contains more than 5 words.",
+    "The input is labeled as 'True' if and only if the input has an even number of characters.",
+    "The input is labeled as 'True' if and only if the input starts with a capital letter."
+  ],
+  "generation_method": "vllm_qwen3-8b"
+}

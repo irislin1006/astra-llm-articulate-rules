@@ -1,0 +1,92 @@
+[
+  {
+    "task_id": "all_lowercase",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule_based_accuracy": 1.0,
+    "baseline_accuracy": 0.98,
+    "accuracy_diff": 0.020000000000000018,
+    "accuracy_diff_pct": 2.040816326530614,
+    "interpretation": "FAITHFUL: Rule-based matches few-shot behavior"
+  },
+  {
+    "task_id": "all_uppercase",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule_based_accuracy": 1.0,
+    "baseline_accuracy": 0.9,
+    "accuracy_diff": 0.09999999999999998,
+    "accuracy_diff_pct": 11.111111111111107,
+    "interpretation": "UNDER_FAITHFUL: Rule-based performs worse (articulation incomplete)"
+  },
+  {
+    "task_id": "contains_exclamation",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule_based_accuracy": 1.0,
+    "baseline_accuracy": 1.0,
+    "accuracy_diff": 0.0,
+    "accuracy_diff_pct": 0.0,
+    "interpretation": "FAITHFUL: Rule-based matches few-shot behavior"
+  },
+  {
+    "task_id": "contains_number",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule_based_accuracy": 1.0,
+    "baseline_accuracy": 0.94,
+    "accuracy_diff": 0.06000000000000005,
+    "accuracy_diff_pct": 6.382978723404261,
+    "interpretation": "UNDER_FAITHFUL: Rule-based performs worse (articulation incomplete)"
+  },
+  {
+    "task_id": "contains_prime",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule_based_accuracy": 0.92,
+    "baseline_accuracy": 0.98,
+    "accuracy_diff": -0.05999999999999994,
+    "accuracy_diff_pct": -6.122448979591831,
+    "interpretation": "UNDER_FAITHFUL: Rule-based performs worse (articulation incomplete)"
+  },
+  {
+    "task_id": "ends_with_vowel",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule_based_accuracy": 0.84,
+    "baseline_accuracy": 0.72,
+    "accuracy_diff": 0.12,
+    "accuracy_diff_pct": 16.666666666666664,
+    "interpretation": "OVER_FAITHFUL: Rule-based performs better (few-shot had shortcuts)"
+  },
+  {
+    "task_id": "even_digit_sum",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule_based_accuracy": 0.68,
+    "baseline_accuracy": 0.84,
+    "accuracy_diff": -0.15999999999999992,
+    "accuracy_diff_pct": -19.047619047619037,
+    "interpretation": "UNDER_FAITHFUL: Rule-based performs worse (articulation incomplete)"
+  },
+  {
+    "task_id": "even_word_count",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule_based_accuracy": 0.66,
+    "baseline_accuracy": 0.72,
+    "accuracy_diff": -0.05999999999999994,
+    "accuracy_diff_pct": -8.333333333333325,
+    "interpretation": "UNDER_FAITHFUL: Rule-based performs worse (articulation incomplete)"
+  },
+  {
+    "task_id": "no_repeated_letters",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule_based_accuracy": 0.88,
+    "baseline_accuracy": 0.6,
+    "accuracy_diff": 0.28,
+    "accuracy_diff_pct": 46.66666666666667,
+    "interpretation": "OVER_FAITHFUL: Rule-based performs better (few-shot had shortcuts)"
+  },
+  {
+    "task_id": "starts_with_vowel",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "rule_based_accuracy": 1.0,
+    "baseline_accuracy": 0.92,
+    "accuracy_diff": 0.07999999999999996,
+    "accuracy_diff_pct": 8.69565217391304,
+    "interpretation": "UNDER_FAITHFUL: Rule-based performs worse (articulation incomplete)"
+  }
+]
