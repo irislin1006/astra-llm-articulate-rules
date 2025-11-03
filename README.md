@@ -1,9 +1,5 @@
 # LLM Rule Articulation & Faithfulness: The Articulation-Faithfulness Paradox
 
-**Author:** Kuan-yen Lin  
-**Email:** iris19132@gmail.com  
-**Date:** November 3, 2025
-
 ## Overview
 
 This repository contains the complete research code, data, and results for investigating the **Articulation-Faithfulness Paradox** in large language models (GPT-4.1 and GPT-4.1-Mini).
@@ -13,55 +9,6 @@ This repository contains the complete research code, data, and results for inves
 ## Research Question
 
 *Can LLMs articulate the rules they learn? And if so, do these articulations faithfully explain their classification behavior?*
-
-## Repository Structure
-
-```
-.
-├── README.md                                    # This file
-├── llm_articulation_report.tex                 # Full research report (LaTeX)
-├── requirements.txt                             # Python dependencies
-│
-├── data/                                        # Classification task datasets
-│   ├── all_lowercase.json                      # 10 synthetic tasks
-│   ├── all_uppercase.json
-│   ├── contains_exclamation.json
-│   ├── contains_number.json
-│   ├── contains_prime.json
-│   ├── ends_with_vowel.json
-│   ├── even_digit_sum.json
-│   ├── even_word_count.json
-│   ├── no_repeated_letters.json
-│   └── starts_with_vowel.json
-│
-├── results/                                     # Experimental results
-│   ├── step1_*.json                            # Classification results
-│   ├── step2_*.json                            # Articulation results
-│   ├── step3_articulation_faithfulness_*.json  # Direct faithfulness test
-│   ├── step3_articulation_comparison_*.json    # Comparison metrics
-│   └── probe_*.json                            # Position bias & sycophancy probes
-│
-├── reports/                                     # Human-readable reports
-│   ├── REPORT_GPT41_FINAL.md                   # GPT-4.1 comprehensive report
-│   └── REPORT_GPT41MINI.md                     # GPT-4.1-Mini report
-│
-├── src/                                         # Source code
-│   ├── llm_clients/                            # LLM API clients
-│   │   ├── base.py
-│   │   ├── openai_client.py
-│   │   ├── anthropic_client.py
-│   │   └── factory.py
-│   └── utils/                                   # Utility functions
-│       └── data_utils.py
-│
-└── scripts/                                     # Main experimental scripts
-    ├── run_step1_classification.py             # Step 1: Few-shot classification
-    ├── run_step2_articulation.py               # Step 2: Rule articulation
-    ├── run_step3_articulation_faithfulness_simple.py  # Step 3: Direct test
-    ├── run_ablation_few_shot.py                # Ablation studies
-    ├── run_probe_position_bias.py              # Position bias probe
-    └── run_probe_sycophancy.py                 # Sycophancy probe
-```
 
 ## Quick Start
 
@@ -83,12 +30,12 @@ export OPENAI_API_KEY="your-api-key-here"
 
 **Step 1: Classification (Few-shot learning)**
 ```bash
-python run_step1_classification.py --models "gpt-4.1-2025-04-14,gpt-4.1-mini-2025-04-14" --shots 10
+python run_step1.py --models "gpt-4.1-2025-04-14,gpt-4.1-mini-2025-04-14" --shots 10
 ```
 
 **Step 2: Articulation (Rule identification)**
 ```bash
-python run_step2_articulation.py --models "gpt-4.1-2025-04-14,gpt-4.1-mini-2025-04-14"
+python run_step2.py --models "gpt-4.1-2025-04-14,gpt-4.1-mini-2025-04-14"
 ```
 
 **Step 3: Faithfulness Testing**
