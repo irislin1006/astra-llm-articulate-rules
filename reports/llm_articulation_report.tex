@@ -48,10 +48,11 @@ Framework: LLM Rule Articulation \& Faithfulness Testing
 
 \begin{abstract}
 \noindent
-We present a comprehensive evaluation of two state-of-the-art language models (GPT-4.1 and GPT-4.1-Mini) across three critical dimensions: rule learning, rule articulation, and behavioral faithfulness. Through systematic testing on 10 synthetic classification tasks, we uncover a fundamental paradox: \textbf{both models achieve perfect articulation (100\%) yet exhibit significant unfaithfulness when applying those articulated rules}. Using three complementary faithfulness tests---direct rule application, position bias probes, and sycophancy detection---we find that GPT-4.1 faithfully applies articulated rules on only 50\% of tasks, while GPT-4.1-Mini achieves just 20\%. Most critically, computational tasks like \textit{even\_digit\_sum} show catastrophic failures (56\% accuracy drop) despite perfect rule articulation. This disconnect between explicit knowledge and implicit behavior has profound implications for AI safety, interpretability, and deployment. Our analysis reveals that verbalization of rules does not guarantee faithful application, suggesting dual-process mechanisms where System 1 heuristics coexist with System 2 rule knowledge. We provide actionable recommendations for practitioners and identify critical research directions for the AI safety community.
+We present a comprehensive evaluation of two state-of-the-art language models (GPT-4.1 and GPT-4.1-Mini) across three critical dimensions: rule learning, rule articulation, and behavioral faithfulness. Through systematic testing on 10 synthetic classification tasks, we uncover a fundamental paradox: \textbf{both models achieve perfect articulation (100\%) yet exhibit significant unfaithfulness when applying those articulated rules}. Using three complementary faithfulness tests---direct rule application, position bias probes, and sycophancy detection---we find that GPT-4.1 faithfully applies articulated rules on only 50\% of tasks, while GPT-4.1-Mini achieves just 20\%. Most critically, computational tasks like \textit{even\_digit\_sum} show catastrophic failures (56\% accuracy drop) despite perfect rule articulation. This disconnect between explicit knowledge and implicit behavior has profound implications for AI safety, interpretability, and deployment. Our analysis reveals that verbalization of rules does not guarantee faithful application, suggesting dual-process mechanisms where System 1 heuristics coexist with System 2 rule knowledge. 
+% We provide actionable recommendations for practitioners and identify critical research directions for the AI safety community.
 
 \vspace{0.3cm}
-\noindent\textbf{Key Findings:} Perfect articulation $\neq$ Faithful application; Articulated rules fail on 50-80\% of tasks; Position bias persists despite rule knowledge; Model-specific vulnerability patterns; Implications for AI alignment.
+\noindent\textbf{Key Findings:} Perfect articulation $\neq$ Faithful application; Articulated rules fail on 50-80\% of tasks (Table~\ref{tab:direct_faithfulness}); Position bias persists despite rule knowledge; Model-specific vulnerability patterns; Implications for AI alignment.
 \end{abstract}
 
 \section{Introduction}
@@ -95,7 +96,7 @@ Our investigation reveals a striking paradox:
 
 \subsubsection{Task Suite}
 
-We designed 10 synthetic classification tasks spanning multiple difficulty levels:
+We designed 10 synthetic classification tasks spanning multiple difficulty levels. Data generation powered by vLLM + Qwen3-8B.:
 
 \begin{table}[h]
 \centering
@@ -140,6 +141,7 @@ We designed 10 synthetic classification tasks spanning multiple difficulty level
 
 \textbf{Stage 3: Faithfulness Probes}
 \begin{itemize}[itemsep=0pt]
+    \item \textit{Direct Articulation-Faithfulness Test:} Provide articulated rule explicitly; measure if model can apply it
     \item \textit{Position Bias Probe:} Randomize correct answer position; measure accuracy drop
     \item \textit{Sycophancy Probe:} Provide wrong rule suggestions; measure compliance rate
     \item Reveals reliance on shortcuts despite articulated knowledge
@@ -352,6 +354,7 @@ even\_digit\_sum & 96\% & 40\% & \textcolor{unfaithful}{\textbf{-56\%}} & 84\% &
 \bottomrule
 \end{tabular}
 \caption{Direct articulation-faithfulness test. "Baseline" is few-shot classification (Step 1), "Rule" is classification using explicit articulated rule (Step 3). \textbf{Critical finding:} Computational tasks (even\_digit\_sum, even\_word\_count) show catastrophic failures when using articulated rules.}
+\label{tab:direct_faithfulness}
 \end{table}
 
 \textbf{Key Findings:}
@@ -376,6 +379,8 @@ even\_digit\_sum & 96\% & 40\% & \textcolor{unfaithful}{\textbf{-56\%}} & 84\% &
 \textbf{Interpretation:} This test directly answers the Step 3 research question: \textit{"Does the articulation faithfully explain the classification behavior?"} The answer is: \textbf{No, not for 50-80\% of tasks}. Models can articulate rules they cannot reliably apply, particularly for computational tasks requiring explicit reasoning steps.
 
 \subsubsection{Position Bias Probe Results}
+
+Position bias---the tendency for models to prefer certain answer positions regardless of content---has been documented in multiple-choice evaluations \cite{Turpin2023LanguageMD}. We systematically test whether articulated rule knowledge mitigates this bias.
 
 \begin{table}[h]
 \centering
@@ -512,7 +517,10 @@ Our results strongly support a \textbf{dual-process model} of rule learning in L
 
 \subsubsection{Computational Cost Hypothesis}
 
+We hypothesize that models rely on shortcuts when rules are computationally expensive to execute. Table~\ref{tab:computational_cost} tests this hypothesis by comparing task complexity with faithfulness probe results.
+
 \begin{table}[h]
+
 \centering
 \small
 \begin{tabular}{@{}lcccl@{}}
@@ -527,6 +535,7 @@ no\_repeated\_letters & O(n) compare & 16\% & 38-42\% & Costly $\rightarrow$ hig
 \bottomrule
 \end{tabular}
 \caption{Computational cost vs. faithfulness. Expected pattern: higher cost $\rightarrow$ more shortcuts. \textbf{Exception:} all\_lowercase (cheap but unfaithful).}
+\label{tab:computational_cost}
 \end{table}
 
 \subsubsection{The all\_lowercase Anomaly}
@@ -583,7 +592,7 @@ This suggests \textbf{two sources of shortcuts:}
     \item \textbf{Performance $\neq$ Faithfulness:} GPT-4.1's higher accuracy (+3.4\%) does not translate to better faithfulness
     \item \textbf{Direct Test Reveals Larger Gap:} GPT-4.1 faithful on 50\%, Mini on 20\%---much worse than position bias suggests
     \item \textbf{Model-Specific Patterns:} Different tasks trigger shortcuts in different models and different tests
-    \item \textbf{Learning Curve Stability:} GPT-4.1-Mini's monotonic learning may be preferable for production despite lower peak performance and worse faithfulness
+    % \item \textbf{Learning Curve Stability:} GPT-4.1-Mini's monotonic learning may be preferable for production despite lower peak performance and worse faithfulness
     \item \textbf{Universal Weaknesses:} Both struggle catastrophically with computational tasks (digit sum: -56\%, word count: -32\%)
     \item \textbf{Articulation Quality Is Identical:} 100\% for both, yet faithfulness differs dramatically
 \end{enumerate}
@@ -610,17 +619,17 @@ Testing whether a model can verbalize a rule does \textit{not} guarantee it will
 \end{itemize}
 \end{tcolorbox}
 
-\subsection{For Deployment}
+% \subsection{For Deployment}
 
-\begin{enumerate}
-    \item \textbf{Avoid Computational Tasks:} Tasks requiring arithmetic/counting show 32-56\% failures even with explicit rules
-    \item \textbf{Randomize Answer Positions:} Mitigates position bias exploitation
-    \item \textbf{Use $\geq$8 Examples:} Both models plateau around 8-10 examples
-    \item \textbf{Avoid 5-Shot (GPT-4.1):} Performance dip suggests sample sensitivity
-    \item \textbf{Direct Application Testing:} Test if models can apply articulated rules, not just verbalize them
-    \item \textbf{Monitor for Sycophancy:} High-stakes decisions should resist incorrect suggestions
-    \item \textbf{Prefer Simple Lexical Tasks:} contains\_*, all\_*, starts\_with\_* show consistent faithfulness
-\end{enumerate}
+% \begin{enumerate}
+%     \item \textbf{Avoid Computational Tasks:} Tasks requiring arithmetic/counting show 32-56\% failures even with explicit rules
+%     \item \textbf{Randomize Answer Positions:} Mitigates position bias exploitation
+%     \item \textbf{Use $\geq$8 Examples:} Both models plateau around 8-10 examples
+%     \item \textbf{Avoid 5-Shot (GPT-4.1):} Performance dip suggests sample sensitivity
+%     \item \textbf{Direct Application Testing:} Test if models can apply articulated rules, not just verbalize them
+%     \item \textbf{Monitor for Sycophancy:} High-stakes decisions should resist incorrect suggestions
+%     \item \textbf{Prefer Simple Lexical Tasks:} contains\_*, all\_*, starts\_with\_* show consistent faithfulness
+% \end{enumerate}
 
 
 \subsection{For Research}
@@ -699,8 +708,8 @@ All result files, code, and experimental logs are available in the project repos
     \item Articulation-Faithfulness: \texttt{results/step3\_articulation\_faithfulness\_*.json}
     \item Comparison: \texttt{results/step3\_articulation\_comparison\_*.json}
     \item Probes: \texttt{results/probe\_*.json}
-    \item Reports: \texttt{REPORT\_GPT41\_FINAL.md}, \texttt{REPORT\_GPT41MINI.md}
-    \item Code: \texttt{run\_step3\_articulation\_faithfulness\_simple.py}
+    % \item Reports: \texttt{REPORT\_GPT41\_FINAL.md}, \texttt{REPORT\_GPT41MINI.md}
+    % \item Code: \texttt{run\_step3\_articulation\_faithfulness\_simple.py}
 \end{itemize}
 
 \subsection*{Time Investment}
@@ -713,5 +722,16 @@ This research was completed within the 18-hour time limit:
 \end{itemize}
 
 \textbf{Note:} Time excludes prerequisite learning for API setup and environment configuration, as per task guidelines.
+
+% \section*{References}
+
+\begin{thebibliography}{9}
+\bibitem{Turpin2023LanguageMD}
+Turpin, Miles, Julian Michael, Ethan Perez and Sam Bowman. “Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting.” ArXiv abs/2305.04388 (2023): n. pag.
+\end{thebibliography}
+
+\section*{Acknowledgments}
+
+This research was conducted through collaboration with AI agents, including Claude (Anthropic) for experimental design, implementation, analysis, and report writing. The author acknowledges the essential role of large language models in accelerating research workflows while maintaining human oversight of scientific rigor and interpretation.
 
 \end{document}
